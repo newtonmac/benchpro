@@ -41,4 +41,17 @@ function renderCompChart(){const days=getDays(),co=cutoff(days).toISOString(),ct
 function renderHourChart(){const days=getDays(),co=cutoff(days).toISOString(),ctx=document.getElementById("hour-chart").getContext("2d");const hc=new Array(24).fill(0);for(const r of filteredRuns()){if(r.timestamp<co)continue;const h=new Date(r.timestamp).getHours();for(const s of r.sponsored||[])if(!isOurs(s.domain))hc[h]++;}const labels=Array.from({length:24},(_,h)=>(h%12||12)+(h>=12?"PM":"AM"));if(hourChart)hourChart.destroy();hourChart=new Chart(ctx,{type:"bar",data:{labels,datasets:[{label:"Competitor ads",data:hc,backgroundColor:"rgba(210,153,34,.5)",borderColor:"#d29922",borderWidth:1,borderRadius:3}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:"bottom",labels:{color:"#7d8590",font:{family:"'JetBrains Mono'",size:10}}}},scales:{x:{grid:{color:"#21262d"},ticks:{color:"#484f58",font:{size:10}}},y:{grid:{color:"#21262d"},ticks:{color:"#484f58",font:{size:10}}}}}});}
 function chartOpts(days){return{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:"bottom",labels:{color:"#7d8590",font:{family:"'JetBrains Mono'",size:10}}}},scales:{x:{type:"time",time:{unit:days<=7?"hour":"day"},grid:{color:"#21262d"},ticks:{color:"#484f58",font:{size:10}}},y:{reverse:true,min:1,max:10,grid:{color:"#21262d"},ticks:{color:"#484f58",font:{family:"'JetBrains Mono'",size:10},stepSize:1,callback:v=>"#"+v},title:{display:true,text:"Position",color:"#484f58"}}}};}
 setInterval(loadData,5*60*1000);
-document.addEventListener("DOMContentLoaded",async()=>{if(await checkAuth())showDashboard();});
+
+document.addEventListener("DOMContentLoaded",async function(){
+  document.getElementById("btn-login").addEventListener("click",attemptLogin);
+  document.getElementById("pw-input").addEventListener("keydown",function(e){if(e.key==="Enter")attemptLogin();});
+  document.getElementById("btn-run").addEventListener("click",triggerRun);
+  document.getElementById("btn-refresh").addEventListener("click",loadData);
+  document.getElementById("btn-logout").addEventListener("click",logout);
+  document.getElementById("btn-save-token").addEventListener("click",saveToken);
+  document.getElementById("btn-cancel-token").addEventListener("click",closeTokenModal);
+  document.getElementById("btn-token-settings").addEventListener("click",openTokenModal);
+  document.getElementById("token-input").addEventListener("keydown",function(e){if(e.key==="Enter")saveToken();});
+  document.getElementById("days-select").addEventListener("change",renderAll);
+  if(await checkAuth())showDashboard();
+});
