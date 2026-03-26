@@ -4191,6 +4191,425 @@
           "domain": ""
         }
       ]
+    },
+    {
+      "id": "20260326_225201_workbench",
+      "timestamp": "2026-03-26T22:52:01",
+      "keyword": "workbench",
+      "sponsored": [],
+      "organic": [
+        {
+          "position": 1,
+          "title": "Workbench",
+          "domain": "workbench.developerforce.com",
+          "link": "https://workbench.developerforce.com/",
+          "snippet": "WorkbenchWorkbenchhttps://workbench.developerforce.com"
+        },
+        {
+          "position": 2,
+          "title": "Workbench",
+          "domain": "amazon.com",
+          "link": "https://www.amazon.com/workbench/s?k=workbench",
+          "snippet": "WorkbenchAmazon.comhttps://www.amazon.com \u203a workbench \u203a k=workbench"
+        },
+        {
+          "position": 3,
+          "title": "Work Benches & Tops for Efficient Workspaces",
+          "domain": "lowes.com",
+          "link": "https://www.lowes.com/pl/tool-storage-work-benches/work-benches-tops/4294857655",
+          "snippet": "Work Benches & Tops for Efficient WorkspacesLowe'shttps://www.lowes.com \u203a tool-storage-work-benches \u203a w..."
+        },
+        {
+          "position": 4,
+          "title": "Workbenches - Garage Storage",
+          "domain": "homedepot.com",
+          "link": "https://www.homedepot.com/b/Garage-Garage-Storage-Workbenches/N-5yc1vZ2fkpdfg",
+          "snippet": "Workbenches - Garage StorageThe Home Depothttps://www.homedepot.com \u203a Garage-Garage-Storage-..."
+        },
+        {
+          "position": 5,
+          "title": "MySQL Workbench",
+          "domain": "mysql.com",
+          "link": "https://www.mysql.com/products/workbench/",
+          "snippet": "MySQL WorkbenchMySQLhttps://www.mysql.com \u203a products \u203a workbench"
+        }
+      ],
+      "shopping": []
+    },
+    {
+      "id": "20260326_225230_work_bench",
+      "timestamp": "2026-03-26T22:52:30",
+      "keyword": "work bench",
+      "sponsored": [],
+      "organic": [
+        {
+          "position": 1,
+          "title": "Work Benches & Tops for Efficient Workspaces",
+          "domain": "lowes.com",
+          "link": "https://www.lowes.com/pl/tool-storage-work-benches/work-benches-tops/4294857655",
+          "snippet": "Work Benches & Tops for Efficient WorkspacesLowe'shttps://www.lowes.com \u203a tool-storage-work-benches \u203a w..."
+        },
+        {
+          "position": 2,
+          "title": "Shop Work Benches & Workbench Solutions | Gladiator",
+          "domain": "gladiatorgarageworks.com",
+          "link": "https://www.gladiatorgarageworks.com/pages/work-benches?srsltid=AfmBOopLiWLPA02FM8d5QAy_XGx4bvaavd8X7B3USDhgDg40gNqfs4ky",
+          "snippet": "Shop Work Benches & Workbench Solutions | Gladiatorgladiatorgarageworks.comhttps://www.gladiatorgarageworks.com \u203a pages \u203a work-b..."
+        },
+        {
+          "position": 3,
+          "title": "Workbench",
+          "domain": "amazon.com",
+          "link": "https://www.amazon.com/workbench/s?k=workbench",
+          "snippet": "WorkbenchAmazon.comhttps://www.amazon.com \u203a workbench \u203a k=workbench"
+        },
+        {
+          "position": 4,
+          "title": "Workbenches - Harbor Freight Tools",
+          "domain": "harborfreight.com",
+          "link": "https://www.harborfreight.com/tool-storage-organization/workbenches.html",
+          "snippet": "Workbenches - Harbor Freight ToolsHarbor Freighthttps://www.harborfreight.com \u203a workbenches"
+        },
+        {
+          "position": 5,
+          "title": "Workbenches & Shop Desks",
+          "domain": "globalindustrial.com",
+          "link": "https://www.globalindustrial.com/t/work-benches?srsltid=AfmBOoo80DPUfhCr_-Av48sv-WaVXlxQPSqghPUSpFHDDWoGwlKkORlH",
+          "snippet": "Workbenches & Shop DesksGlobal Industrial Companyhttps://www.globalindustrial.com \u203a work-benches"
+        }
+      ],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "Industrial Packing Table - 60x30\", Composite Wood Top - ULINE",
+          "price": "$330.00",
+          "store": "ULINE",
+          "domain": "uline"
+        },
+        {
+          "position": 2,
+          "title": "Miramar",
+          "price": "$119.99",
+          "store": "Yukon 48 in. Workbench with Light",
+          "domain": "yukon48in.workbenchwithlight"
+        },
+        {
+          "position": 3,
+          "title": "72 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$399.95",
+          "store": "Global Industrial",
+          "domain": "globalindustrial"
+        },
+        {
+          "position": 4,
+          "title": "Hallowell Workbench: Adj Ht, 60 in x 30 in, Black, Stringer, Hardwood Model: HWB6030M-ME",
+          "price": "$721.51",
+          "store": "Grainger Industrial Supply",
+          "domain": "graingerindustrialsupply"
+        },
+        {
+          "position": 5,
+          "title": "Craftsman 24 in. L X 6 ft. W X 41.25 in. H Workbench with Butcher Block Top 1450 lb. cap.",
+          "price": "$369.99",
+          "store": "Ace Hardware",
+          "domain": "acehardware"
+        },
+        {
+          "position": 6,
+          "title": "Deluxe Workstation Starter Table - 96x30\", Composite Wood Top - ULINE",
+          "price": "$930.00",
+          "store": "ULINE",
+          "domain": "uline"
+        },
+        {
+          "position": 7,
+          "title": "Industrial Packing Table - 60x30\", Steel Top - ULINE",
+          "price": "$415.00",
+          "store": "ULINE",
+          "domain": "uline"
+        },
+        {
+          "position": 8,
+          "title": "Welded Steel Workbench - 72x30\" - ULINE",
+          "price": "$730.00",
+          "store": "ULINE",
+          "domain": "uline"
+        },
+        {
+          "position": 9,
+          "title": "Industrial Packing Table - 48x36\" Composite Wood Top - ULINE",
+          "price": "$330.00",
+          "store": "ULINE",
+          "domain": "uline"
+        },
+        {
+          "position": 10,
+          "title": "Miramar",
+          "price": "$159.99",
+          "store": "Yukon 60 in., 3-Drawer Hardwood Workbench",
+          "domain": "yukon60in.3drawerhardwoodworkbench"
+        }
+      ]
+    },
+    {
+      "id": "20260326_225257_workbenches",
+      "timestamp": "2026-03-26T22:52:57",
+      "keyword": "workbenches",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Industrial Grade WorkBenches - Prices & Specifications Online",
+          "domain": "benchdepot.com",
+          "display_url": "https://www.benchdepot.com",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Workbenches & Packing Tables | In Stock \u2013 Ships Today | Fast Delivery",
+          "domain": "uline.com",
+          "display_url": "https://www.uline.com \u203a packing-table \u203a workbenches",
+          "snippet": ""
+        }
+      ],
+      "organic": [
+        {
+          "position": 1,
+          "title": "Workbenches - Garage Storage",
+          "domain": "homedepot.com",
+          "link": "https://www.homedepot.com/b/Garage-Garage-Storage-Workbenches/N-5yc1vZ2fkpdfg",
+          "snippet": "Workbenches - Garage StorageThe Home Depothttps://www.homedepot.com \u203a Garage-Garage-Storage-..."
+        },
+        {
+          "position": 2,
+          "title": "Workbenches & Packing Tables, Metal Work Bench in Stock",
+          "domain": "uline.com",
+          "link": "https://www.uline.com/Cls_41/Workbenches-and-Packing-Tables",
+          "snippet": "Workbenches & Packing Tables, Metal Work Bench in StockULINEhttps://www.uline.com \u203a Cls_41 \u203a Workbenches-and-Pa..."
+        },
+        {
+          "position": 3,
+          "title": "Amazon Best Sellers: Best Workbenches",
+          "domain": "amazon.com",
+          "link": "https://www.amazon.com/Best-Sellers-Workbenches/zgbs/hi/553602",
+          "snippet": "Amazon Best Sellers: Best WorkbenchesAmazon.comhttps://www.amazon.com \u203a zgbs"
+        },
+        {
+          "position": 4,
+          "title": "Workbenches & Shop Desks",
+          "domain": "globalindustrial.com",
+          "link": "https://www.globalindustrial.com/t/work-benches?srsltid=AfmBOoo4kLI91c2w_2umCr1os1vospzTom-qJQxpOJFPxw94hkhCzWFG",
+          "snippet": "Workbenches & Shop DesksGlobal Industrial Companyhttps://www.globalindustrial.com \u203a work-benches"
+        },
+        {
+          "position": 5,
+          "title": "Workbenches at Menards\u00ae",
+          "domain": "menards.com",
+          "link": "https://www.menards.com/main/tools/tool-storage/workbenches/c-19492.htm?srsltid=AfmBOopHBnZiE-rOS-R4VQahlR8FUxVFw4jAbG4M-GQlpFQ3Vt7Vg2IV",
+          "snippet": "Workbenches at Menards\u00aeMenardshttps://www.menards.com \u203a main \u203a tools \u203a tool-storage"
+        }
+      ],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "Adjustable Height Workbench, C-Channel Leg, Maple Square Edge, 60\"W x 30\"D, Global Industrial",
+          "price": "$459.95",
+          "store": "Global Industrial",
+          "domain": "globalindustrial"
+        },
+        {
+          "position": 2,
+          "title": "Dragonfire 20 Drawer Pro Series 9ft Workbench, Gunmetal Gray",
+          "price": "$5,999.00",
+          "store": "Dragonfire Tools",
+          "domain": "dragonfiretools"
+        },
+        {
+          "position": 3,
+          "title": "Industrial Packing Table - 72x30\", Composite Wood Top - ULINE",
+          "price": "$370.00",
+          "store": "ULINE",
+          "domain": "uline"
+        },
+        {
+          "position": 4,
+          "title": "Miramar",
+          "price": "$119.99",
+          "store": "Yukon 48 in. Workbench with Light",
+          "domain": "yukon48in.workbenchwithlight"
+        },
+        {
+          "position": 5,
+          "title": "Luxor DTWS001 Industrial Workbench - 70.75\" W x 31\" D x 55\" H, Steel, Black",
+          "price": "$818.83",
+          "store": "KaTom Restaurant Supply",
+          "domain": "katomrestaurantsupply"
+        },
+        {
+          "position": 6,
+          "title": "UltraHD 8-Piece Storage Cabinet System with Rolling Workbench | Seville Classics Best Seller | Complete Garage Organization Solution Graphite",
+          "price": "$2,929.99",
+          "store": "SevilleClassics.com",
+          "domain": "sevilleclassics.com"
+        },
+        {
+          "position": 7,
+          "title": "Dragonfire 18 Drawer Pro Series 9ft Workbench, Gunmetal Gray",
+          "price": "$5,799.00",
+          "store": "Dragonfire Tools",
+          "domain": "dragonfiretools"
+        },
+        {
+          "position": 8,
+          "title": "Complete Industrial Workbench With Plastic Laminate Square Edge, 60\" x 30\", Global Industrial",
+          "price": "$579.00",
+          "store": "Global Industrial",
+          "domain": "globalindustrial"
+        },
+        {
+          "position": 9,
+          "title": "48 x 30\" L 33-1/2\" Fixed Height Workbenches Top Steel by Material Handling Solutions",
+          "price": "$309.99",
+          "store": "Material Handling Solutions",
+          "domain": "materialhandlingsolutions"
+        },
+        {
+          "position": 10,
+          "title": "72\"W x 30\"D Production Workbench - ESD Safety Edge Complete Bench - Blue, Global Industrial",
+          "price": "$1,249.00",
+          "store": "Global Industrial",
+          "domain": "globalindustrial"
+        }
+      ]
+    },
+    {
+      "id": "20260326_225324_work_benches",
+      "timestamp": "2026-03-26T22:53:24",
+      "keyword": "work benches",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Industrial Grade WorkBenches - Prices & Specifications Online",
+          "domain": "benchdepot.com",
+          "display_url": "https://www.benchdepot.com",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Workbenches & Packing Tables | In Stock \u2013 Ships Today | Fast Delivery",
+          "domain": "uline.com",
+          "display_url": "https://www.uline.com \u203a packing-table \u203a workbenches",
+          "snippet": ""
+        }
+      ],
+      "organic": [
+        {
+          "position": 1,
+          "title": "Shop Work Benches & Workbench Solutions | Gladiator",
+          "domain": "gladiatorgarageworks.com",
+          "link": "https://www.gladiatorgarageworks.com/pages/work-benches?srsltid=AfmBOopT4qXCLaYmHI7OwoiZEgYaLqhj-0RhIv_okNE4OTc86QtGk6Xz",
+          "snippet": "Shop Work Benches & Workbench Solutions | Gladiatorgladiatorgarageworks.comhttps://www.gladiatorgarageworks.com \u203a pages \u203a work-b..."
+        },
+        {
+          "position": 2,
+          "title": "Industrial Workbenches and Tables for Sale",
+          "domain": "benchdepot.com",
+          "link": "https://benchdepot.com/products/workbenches.html?srsltid=AfmBOoqBskVcFCIBvVyZLleOHEIzx_Duna-Xo6NqY6IJQRITISUDaDMa",
+          "snippet": "Industrial Workbenches and Tables for SaleBench Depothttps://benchdepot.com \u203a products \u203a workbenches"
+        },
+        {
+          "position": 3,
+          "title": "Amazon Best Sellers: Best Workbenches",
+          "domain": "amazon.com",
+          "link": "https://www.amazon.com/Best-Sellers-Workbenches/zgbs/hi/553602",
+          "snippet": "Amazon Best Sellers: Best WorkbenchesAmazon.comhttps://www.amazon.com \u203a zgbs"
+        },
+        {
+          "position": 4,
+          "title": "Workbenches & Shop Desks",
+          "domain": "globalindustrial.com",
+          "link": "https://www.globalindustrial.com/t/work-benches?srsltid=AfmBOooGow1wxGSjOqwNWFt9DHwdq8ZnJmf1leuPBNLgpYeDz7xfPN1L",
+          "snippet": "Workbenches & Shop DesksGlobal Industrial Companyhttps://www.globalindustrial.com \u203a work-benches"
+        },
+        {
+          "position": 5,
+          "title": "Workbenches & Packing Tables, Metal Work Bench in Stock",
+          "domain": "uline.com",
+          "link": "https://www.uline.com/Cls_41/Workbenches-and-Packing-Tables",
+          "snippet": "Workbenches & Packing Tables, Metal Work Bench in StockULINEhttps://www.uline.com \u203a Cls_41 \u203a Workbenches-and-Pa..."
+        }
+      ],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "Miramar",
+          "price": "$119.99",
+          "store": "Yukon 48 in. Workbench with Light",
+          "domain": "yukon48in.workbenchwithlight"
+        },
+        {
+          "position": 2,
+          "title": "72 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$399.95",
+          "store": "Global Industrial",
+          "domain": "globalindustrial"
+        },
+        {
+          "position": 3,
+          "title": "TMG 9' Workbench with Stainless Steel Top, Ball Bearing Double Slides & Casters",
+          "price": "$4,599.00",
+          "store": "TMG Industrial US",
+          "domain": "tmgindustrialus"
+        },
+        {
+          "position": 4,
+          "title": "Durham Mfg Work Table: Fixed Ht, Steel, 24 in x 18 in, 2,000 lb Overall Load Capacity, Steel Model: MT182418-2K195",
+          "price": "$171.56",
+          "store": "Grainger Industrial Supply",
+          "domain": "graingerindustrialsupply"
+        },
+        {
+          "position": 5,
+          "title": "72 x 30\" L 29-3/8 - 36-7/8\" Adjustable Height Workbenches Top Plastic Laminate by Material Handling Solutions",
+          "price": "$511.57",
+          "store": "Material Handling Solutions",
+          "domain": "materialhandlingsolutions"
+        },
+        {
+          "position": 6,
+          "title": "Complete Industrial Workbench With Plastic Laminate Square Edge, 60\" x 30\", Global Industrial",
+          "price": "$579.00",
+          "store": "Global Industrial",
+          "domain": "globalindustrial"
+        },
+        {
+          "position": 7,
+          "title": "72\"W x 36\"D Production Workbench - ESD Safety Edge Complete Bench - Blue, Global Industrial",
+          "price": "$1,299.00",
+          "store": "Global Industrial",
+          "domain": "globalindustrial"
+        },
+        {
+          "position": 8,
+          "title": "Workbench with Flared Leg, 72 x 30\", Steel Square Edge Global Industrial",
+          "price": "$395.95",
+          "store": "Global Industrial",
+          "domain": "globalindustrial"
+        },
+        {
+          "position": 9,
+          "title": "L-Shaped Workbench, 72 x 78\", Adjustable Height, Shop Top Square Edge Global Industrial",
+          "price": "$689.00",
+          "store": "Global Industrial",
+          "domain": "globalindustrial"
+        },
+        {
+          "position": 10,
+          "title": "Yukon 60 in., 3-Drawer Hardwood Workbench",
+          "price": "$159.99",
+          "store": "Harbor Freight Tools",
+          "domain": "harborfreighttools"
+        }
+      ]
     }
   ]
 }
