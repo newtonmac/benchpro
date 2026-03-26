@@ -794,6 +794,96 @@
       "sponsored": [],
       "organic": [],
       "shopping": []
+    },
+    {
+      "id": "20260326_193019_workbench",
+      "timestamp": "2026-03-26T19:30:19",
+      "keyword": "workbench",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260326_193042_work_bench",
+      "timestamp": "2026-03-26T19:30:42",
+      "keyword": "work bench",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260326_193103_workbenches",
+      "timestamp": "2026-03-26T19:31:03",
+      "keyword": "workbenches",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260326_193127_work_benches",
+      "timestamp": "2026-03-26T19:31:27",
+      "keyword": "work benches",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Industrial Grade WorkBenches | Prices & Specifications Online",
+          "domain": "benchdepot.com",
+          "display_url": "https://www.benchdepot.com",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Workbenches & Packing Tables | In Stock \u2013 Ships Today | Fast Delivery",
+          "domain": "uline.com",
+          "display_url": "https://www.uline.com \u203a packing-table \u203a workbenches",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "Made in the USA | Utility Workbenches & More | Ships from Austin, TX",
+          "domain": "workbenches.com",
+          "display_url": "https://www.workbenches.com",
+          "snippet": ""
+        }
+      ],
+      "organic": [
+        {
+          "position": 1,
+          "title": "Shop Work Benches & Workbench Solutions | Gladiator",
+          "domain": "gladiatorgarageworks.com",
+          "link": "https://www.gladiatorgarageworks.com/pages/work-benches?srsltid=AfmBOoreNGj3CSQ-IaYI-owlXnn_bzAY8KbhNR9dVMcdqwUisrAxtW_9",
+          "snippet": "Shop Work Benches & Workbench Solutions | Gladiatorgladiatorgarageworks.comhttps://www.gladiatorgarageworks.com \u203a pages \u203a work-b..."
+        },
+        {
+          "position": 2,
+          "title": "Industrial Workbenches and Tables for Sale",
+          "domain": "benchdepot.com",
+          "link": "https://benchdepot.com/products/workbenches.html?srsltid=AfmBOorbqhmtHLuMQxjjvzjHMd_0f00n3NsgCdaa1Y_D4zRcGHeNt3xK",
+          "snippet": "Industrial Workbenches and Tables for SaleBench Depothttps://benchdepot.com \u203a products \u203a workbenches"
+        },
+        {
+          "position": 3,
+          "title": "Amazon Best Sellers: Best Workbenches",
+          "domain": "amazon.com",
+          "link": "https://www.amazon.com/Best-Sellers-Workbenches/zgbs/hi/553602",
+          "snippet": "Amazon Best Sellers: Best WorkbenchesAmazon.comhttps://www.amazon.com \u203a zgbs"
+        },
+        {
+          "position": 4,
+          "title": "Workbenches & Packing Tables, Metal Work Bench in Stock",
+          "domain": "uline.com",
+          "link": "https://www.uline.com/Cls_41/Workbenches-and-Packing-Tables",
+          "snippet": "Workbenches & Packing Tables, Metal Work Bench in StockULINEhttps://www.uline.com \u203a Cls_41 \u203a Workbenches-and-Pa..."
+        },
+        {
+          "position": 5,
+          "title": "Workbenches & Shop Desks",
+          "domain": "globalindustrial.com",
+          "link": "https://www.globalindustrial.com/t/work-benches?srsltid=AfmBOopqbOLSfgrQJMhlxGb2yW7TUNUQbVNuahHkd6FPeo6StcsxGUnp",
+          "snippet": "Workbenches & Shop DesksGlobal Industrial Companyhttps://www.globalindustrial.com \u203a work-benches"
+        }
+      ],
+      "shopping": []
     }
   ]
 }
