@@ -85,7 +85,7 @@ function renderAvgPositions(){
       h+="<div class=\"avg-stat\"><span class=\"avg-label\">Avg paid</span><span class=\"avg-val\">"+(spAvg!=="--"?"#"+spAvg:spAvg)+"</span></div>";
       h+="<div class=\"avg-stat\"><span class=\"avg-label\">Avg organic</span><span class=\"avg-val\">"+(orgAvg!=="--"?"#"+orgAvg:orgAvg)+"</span></div>";
       h+="<div class=\"avg-stat\"><span class=\"avg-label\">Showing</span><span class=\"avg-val\">"+spPct+"%</span></div>";
-      h+="<div class=\"avg-stat\"><span class=\"avg-label\">US interest</span><span class=\"avg-val trend-val\">"+trend+"</span></div>";
+      var searchVol={"workbench":"110K","work bench":"27K","workbenches":"22K","work benches":"6.6K"};h+="<div class=\"avg-stat\"><span class=\"avg-label\">Mo. volume</span><span class=\"avg-val trend-val\">"+(searchVol[kw]||"--")+"</span></div><div class=\"avg-stat\"><span class=\"avg-label\">Interest</span><span class=\"avg-val trend-val\">"+trend+"</span></div>";
       h+="</div></div>";
     }
     el.innerHTML=h;
@@ -101,7 +101,7 @@ function renderAvgPositions(){
       h+="<div class=\"avg-stat\"><span class=\"avg-label\">Avg paid</span><span class=\"avg-val\">"+(spAvg!=="--"?"#"+spAvg:spAvg)+"</span></div>";
       h+="<div class=\"avg-stat\"><span class=\"avg-label\">Avg organic</span><span class=\"avg-val\">"+(orgAvg!=="--"?"#"+orgAvg:orgAvg)+"</span></div>";
       h+="<div class=\"avg-stat\"><span class=\"avg-label\">Showing</span><span class=\"avg-val\">"+spPct+"%</span></div>";
-      h+="<div class=\"avg-stat\"><span class=\"avg-label\">US interest</span><span class=\"avg-val trend-val\">--</span></div>";
+      h+="<div class=\"avg-stat\"><span class=\"avg-label\">Mo. volume</span><span class=\"avg-val trend-val\">"+({"workbench":"110K","work bench":"27K","workbenches":"22K","work benches":"6.6K"}[kw]||"--")+"</span></div><div class=\"avg-stat\"><span class=\"avg-label\">Interest</span><span class=\"avg-val trend-val\">--</span></div>";
       h+="</div></div>";
     }
     el.innerHTML=h;
