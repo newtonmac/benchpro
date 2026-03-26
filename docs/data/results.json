@@ -536,6 +536,125 @@
           "snippet": "Workbenches & Shop DesksGlobal Industrial Companyhttps://www.globalindustrial.com \u203a work-benches"
         }
       ]
+    },
+    {
+      "id": "20260326_185102_workbench",
+      "timestamp": "2026-03-26T18:51:02",
+      "keyword": "workbench",
+      "sponsored": [],
+      "organic": [
+        {
+          "position": 1,
+          "title": "Workbench",
+          "domain": "workbench.developerforce.com",
+          "link": "https://workbench.developerforce.com/",
+          "snippet": "WorkbenchWorkbenchhttps://workbench.developerforce.com"
+        },
+        {
+          "position": 2,
+          "title": "Workbench",
+          "domain": "amazon.com",
+          "link": "https://www.amazon.com/workbench/s?k=workbench",
+          "snippet": "WorkbenchAmazon.comhttps://www.amazon.com \u203a workbench \u203a k=workbench"
+        },
+        {
+          "position": 3,
+          "title": "Work Benches & Tops for Efficient Workspaces",
+          "domain": "lowes.com",
+          "link": "https://www.lowes.com/pl/tool-storage-work-benches/work-benches-tops/4294857655",
+          "snippet": "Work Benches & Tops for Efficient WorkspacesLowe'shttps://www.lowes.com \u203a tool-storage-work-benches \u203a w..."
+        },
+        {
+          "position": 4,
+          "title": "Workbenches - Harbor Freight Tools",
+          "domain": "harborfreight.com",
+          "link": "https://www.harborfreight.com/tool-storage-organization/workbenches.html",
+          "snippet": "Workbenches - Harbor Freight ToolsHarbor Freighthttps://www.harborfreight.com \u203a workbenches"
+        },
+        {
+          "position": 5,
+          "title": "MySQL Workbench",
+          "domain": "mysql.com",
+          "link": "https://www.mysql.com/products/workbench/",
+          "snippet": "MySQL WorkbenchMySQLhttps://www.mysql.com \u203a products \u203a workbench"
+        }
+      ],
+      "shopping": []
+    },
+    {
+      "id": "20260326_185126_work_bench",
+      "timestamp": "2026-03-26T18:51:26",
+      "keyword": "work bench",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Industrial Grade WorkBenches - Prices & Specifications Online",
+          "domain": "benchdepot.com",
+          "display_url": "https://www.benchdepot.com",
+          "snippet": "https://www.benchdepot.com"
+        },
+        {
+          "position": 2,
+          "title": "Workbenches & Packing Tables - In Stock \u2013 Ships Today - Fast Delivery",
+          "domain": "uline.com",
+          "display_url": "https://www.uline.com \u203a packing-table \u203a workbenches",
+          "snippet": "https://www.uline.com \u203a packing-table \u203a workbenches"
+        }
+      ],
+      "organic": [
+        {
+          "position": 1,
+          "title": "Work Benches & Tops for Efficient Workspaces",
+          "domain": "lowes.com",
+          "link": "https://www.lowes.com/pl/tool-storage-work-benches/work-benches-tops/4294857655",
+          "snippet": "Work Benches & Tops for Efficient WorkspacesLowe'shttps://www.lowes.com \u203a tool-storage-work-benches \u203a w..."
+        },
+        {
+          "position": 2,
+          "title": "Shop Work Benches & Workbench Solutions | Gladiator",
+          "domain": "gladiatorgarageworks.com",
+          "link": "https://www.gladiatorgarageworks.com/pages/work-benches?srsltid=AfmBOop5KXxqKWnoCyq_K91DxsFMECc09Rzh5EifRUr5Zl9Csf_kuZ-u",
+          "snippet": "Shop Work Benches & Workbench Solutions | Gladiatorgladiatorgarageworks.comhttps://www.gladiatorgarageworks.com \u203a pages \u203a work-b..."
+        },
+        {
+          "position": 3,
+          "title": "Workbench",
+          "domain": "amazon.com",
+          "link": "https://www.amazon.com/workbench/s?k=workbench",
+          "snippet": "WorkbenchAmazon.comhttps://www.amazon.com \u203a workbench \u203a k=workbench"
+        },
+        {
+          "position": 4,
+          "title": "Workbenches - Harbor Freight Tools",
+          "domain": "harborfreight.com",
+          "link": "https://www.harborfreight.com/tool-storage-organization/workbenches.html",
+          "snippet": "Workbenches - Harbor Freight ToolsHarbor Freighthttps://www.harborfreight.com \u203a workbenches"
+        },
+        {
+          "position": 5,
+          "title": "Workbenches & Shop Desks",
+          "domain": "globalindustrial.com",
+          "link": "https://www.globalindustrial.com/t/work-benches?srsltid=AfmBOoqPpRIUjYmz18zNkYTD-X9ax8pMyUGavn4jy5UAWps5JiAzpRIx",
+          "snippet": "Workbenches & Shop DesksGlobal Industrial Companyhttps://www.globalindustrial.com \u203a work-benches"
+        }
+      ],
+      "shopping": []
+    },
+    {
+      "id": "20260326_185147_workbenches",
+      "timestamp": "2026-03-26T18:51:47",
+      "keyword": "workbenches",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260326_185207_work_benches",
+      "timestamp": "2026-03-26T18:52:07",
+      "keyword": "work benches",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
     }
   ]
 }
