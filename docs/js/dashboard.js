@@ -67,20 +67,45 @@ function renderAvgPositions(){
     for(var s of r.sponsored||[])if(isOurs(s.domain)){ks.spSum+=s.position;ks.spCount++;}
     for(var o of r.organic||[])if(isOurs(o.domain)){ks.orgSum+=o.position;ks.orgCount++;}
   }
-  var h="";
-  for(var kw of activeKWs){
-    var ks=kwStats[kw];
-    var spAvg=ks.spCount?(ks.spSum/ks.spCount).toFixed(1):"--";
-    var orgAvg=ks.orgCount?(ks.orgSum/ks.orgCount).toFixed(1):"--";
-    var spPct=ks.total?Math.round(ks.spCount/ks.total*100):0;
-    h+="<div class=\"avg-card\"><div class=\"avg-kw\">"+kw+"</div>";
-    h+="<div class=\"avg-stats\">";
-    h+="<div class=\"avg-stat\"><span class=\"avg-label\">Avg paid</span><span class=\"avg-val\">"+(spAvg!=="--"?"#"+spAvg:spAvg)+"</span></div>";
-    h+="<div class=\"avg-stat\"><span class=\"avg-label\">Avg organic</span><span class=\"avg-val\">"+(orgAvg!=="--"?"#"+orgAvg:orgAvg)+"</span></div>";
-    h+="<div class=\"avg-stat\"><span class=\"avg-label\">Showing</span><span class=\"avg-val\">"+spPct+"%</span></div>";
-    h+="</div></div>";
-  }
-  el.innerHTML=h;
+  fetch("data/trends.json?t="+Date.now()).then(function(r){return r.json();}).then(function(tdata){
+    var tkws=tdata.keywords||{};
+    var h="";
+    for(var kw of activeKWs){
+      var ks=kwStats[kw];
+      var spAvg=ks.spCount?(ks.spSum/ks.spCount).toFixed(1):"--";
+      var orgAvg=ks.orgCount?(ks.orgSum/ks.orgCount).toFixed(1):"--";
+      var spPct=ks.total?Math.round(ks.spCount/ks.total*100):0;
+      var trend="--";
+      if(tkws[kw]&&tkws[kw].length>0){
+        var last=tkws[kw][tkws[kw].length-1];
+        trend=last.value+"/100";
+      }
+      h+="<div class=\"avg-card\"><div class=\"avg-kw\">"+kw+"</div>";
+      h+="<div class=\"avg-stats\">";
+      h+="<div class=\"avg-stat\"><span class=\"avg-label\">Avg paid</span><span class=\"avg-val\">"+(spAvg!=="--"?"#"+spAvg:spAvg)+"</span></div>";
+      h+="<div class=\"avg-stat\"><span class=\"avg-label\">Avg organic</span><span class=\"avg-val\">"+(orgAvg!=="--"?"#"+orgAvg:orgAvg)+"</span></div>";
+      h+="<div class=\"avg-stat\"><span class=\"avg-label\">Showing</span><span class=\"avg-val\">"+spPct+"%</span></div>";
+      h+="<div class=\"avg-stat\"><span class=\"avg-label\">US interest</span><span class=\"avg-val trend-val\">"+trend+"</span></div>";
+      h+="</div></div>";
+    }
+    el.innerHTML=h;
+  }).catch(function(){
+    var h="";
+    for(var kw of activeKWs){
+      var ks=kwStats[kw];
+      var spAvg=ks.spCount?(ks.spSum/ks.spCount).toFixed(1):"--";
+      var orgAvg=ks.orgCount?(ks.orgSum/ks.orgCount).toFixed(1):"--";
+      var spPct=ks.total?Math.round(ks.spCount/ks.total*100):0;
+      h+="<div class=\"avg-card\"><div class=\"avg-kw\">"+kw+"</div>";
+      h+="<div class=\"avg-stats\">";
+      h+="<div class=\"avg-stat\"><span class=\"avg-label\">Avg paid</span><span class=\"avg-val\">"+(spAvg!=="--"?"#"+spAvg:spAvg)+"</span></div>";
+      h+="<div class=\"avg-stat\"><span class=\"avg-label\">Avg organic</span><span class=\"avg-val\">"+(orgAvg!=="--"?"#"+orgAvg:orgAvg)+"</span></div>";
+      h+="<div class=\"avg-stat\"><span class=\"avg-label\">Showing</span><span class=\"avg-val\">"+spPct+"%</span></div>";
+      h+="<div class=\"avg-stat\"><span class=\"avg-label\">US interest</span><span class=\"avg-val trend-val\">--</span></div>";
+      h+="</div></div>";
+    }
+    el.innerHTML=h;
+  });
 }
 
 function renderAll(){renderTrendsChart();renderAvgPositions();renderStatusCards();renderKWBreakdowns();renderAdvTable();renderOrgTable();renderShopTable();renderSpChart();renderOrgChart();renderCompChart();renderHourChart();}
