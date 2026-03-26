@@ -38,6 +38,18 @@
 .settings-row{display:flex;align-items:center;gap:10px;padding:8px 24px;}.token-status{font-family:var(--font-mono);font-size:11px;color:var(--text-dim);}.token-status.connected{color:var(--accent);}
 .footer{display:flex;justify-content:space-between;padding:14px 24px;border-top:1px solid var(--border-dim);font-size:11px;color:var(--text-dim);}
 
+
+.banner-grid{display:flex;gap:16px;flex-wrap:wrap;width:100%;}
+.banner-kw{display:flex;align-items:center;gap:10px;background:rgba(255,255,255,.04);border-radius:6px;padding:6px 14px;flex:1;min-width:180px;}
+.banner-kw-name{font-family:var(--font-mono);font-size:12px;font-weight:700;color:var(--text);min-width:100px;}
+.banner-positions{display:flex;gap:12px;}
+.banner-pos{display:flex;flex-direction:column;align-items:center;gap:1px;}
+.banner-label{font-size:8px;font-weight:700;letter-spacing:.1em;color:var(--text-dim);}
+.banner-val{font-family:var(--font-mono);font-size:18px;font-weight:700;}
+.b-good{color:var(--accent);}.b-warn{color:var(--sp);}.b-bad{color:var(--danger);}.b-none{color:var(--text-dim);}
+.alert-banner{flex-wrap:wrap;padding:12px 24px;}
+.alert-banner .alert-icon{display:none;}
+
 .filter-bar{display:flex;align-items:center;gap:10px;padding:16px 24px 8px;flex-wrap:wrap;}
 .filter-label{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--text-dim);}
 .kw-btn{font-family:var(--font-mono);font-size:11px;font-weight:600;color:var(--text-dim);background:var(--bg);border:1px solid var(--border-dim);padding:4px 10px;border-radius:var(--radius);cursor:pointer;transition:all .15s;}
