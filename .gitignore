@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# Debug screenshots
+debug_*.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
