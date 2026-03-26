@@ -2150,6 +2150,425 @@
           "domain": ""
         }
       ]
+    },
+    {
+      "id": "20260326_212726_workbench",
+      "timestamp": "2026-03-26T21:27:26",
+      "keyword": "workbench",
+      "sponsored": [],
+      "organic": [
+        {
+          "position": 1,
+          "title": "Workbench",
+          "domain": "workbench.developerforce.com",
+          "link": "https://workbench.developerforce.com/",
+          "snippet": "WorkbenchWorkbenchhttps://workbench.developerforce.com"
+        },
+        {
+          "position": 2,
+          "title": "Workbench",
+          "domain": "amazon.com",
+          "link": "https://www.amazon.com/workbench/s?k=workbench",
+          "snippet": "WorkbenchAmazon.comhttps://www.amazon.com \u203a workbench \u203a k=workbench"
+        },
+        {
+          "position": 3,
+          "title": "Shop Work Benches & Workbench Solutions | Gladiator",
+          "domain": "gladiatorgarageworks.com",
+          "link": "https://www.gladiatorgarageworks.com/pages/work-benches?srsltid=AfmBOoqG7mPZiuC8bJXjNYdLKTeEWdvq1zibGdl9bKfAc7ah84Dmkkhq",
+          "snippet": "Shop Work Benches & Workbench Solutions | Gladiatorgladiatorgarageworks.comhttps://www.gladiatorgarageworks.com \u203a pages \u203a work-b..."
+        },
+        {
+          "position": 4,
+          "title": "Work Benches & Tops for Efficient Workspaces",
+          "domain": "lowes.com",
+          "link": "https://www.lowes.com/pl/tool-storage-work-benches/work-benches-tops/4294857655",
+          "snippet": "Work Benches & Tops for Efficient WorkspacesLowe'shttps://www.lowes.com \u203a tool-storage-work-benches \u203a w..."
+        },
+        {
+          "position": 5,
+          "title": "MySQL Workbench",
+          "domain": "mysql.com",
+          "link": "https://www.mysql.com/products/workbench/",
+          "snippet": "MySQL WorkbenchMySQLhttps://www.mysql.com \u203a products \u203a workbench"
+        }
+      ],
+      "shopping": []
+    },
+    {
+      "id": "20260326_212750_work_bench",
+      "timestamp": "2026-03-26T21:27:50",
+      "keyword": "work bench",
+      "sponsored": [],
+      "organic": [
+        {
+          "position": 1,
+          "title": "Work Benches & Tops for Efficient Workspaces",
+          "domain": "lowes.com",
+          "link": "https://www.lowes.com/pl/tool-storage-work-benches/work-benches-tops/4294857655",
+          "snippet": "Work Benches & Tops for Efficient WorkspacesLowe'shttps://www.lowes.com \u203a tool-storage-work-benches \u203a w..."
+        },
+        {
+          "position": 2,
+          "title": "Shop Work Benches & Workbench Solutions | Gladiator",
+          "domain": "gladiatorgarageworks.com",
+          "link": "https://www.gladiatorgarageworks.com/pages/work-benches?srsltid=AfmBOooh91rNZB04xSwhyZIIaaDcKvKIc0KFTB2uZlcFOLiY5ri1efW0",
+          "snippet": "Shop Work Benches & Workbench Solutions | Gladiatorgladiatorgarageworks.comhttps://www.gladiatorgarageworks.com \u203a pages \u203a work-b..."
+        },
+        {
+          "position": 3,
+          "title": "Workbench",
+          "domain": "amazon.com",
+          "link": "https://www.amazon.com/workbench/s?k=workbench",
+          "snippet": "WorkbenchAmazon.comhttps://www.amazon.com \u203a workbench \u203a k=workbench"
+        },
+        {
+          "position": 4,
+          "title": "Workbenches - Harbor Freight Tools",
+          "domain": "harborfreight.com",
+          "link": "https://www.harborfreight.com/tool-storage-organization/workbenches.html",
+          "snippet": "Workbenches - Harbor Freight ToolsHarbor Freighthttps://www.harborfreight.com \u203a workbenches"
+        },
+        {
+          "position": 5,
+          "title": "\"Off-the-shelf\" workbench recommendations/warnings?",
+          "domain": "reddit.com",
+          "link": "https://www.reddit.com/r/Workbenches/comments/1gf9t4l/offtheshelf_workbench_recommendationswarnings/",
+          "snippet": "\"Off-the-shelf\" workbench recommendations/warnings?Reddit\u00a0\u00b7\u00a0r/Workbenches40+ comments  \u00b7  1 year ago"
+        }
+      ],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "Workpro 48 x 20 Heavy-duty Workbench for Garage,2000 LBS Load Capacity with Rubberwood Top",
+          "price": "$191.99",
+          "store": "workprotools",
+          "domain": "workprotools"
+        },
+        {
+          "position": 2,
+          "title": "Industrial Packing Table - 60x30\", Composite Wood Top - ULINE",
+          "price": "$330.00",
+          "store": "ULINE",
+          "domain": "uline"
+        },
+        {
+          "position": 3,
+          "title": "South Hill",
+          "price": "$119.99",
+          "store": "Yukon 48 in. Workbench with Light",
+          "domain": "yukon48in.workbenchwithlight"
+        },
+        {
+          "position": 4,
+          "title": "72 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$399.95",
+          "store": "Global Industrial",
+          "domain": "globalindustrial"
+        },
+        {
+          "position": 5,
+          "title": "Work table, Workbench for garage, Heavy-Duty Height-Adjustable Workbench with Power Outlets - 60\"x22 \" Workbench, Work bench for garage, 2000 Lbs",
+          "price": "$107.28",
+          "store": "Temu",
+          "domain": "temu"
+        },
+        {
+          "position": 6,
+          "title": "WORKPRO 45\" Heavy-Duty Workbench, 800 LBS Capacity with Pegboard, Storage, Power Outlets & LED Light",
+          "price": "$253.99",
+          "store": "workprotools",
+          "domain": "workprotools"
+        },
+        {
+          "position": 7,
+          "title": "WORKPRO 60 Inch Workbench 1500 LBS Load Capacity Adjustable Height Hardwood Top",
+          "price": "$239.99",
+          "store": "workprotools",
+          "domain": "workprotools"
+        },
+        {
+          "position": 8,
+          "title": "Heavy Duty Fabric Cutting Table Shop Table Large Workbench - 72x36\", 3000lbs, - 4Dock - Rubber Wood",
+          "price": "$299.00",
+          "store": "4Dock",
+          "domain": "4dock"
+        },
+        {
+          "position": 9,
+          "title": "WORKPRO Heavy-Duty Workbench 48x22 with Casters Leveling Foot and Power Outlets Leveling Foot and Power Outlets for Versatile Use",
+          "price": "$181.99",
+          "store": "workprotools",
+          "domain": "workprotools"
+        },
+        {
+          "position": 10,
+          "title": "L-Shaped Workbench, 72 x 78\", Adjustable Height, Shop Top Square Edge Global Industrial",
+          "price": "$689.00",
+          "store": "Global Industrial",
+          "domain": "globalindustrial"
+        }
+      ]
+    },
+    {
+      "id": "20260326_212816_workbenches",
+      "timestamp": "2026-03-26T21:28:16",
+      "keyword": "workbenches",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Industrial Grade WorkBenches - Prices & Specifications Online",
+          "domain": "benchdepot.com",
+          "display_url": "https://www.benchdepot.com",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Workbench Tables | In Stock \u2013 Ships Today | Fast Delivery",
+          "domain": "uline.com",
+          "display_url": "https://www.uline.com \u203a packing-table \u203a workbenches",
+          "snippet": ""
+        }
+      ],
+      "organic": [
+        {
+          "position": 1,
+          "title": "Workbenches - Garage Storage",
+          "domain": "homedepot.com",
+          "link": "https://www.homedepot.com/b/Garage-Garage-Storage-Workbenches/N-5yc1vZ2fkpdfg",
+          "snippet": "Workbenches - Garage StorageThe Home Depothttps://www.homedepot.com \u203a Garage-Garage-Storage-..."
+        },
+        {
+          "position": 2,
+          "title": "Workbenches & Packing Tables, Metal Work Bench in Stock",
+          "domain": "uline.com",
+          "link": "https://www.uline.com/Cls_41/Workbenches-and-Packing-Tables",
+          "snippet": "Workbenches & Packing Tables, Metal Work Bench in StockULINEhttps://www.uline.com \u203a Cls_41 \u203a Workbenches-and-Pa..."
+        },
+        {
+          "position": 3,
+          "title": "Amazon Best Sellers: Best Workbenches",
+          "domain": "amazon.com",
+          "link": "https://www.amazon.com/Best-Sellers-Workbenches/zgbs/hi/553602",
+          "snippet": "Amazon Best Sellers: Best WorkbenchesAmazon.comhttps://www.amazon.com \u203a zgbs"
+        },
+        {
+          "position": 4,
+          "title": "Workbenches & Shop Desks",
+          "domain": "globalindustrial.com",
+          "link": "https://www.globalindustrial.com/t/work-benches?srsltid=AfmBOorSgp4BvM2Bn_jmqkKGIzElcAjFmjUMwwv-SHTseKLfnwNbojs9",
+          "snippet": "Workbenches & Shop DesksGlobal Industrial Companyhttps://www.globalindustrial.com \u203a work-benches"
+        },
+        {
+          "position": 5,
+          "title": "Workbenches at Menards\u00ae",
+          "domain": "menards.com",
+          "link": "https://www.menards.com/main/tools/tool-storage/workbenches/c-19492.htm?srsltid=AfmBOoreph1mX-VMBgT1b7mhptnl6uLiAMvUm9pW6kh_BPEEnwDO-QrQ",
+          "snippet": "Workbenches at Menards\u00aeMenardshttps://www.menards.com \u203a main \u203a tools \u203a tool-storage"
+        }
+      ],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "9% OFF",
+          "price": "$99.99",
+          "store": "FLEXIMOUNTS Universal Steel Workbench Kit",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "30% OFF",
+          "price": "$348.00",
+          "store": "Kobalt 9-Drawer Rolling Work Bench",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "13% OFF",
+          "price": "$629.99",
+          "store": "Rockler Medium Workbench N1700",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "5% OFF",
+          "price": "$270.00",
+          "store": "Latitude Run Heavy-Duty Garage Workbench",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "20% OFF",
+          "price": "$191.99",
+          "store": "WORKPRO 48\" Adjustable Workbench",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "37% OFF",
+          "price": "$299.99",
+          "store": "Garage Organization",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "36% OFF",
+          "price": "$334.00",
+          "store": "Seville Classics UltraHD Workbench",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "12% OFF",
+          "price": "$364.00",
+          "store": "Lowe's",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "47% OFF",
+          "price": "$259.99",
+          "store": "Wayfair",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "18% OFF",
+          "price": "$649.99",
+          "store": "Gladiator 8' Adjustable Height Hardwood Workbench",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20260326_212842_work_benches",
+      "timestamp": "2026-03-26T21:28:42",
+      "keyword": "work benches",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Industrial Grade WorkBenches | Prices & Specifications Online",
+          "domain": "benchdepot.com",
+          "display_url": "https://www.benchdepot.com",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "View Our Workbench Catalog - Made in the USA - Ships from Austin, TX",
+          "domain": "workbenches.com",
+          "display_url": "https://www.workbenches.com",
+          "snippet": ""
+        }
+      ],
+      "organic": [
+        {
+          "position": 1,
+          "title": "Shop Work Benches & Workbench Solutions | Gladiator",
+          "domain": "gladiatorgarageworks.com",
+          "link": "https://www.gladiatorgarageworks.com/pages/work-benches?srsltid=AfmBOoo6_l_-fcfTCoIMMvABP8z65W6LVAnZlYO7j_QsI9lkc-dEDZOO",
+          "snippet": "Shop Work Benches & Workbench Solutions | Gladiatorgladiatorgarageworks.comhttps://www.gladiatorgarageworks.com \u203a pages \u203a work-b..."
+        },
+        {
+          "position": 2,
+          "title": "Industrial Workbenches and Tables for Sale",
+          "domain": "benchdepot.com",
+          "link": "https://benchdepot.com/products/workbenches.html?srsltid=AfmBOoqfzsz4YBPQ8cpsfJym62853zJzpj2oM3DQiEk-ypgA9Bh_rGrg",
+          "snippet": "Industrial Workbenches and Tables for SaleBench Depothttps://benchdepot.com \u203a products \u203a workbenches"
+        },
+        {
+          "position": 3,
+          "title": "Amazon Best Sellers: Best Workbenches",
+          "domain": "amazon.com",
+          "link": "https://www.amazon.com/Best-Sellers-Workbenches/zgbs/hi/553602",
+          "snippet": "Amazon Best Sellers: Best WorkbenchesAmazon.comhttps://www.amazon.com \u203a zgbs"
+        },
+        {
+          "position": 4,
+          "title": "Workbenches & Packing Tables, Metal Work Bench in Stock",
+          "domain": "uline.com",
+          "link": "https://www.uline.com/Cls_41/Workbenches-and-Packing-Tables",
+          "snippet": "Workbenches & Packing Tables, Metal Work Bench in StockULINEhttps://www.uline.com \u203a Cls_41 \u203a Workbenches-and-Pa..."
+        },
+        {
+          "position": 5,
+          "title": "Workbenches & Shop Desks",
+          "domain": "globalindustrial.com",
+          "link": "https://www.globalindustrial.com/t/work-benches?srsltid=AfmBOoocc2oaKHZ9m2sKuH3lWkK0TbCFbLf_5ELXKmaGls-EN6a1_4LF",
+          "snippet": "Workbenches & Shop DesksGlobal Industrial Companyhttps://www.globalindustrial.com \u203a work-benches"
+        }
+      ],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "Shop Work Benches & Workbench Solutions | Gladiator",
+          "price": "$75",
+          "store": "gladiatorgarageworks.com",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "30% OFF",
+          "price": "$348.00",
+          "store": "Kobalt 9-Drawer Rolling Work Bench",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "9% OFF",
+          "price": "$99.99",
+          "store": "FLEXIMOUNTS Universal Steel Workbench Kit",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "14% OFF",
+          "price": "$683.99",
+          "store": "Tractor Supply Company",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "36% OFF",
+          "price": "$334.00",
+          "store": "Seville Classics UltraHD Workbench",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "20% OFF",
+          "price": "$191.99",
+          "store": "WORKPRO 48\" Adjustable Workbench",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "5% OFF",
+          "price": "$270.00",
+          "store": "Latitude Run Heavy-Duty Garage Workbench",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "38% OFF",
+          "price": "$259.99",
+          "store": "Garage Organization",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "7% OFF",
+          "price": "$591.00",
+          "store": "Lowe's",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "20% OFF",
+          "price": "$251.99",
+          "store": "workprotools",
+          "domain": ""
+        }
+      ]
     }
   ]
 }
