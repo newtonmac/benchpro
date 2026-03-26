@@ -38,13 +38,31 @@ def _extract_domain(url):
         return d
     except: return ""
 
+# Rotate through major US industrial markets each run
+US_LOCATIONS = [
+    "Houston, Texas",
+    "Chicago, Illinois",
+    "Los Angeles, California",
+    "New York, New York",
+    "Dallas, Texas",
+    "Atlanta, Georgia",
+    "Detroit, Michigan",
+    "Phoenix, Arizona",
+    "Philadelphia, Pennsylvania",
+    "San Diego, California",
+    "Seattle, Washington",
+    "Denver, Colorado",
+]
+
 def _build_url(keyword):
+    location = random.choice(US_LOCATIONS)
+    log.info("    Location: %s", location)
     params = {
         "q": keyword,
         "hl": config.SEARCH_LANGUAGE,
         "gl": config.SEARCH_COUNTRY,
         "num": "10",
-        "near": "San Diego, California",
+        "near": location,
     }
     return "https://www.google.com/search?" + urlencode(params)
 
