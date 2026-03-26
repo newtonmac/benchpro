@@ -8,8 +8,8 @@
 <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
 </head>
 <body>
-<div id="login-screen" class="login-screen"><div class="login-card"><div class="login-logo"><span class="logo-icon">&#9670;</span> Bench<strong>Pro</strong></div><p class="login-sub">SERP Intelligence Dashboard</p><div class="login-form"><input type="password" id="pw-input" placeholder="Enter password" autofocus onkeydown="if(event.key==='Enter') attemptLogin()"><button onclick="attemptLogin()" class="btn-login">Enter</button></div><p id="pw-error" class="pw-error hidden">Incorrect password</p></div></div>
-<div id="token-modal" class="modal-overlay hidden"><div class="modal-card"><h3>GitHub Token</h3><p class="modal-desc">One-time setup for Run Now button.</p><ol class="modal-steps"><li><a href="https://github.com/settings/tokens?type=beta" target="_blank">GitHub Tokens</a> &rarr; Generate</li><li>Name: BenchPro, 90 days, repo: benchpro</li><li>Permissions: Actions Read+Write</li></ol><div class="modal-form"><input type="password" id="token-input" placeholder="github_pat_xxx" onkeydown="if(event.key==='Enter') saveToken()"><div class="modal-buttons"><button onclick="saveToken()" class="btn-login">Save</button><button onclick="closeTokenModal()" class="btn-sm btn-ghost">Cancel</button></div></div><p id="token-error" class="pw-error hidden">Invalid</p></div></div>
+<div id="login-screen" class="login-screen"><div class="login-card"><div class="login-logo"><span class="logo-icon">&#9670;</span> Bench<strong>Pro</strong></div><p class="login-sub">SERP Intelligence Dashboard</p><div class="login-form"><input type="password" id="pw-input" placeholder="Enter password" autofocus id="pw-input"><button onclick="attemptLogin()" class="btn-login">Enter</button></div><p id="pw-error" class="pw-error hidden">Incorrect password</p></div></div>
+<div id="token-modal" class="modal-overlay hidden"><div class="modal-card"><h3>GitHub Token</h3><p class="modal-desc">One-time setup for Run Now button.</p><ol class="modal-steps"><li><a href="https://github.com/settings/tokens?type=beta" target="_blank">GitHub Tokens</a> &rarr; Generate</li><li>Name: BenchPro, 90 days, repo: benchpro</li><li>Permissions: Actions Read+Write</li></ol><div class="modal-form"><input type="password" id="token-input" placeholder="github_pat_xxx"><div class="modal-buttons"><button onclick="saveToken()" class="btn-login">Save</button><button onclick="closeTokenModal()" class="btn-sm btn-ghost">Cancel</button></div></div><p id="token-error" class="pw-error hidden">Invalid</p></div></div>
 <div id="dashboard" class="dashboard hidden">
 <header class="topbar"><div class="topbar-left"><div class="logo"><span class="logo-icon">&#9670;</span> Bench<strong>Pro</strong></div><span class="tagline">benchdepot.com</span></div><div class="topbar-right"><div id="last-updated" class="meta-pill">&mdash;</div><button id="btn-run" class="btn-run" onclick="triggerRun()"><span class="btn-run-icon" id="run-icon">&#9654;</span><span id="run-label">Run now</span></button><button class="btn-sm" onclick="loadData()">&#8635; Refresh</button><button class="btn-sm btn-ghost" onclick="logout()">Logout</button></div></header>
 <div id="run-status" class="run-status hidden"><span class="run-status-dot"></span><span id="run-status-text"></span><span id="run-status-time" class="meta-pill" style="margin-left:auto">&mdash;</span></div>
@@ -31,5 +31,9 @@
 <section class="settings-row"><button class="btn-sm btn-ghost" onclick="openTokenModal()">&#9881; Token</button><span class="token-status" id="token-status"></span></section>
 <footer class="footer"><span>BenchPro &mdash; benchdepot.com</span><span>First page. Shopping included.</span></footer>
 </div>
-<script src="js/dashboard.js?v=3"></script>
+<script src="js/dashboard.js?v=4"></script>
+<script>
+document.getElementById("pw-input").addEventListener("keydown",function(e){if(e.key==="Enter")attemptLogin();});
+document.getElementById("token-input").addEventListener("keydown",function(e){if(e.key==="Enter")saveToken();});
+</script>
 </body></html>
