@@ -655,6 +655,145 @@
       "sponsored": [],
       "organic": [],
       "shopping": []
+    },
+    {
+      "id": "20260326_192642_workbench",
+      "timestamp": "2026-03-26T19:26:42",
+      "keyword": "workbench",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260326_192703_work_bench",
+      "timestamp": "2026-03-26T19:27:03",
+      "keyword": "work bench",
+      "sponsored": [],
+      "organic": [
+        {
+          "position": 1,
+          "title": "Work Benches & Tops for Efficient Workspaces",
+          "domain": "lowes.com",
+          "link": "https://www.lowes.com/pl/tool-storage-work-benches/work-benches-tops/4294857655",
+          "snippet": "Work Benches & Tops for Efficient WorkspacesLowe'shttps://www.lowes.com \u203a tool-storage-work-benches \u203a w..."
+        },
+        {
+          "position": 2,
+          "title": "Shop Work Benches & Workbench Solutions | Gladiator",
+          "domain": "gladiatorgarageworks.com",
+          "link": "https://www.gladiatorgarageworks.com/pages/work-benches?srsltid=AfmBOoqeyWajTE08Wo3SdKICJN_Akz1rwVLBatgzdwrfnfIcUGRoNyih",
+          "snippet": "Shop Work Benches & Workbench Solutions | Gladiatorgladiatorgarageworks.comhttps://www.gladiatorgarageworks.com \u203a pages \u203a work-b..."
+        },
+        {
+          "position": 3,
+          "title": "Workbench",
+          "domain": "amazon.com",
+          "link": "https://www.amazon.com/workbench/s?k=workbench",
+          "snippet": "WorkbenchAmazon.comhttps://www.amazon.com \u203a workbench \u203a k=workbench"
+        },
+        {
+          "position": 4,
+          "title": "Workbenches - Harbor Freight Tools",
+          "domain": "harborfreight.com",
+          "link": "https://www.harborfreight.com/tool-storage-organization/workbenches.html",
+          "snippet": "Workbenches - Harbor Freight ToolsHarbor Freighthttps://www.harborfreight.com \u203a workbenches"
+        },
+        {
+          "position": 5,
+          "title": "Workbenches & Shop Desks",
+          "domain": "globalindustrial.com",
+          "link": "https://www.globalindustrial.com/t/work-benches?srsltid=AfmBOor26ZvK4euSQEFsGOsMW7A3NDJ-8MXHbrcR115gmC53ymNHwuTy",
+          "snippet": "Workbenches & Shop DesksGlobal Industrial Companyhttps://www.globalindustrial.com \u203a work-benches"
+        }
+      ],
+      "shopping": [
+        {
+          "position": 1,
+          "title": " for  from Harbor Freight Tools",
+          "price": "$119.99",
+          "store": "South Hill",
+          "domain": "southhill"
+        },
+        {
+          "position": 2,
+          "title": "Yukon 48 in. Workbench with Light",
+          "price": "$119.99",
+          "store": "South Hill",
+          "domain": "southhill"
+        },
+        {
+          "position": 3,
+          "title": " for  from ULINE",
+          "price": "$370.00",
+          "store": "",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "Industrial Packing Table - 72x30\", Composite Wood Top - ULINE",
+          "price": "$370.00",
+          "store": "",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": " for  from workprotools",
+          "price": "$191.99",
+          "store": "CANCEL",
+          "domain": "cancel"
+        },
+        {
+          "position": 6,
+          "title": "WORKPRO 48\"/60\" Adjustable Workbench 2000 LBS Load Capacity Hardwood Worktable with Power Outlets, 48 inch",
+          "price": "$191.99",
+          "store": "CANCEL",
+          "domain": "cancel"
+        },
+        {
+          "position": 7,
+          "title": " for  from Global Industrial",
+          "price": "$399.95",
+          "store": "(4)",
+          "domain": "(4)"
+        },
+        {
+          "position": 8,
+          "title": "72 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$399.95",
+          "store": "(4)",
+          "domain": "(4)"
+        },
+        {
+          "position": 9,
+          "title": " for  from Harbor Freight Tools",
+          "price": "$159.99",
+          "store": "(2k+)",
+          "domain": "(2k+)"
+        },
+        {
+          "position": 10,
+          "title": "Yukon 60 in., 3-Drawer Hardwood Workbench",
+          "price": "$159.99",
+          "store": "(2k+)",
+          "domain": "(2k+)"
+        }
+      ]
+    },
+    {
+      "id": "20260326_192725_workbenches",
+      "timestamp": "2026-03-26T19:27:25",
+      "keyword": "workbenches",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260326_192746_work_benches",
+      "timestamp": "2026-03-26T19:27:46",
+      "keyword": "work benches",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
     }
   ]
 }
