@@ -38,23 +38,15 @@ def _extract_domain(url):
         return d
     except: return ""
 
-def _make_uule(location):
-    """Encode location into Google UULE parameter for geo-targeted results."""
-    import base64
-    loc_bytes = location.encode("utf-8")
-    # UULE secret length chars
-    chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_"
-    length_char = chars[len(loc_bytes) % len(chars)]
-    encoded = base64.b64encode(loc_bytes).decode("utf-8")
-    return "w+CAIQICI" + length_char + encoded
-
 def _build_url(keyword):
-    params = {"q":keyword,"hl":config.SEARCH_LANGUAGE,"gl":config.SEARCH_COUNTRY,"num":"10"}
-    location = getattr(config, "SEARCH_LOCATION", "")
-    url = "https://www.google.com/search?"+urlencode(params)
-    if location:
-        url += "&uule=" + _make_uule(location) + "&near=" + urlencode({"":location})[1:]
-    return url
+    params = {
+        "q": keyword,
+        "hl": config.SEARCH_LANGUAGE,
+        "gl": config.SEARCH_COUNTRY,
+        "num": "10",
+        "near": "San Diego, California",
+    }
+    return "https://www.google.com/search?" + urlencode(params)
 
 def _parse_all_results(page):
     return page.evaluate(r"""() => {
