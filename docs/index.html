@@ -1,25 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>BenchPro</title>
-<link rel="stylesheet" href="css/style.css?v=3">
+<link rel="stylesheet" href="css/style.css?v=9">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
-
+<script>
+var BP_HASH="34e0bcc908e4b740902cf7adfda8198480a1a993883402916c64bb8dd6e836ee";
+async function doLogin(){
+  var pw=document.getElementById("pw-input").value.trim();
+  if(!pw)return;
+  var enc=new TextEncoder().encode(pw);
+  var buf=await crypto.subtle.digest("SHA-256",enc);
+  var hash=Array.from(new Uint8Array(buf)).map(function(b){return b.toString(16).padStart(2,"0")}).join("");
+  if(hash===BP_HASH){
+    sessionStorage.setItem("bp_auth","ok");
+    document.getElementById("login-screen").style.display="none";
+    document.getElementById("dashboard").style.display="block";
+    if(typeof showDashboard==="function")showDashboard();
+  }else{
+    document.getElementById("pw-error").style.display="block";
+    document.getElementById("pw-input").value="";
+  }
+}
+function doLogout(){
+  sessionStorage.removeItem("bp_auth");
+  location.reload();
+}
+window.addEventListener("load",function(){
+  if(sessionStorage.getItem("bp_auth")==="ok"){
+    document.getElementById("login-screen").style.display="none";
+    document.getElementById("dashboard").style.display="block";
+    if(typeof showDashboard==="function")showDashboard();
+  }
+  document.getElementById("pw-input").addEventListener("keydown",function(e){if(e.key==="Enter")doLogin();});
+});
+</script>
 </head>
 <body>
-
-<div id="login-screen" class="login-screen"><div class="login-card"><div class="login-logo"><span class="logo-icon">&#9670;</span> Bench<strong>Pro</strong></div><p class="login-sub">SERP Intelligence Dashboard</p><div class="login-form"><input type="password" id="pw-input" placeholder="Enter password" autofocus id="pw-input"><button class="btn-login">Enter</button></div><p id="pw-error" class="pw-error hidden">Incorrect password</p></div></div>
-<div id="token-modal" class="modal-overlay hidden"><div class="modal-card"><h3>GitHub Token</h3><p class="modal-desc">One-time setup for Run Now button.</p><ol class="modal-steps"><li><a href="https://github.com/settings/tokens?type=beta" target="_blank">GitHub Tokens</a> &rarr; Generate</li><li>Name: BenchPro, 90 days, repo: benchpro</li><li>Permissions: Actions Read+Write</li></ol><div class="modal-form"><input type="password" id="token-input" placeholder="github_pat_xxx"><div class="modal-buttons"><button class="btn-login">Save</button><button class="btn-sm btn-ghost">Cancel</button></div></div><p id="token-error" class="pw-error hidden">Invalid</p></div></div>
-<div id="dashboard" class="dashboard hidden">
-<header class="topbar"><div class="topbar-left"><div class="logo"><span class="logo-icon">&#9670;</span> Bench<strong>Pro</strong></div><span class="tagline">benchdepot.com</span></div><div class="topbar-right"><div id="last-updated" class="meta-pill">&mdash;</div><button id="btn-run" class="btn-run"><span class="btn-run-icon" id="run-icon">&#9654;</span><span id="run-label">Run now</span></button><button class="btn-sm">&#8635; Refresh</button><button class="btn-sm btn-ghost">Logout</button></div></header>
-<div id="run-status" class="run-status hidden"><span class="run-status-dot"></span><span id="run-status-text"></span><span id="run-status-time" class="meta-pill" style="margin-left:auto">&mdash;</span></div>
+<div id="login-screen" style="display:flex;align-items:center;justify-content:center;min-height:100vh;background:#0d1117;">
+<div style="background:#161b22;border:1px solid #30363d;border-radius:10px;padding:48px 40px;text-align:center;width:360px;">
+<div style="font-size:28px;color:#e6edf3;margin-bottom:4px;"><span style="color:#3fb950;">&#9670;</span> Bench<strong>Pro</strong></div>
+<p style="color:#7d8590;font-size:13px;margin-bottom:28px;">SERP Intelligence Dashboard</p>
+<input type="password" id="pw-input" placeholder="Enter password" autofocus style="width:100%;font-size:14px;background:#0d1117;color:#e6edf3;border:1px solid #30363d;padding:10px 14px;border-radius:6px;text-align:center;outline:none;margin-bottom:10px;">
+<button style="width:100%;font-size:14px;font-weight:600;background:#238636;color:#fff;border:1px solid #3fb950;padding:10px;border-radius:6px;cursor:pointer;" id="btn-do-login">Enter</button>
+<p id="pw-error" style="display:none;color:#f85149;font-size:13px;margin-top:8px;">Incorrect password</p>
+</div>
+</div>
+<div id="dashboard" style="display:none;">
+<header class="topbar">
+<div class="topbar-left"><div class="logo"><span class="logo-icon">&#9670;</span> Bench<strong>Pro</strong></div><span class="tagline">benchdepot.com</span></div>
+<div class="topbar-right">
+<div id="last-updated" class="meta-pill">--</div>
+<button id="btn-run" class="btn-run"><span class="btn-run-icon" id="run-icon">&#9654;</span><span id="run-label">Run now</span></button>
+<button id="btn-refresh" class="btn-sm">&#8635; Refresh</button>
+<button id="btn-logout" class="btn-sm btn-ghost">Logout</button>
+</div>
+</header>
+<div id="run-status" class="run-status hidden"><span class="run-status-dot"></span><span id="run-status-text"></span><span id="run-status-time" class="meta-pill" style="margin-left:auto">--</span></div>
 <div id="alert-banner" class="alert-banner hidden"><span class="alert-icon">&#9888;</span><span id="alert-text"></span></div>
 <section class="filter-bar"><span class="filter-label">Keywords:</span><div id="kw-filter"></div><select id="days-select"><option value="7">7 days</option><option value="30" selected>30 days</option><option value="90">90 days</option></select></section>
-<section class="section-header">benchdepot.com &mdash; current positions <span class="hint">click a card to focus</span></section>
+<section class="section-header">benchdepot.com -- current positions <span class="hint">click a card to focus</span></section>
 <section class="status-row" id="status-cards"></section>
-<section class="section-header">Keyword breakdown &mdash; sponsored + organic + shopping</section>
+<section class="section-header">Keyword breakdown -- sponsored + organic + shopping</section>
 <div id="keyword-breakdowns"></div>
 <section class="section-header">Top advertisers</section>
 <section class="grid-3col">
@@ -28,12 +73,39 @@
 <div class="panel"><div class="panel-header"><h2>Shopping / product ads</h2></div><div class="table-wrap"><table class="data-table"><thead><tr><th>Store</th><th>Appearances</th><th>Avg</th><th>Best</th><th>Keywords</th></tr></thead><tbody id="shopping-tbody"><tr><td colspan="5" class="empty">No data</td></tr></tbody></table></div></div>
 </section>
 <section class="section-header">Position history</section>
-<section class="grid-2col"><div class="panel chart-panel"><div class="panel-header"><h2>Sponsored over time</h2></div><div class="chart-wrap"><canvas id="sp-chart"></canvas></div><!----><div class="panel chart-panel"><div class="panel-header"><h2>Organic over time</h2></div><div class="chart-wrap"><canvas id="org-chart"></canvas></div><!--</canvas></div></section>
-<section class="grid-2col"><div class="panel chart-panel"><div class="panel-header"><h2>Top 5 competitors &mdash; sponsored</h2></div><canvas id="comp-chart" height="200"></canvas></div><div class="panel chart-panel"><div class="panel-header"><h2>Ad activity by hour</h2></div><canvas id="hour-chart" height="200"></canvas></div></section>
-<section class="settings-row"><button class="btn-sm btn-ghost">&#9881; Token</button><span class="token-status" id="token-status"></span></section>
-<footer class="footer"><span>BenchPro &mdash; benchdepot.com</span><span>First page. Shopping included.</span></footer>
+<section class="grid-2col">
+<div class="panel chart-panel"><div class="panel-header"><h2>Sponsored over time</h2></div><canvas id="sp-chart" height="180"></canvas></div>
+<div class="panel chart-panel"><div class="panel-header"><h2>Organic over time</h2></div><canvas id="org-chart" height="180"></canvas></div>
+</section>
+<section class="grid-2col">
+<div class="panel chart-panel"><div class="panel-header"><h2>Top 5 competitors -- sponsored</h2></div><canvas id="comp-chart" height="200"></canvas></div>
+<div class="panel chart-panel"><div class="panel-header"><h2>Ad activity by hour</h2></div><canvas id="hour-chart" height="180"></canvas></div>
+</section>
+<div id="token-modal" class="modal-overlay hidden">
+<div class="modal-card">
+<h3>GitHub Token</h3>
+<p class="modal-desc">One-time setup for Run Now button.</p>
+<ol class="modal-steps">
+<li><a href="https://github.com/settings/tokens?type=beta" target="_blank">GitHub Tokens</a> - Generate</li>
+<li>Name: BenchPro, 90 days, repo: benchpro</li>
+<li>Permissions: Actions Read+Write</li>
+</ol>
+<div class="modal-form">
+<input type="password" id="token-input" placeholder="github_pat_xxx">
+<div class="modal-buttons">
+<button id="btn-save-token" class="btn-login">Save</button>
+<button id="btn-cancel-token" class="btn-sm btn-ghost">Cancel</button>
 </div>
-
-
-<script src="js/dashboard.js?v=7"></script>
-</body></html>
+</div>
+<p id="token-error" class="pw-error hidden">Invalid</p>
+</div>
+</div>
+<section class="settings-row"><button id="btn-token-settings" class="btn-sm btn-ghost">&#9881; Token</button><span class="token-status" id="token-status"></span></section>
+<footer class="footer"><span>BenchPro -- benchdepot.com</span><span>First page. Shopping included.</span></footer>
+</div>
+<script>
+document.getElementById("btn-do-login").addEventListener("click",doLogin);
+</script>
+<script src="js/dashboard.js?v=9"></script>
+</body>
+</html>
