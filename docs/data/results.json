@@ -83,6 +83,78 @@
       "keyword": "work benches",
       "sponsored": [],
       "organic": []
+    },
+    {
+      "id": "20260326_171934_workbench",
+      "timestamp": "2026-03-26T17:19:34",
+      "keyword": "workbench",
+      "sponsored": [],
+      "organic": []
+    },
+    {
+      "id": "20260326_172001_work_bench",
+      "timestamp": "2026-03-26T17:20:01",
+      "keyword": "work bench",
+      "sponsored": [],
+      "organic": []
+    },
+    {
+      "id": "20260326_172018_workbenches",
+      "timestamp": "2026-03-26T17:20:18",
+      "keyword": "workbenches",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Industrial Grade WorkBenches | Prices & Specifications Online",
+          "domain": "benchdepot.com",
+          "display_url": "https://www.benchdepot.com",
+          "snippet": "https://www.benchdepot.com"
+        },
+        {
+          "position": 2,
+          "title": "Workbenches & Packing Tables | In Stock \u2013 Ships Today",
+          "domain": "uline.com",
+          "display_url": "https://www.uline.com \u203a packing-table \u203a workbenches",
+          "snippet": "https://www.uline.com \u203a packing-table \u203a workbenches"
+        },
+        {
+          "position": 3,
+          "title": "Factory Direct | Heavy Duty Work Tables | Located in Silicon Valley",
+          "domain": "bench-tek.com",
+          "display_url": "https://www.bench-tek.com \u203a heavy \u203a duty",
+          "snippet": "https://www.bench-tek.com \u203a heavy \u203a duty"
+        }
+      ],
+      "organic": []
+    },
+    {
+      "id": "20260326_172034_work_benches",
+      "timestamp": "2026-03-26T17:20:34",
+      "keyword": "work benches",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Workbenches & Packing Tables | In Stock \u2013 Ships Today | Fast Delivery",
+          "domain": "uline.com",
+          "display_url": "https://www.uline.com \u203a packing-table \u203a workbenches",
+          "snippet": "https://www.uline.com \u203a packing-table \u203a workbenches"
+        },
+        {
+          "position": 2,
+          "title": "Industrial Grade WorkBenches - Prices & Specifications Online",
+          "domain": "benchdepot.com",
+          "display_url": "https://www.benchdepot.com",
+          "snippet": "https://www.benchdepot.com"
+        },
+        {
+          "position": 3,
+          "title": "Heavy Duty Benches Made in USA",
+          "domain": "formaspace.com",
+          "display_url": "https://www.formaspace.com \u203a workbenches \u203a modular",
+          "snippet": "https://www.formaspace.com \u203a workbenches \u203a modular"
+        }
+      ],
+      "organic": []
     }
   ]
 }
