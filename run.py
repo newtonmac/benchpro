@@ -51,6 +51,13 @@ def main():
     # Step 1: Run searches
     run_all_keywords()
 
+    # Step 1b: Fetch Google Trends
+    try:
+        from collector.trends import run_trends
+        run_trends()
+    except Exception as e:
+        log.warning("Trends fetch failed: %s", e)
+
     # Step 2: Push to GitHub (unless --no-push)
     if no_push:
         log.info("Skipping git push (--no-push flag)")

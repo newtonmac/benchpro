@@ -26,7 +26,7 @@ jobs:
           python-version: '3.11'
       - name: Install dependencies
         run: |
-          pip install playwright schedule
+          pip install playwright schedule pytrends
           playwright install chromium
           playwright install-deps chromium
       - name: Run SERP collector
@@ -35,7 +35,7 @@ jobs:
         run: |
           git config user.name "BenchPro Bot"
           git config user.email "benchpro-bot@users.noreply.github.com"
-          git add docs/data/results.json
+          git add docs/data/results.json docs/data/trends.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
