@@ -86,7 +86,7 @@ function renderAvgPositions(){
       h+="<div class=\"avg-stat\"><span class=\"avg-label\">Avg organic</span><span class=\"avg-val\">"+(orgAvg!=="--"?"#"+orgAvg:orgAvg)+"</span></div>";
       h+="<div class=\"avg-stat\"><span class=\"avg-label\">Showing</span><span class=\"avg-val\">"+spPct+"%</span></div>";
       var searchVol={"workbench":"110K","work bench":"27K","workbenches":"22K","work benches":"6.6K"};h+="<div class=\"avg-stat\"><span class=\"avg-label\">Mo. volume</span><span class=\"avg-val trend-val\">"+(searchVol[kw]||"--")+"</span></div><div class=\"avg-stat\"><span class=\"avg-label\">Interest</span><span class=\"avg-val trend-val\">"+trend+"</span></div>";
-      h+="</div></div>";
+      h+="</div><div class=\"avg-sources\"><a href=\"https://www.google.com/search?q="+encodeURIComponent(kw)+"\" target=\"_blank\">Google SERP</a><a href=\"https://trends.google.com/trends/explore?geo=US&q="+encodeURIComponent(kw)+"\" target=\"_blank\">Trends</a><a href=\"https://ads.google.com/aw/keywordplanner/home\" target=\"_blank\">Keyword Planner</a></div></div>";
     }
     el.innerHTML=h;
   }).catch(function(){
@@ -102,7 +102,7 @@ function renderAvgPositions(){
       h+="<div class=\"avg-stat\"><span class=\"avg-label\">Avg organic</span><span class=\"avg-val\">"+(orgAvg!=="--"?"#"+orgAvg:orgAvg)+"</span></div>";
       h+="<div class=\"avg-stat\"><span class=\"avg-label\">Showing</span><span class=\"avg-val\">"+spPct+"%</span></div>";
       h+="<div class=\"avg-stat\"><span class=\"avg-label\">Mo. volume</span><span class=\"avg-val trend-val\">"+({"workbench":"110K","work bench":"27K","workbenches":"22K","work benches":"6.6K"}[kw]||"--")+"</span></div><div class=\"avg-stat\"><span class=\"avg-label\">Interest</span><span class=\"avg-val trend-val\">--</span></div>";
-      h+="</div></div>";
+      h+="</div><div class=\"avg-sources\"><a href=\"https://www.google.com/search?q="+encodeURIComponent(kw)+"\" target=\"_blank\">Google SERP</a><a href=\"https://trends.google.com/trends/explore?geo=US&q="+encodeURIComponent(kw)+"\" target=\"_blank\">Trends</a><a href=\"https://ads.google.com/aw/keywordplanner/home\" target=\"_blank\">Keyword Planner</a></div></div>";
     }
     el.innerHTML=h;
   });

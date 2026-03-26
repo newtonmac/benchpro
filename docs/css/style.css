@@ -58,6 +58,11 @@
 .avg-stat{display:flex;flex-direction:column;gap:2px;}
 .avg-label{font-size:9px;text-transform:uppercase;letter-spacing:.06em;color:var(--text-dim);font-weight:600;}
 .trend-val{color:var(--org)!important;}
+
+.avg-sources{display:flex;gap:12px;margin-top:10px;padding-top:8px;border-top:1px solid var(--border-dim);}
+.avg-sources a{font-family:var(--font-mono);font-size:9px;color:var(--org);text-decoration:none;opacity:.7;}
+.avg-sources a:hover{opacity:1;text-decoration:underline;}
+
 .avg-val{font-family:var(--font-mono);font-size:18px;font-weight:700;color:var(--accent);}
 
 .filter-bar{display:flex;align-items:center;gap:10px;padding:16px 24px 8px;flex-wrap:wrap;}
