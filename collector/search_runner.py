@@ -260,11 +260,11 @@ def search_one_keyword(keyword):
             try:
                 page.wait_for_selector("#search, #rso, #main, #center_col, #rcnt, body", timeout=10000)
             except: pass
-            page.wait_for_timeout(4000)
+            page.wait_for_timeout(6000)
             page.evaluate("window.scrollTo(0, 800)")
-            page.wait_for_timeout(1500)
+            page.wait_for_timeout(2500)
             page.evaluate("window.scrollTo(0, 1600)")
-            page.wait_for_timeout(1500)
+            page.wait_for_timeout(2500)
             page.evaluate("window.scrollTo(0, 2400)")
             page.wait_for_timeout(1000)
             page.evaluate("window.scrollTo(0, 0)")
@@ -332,7 +332,7 @@ def run_all_keywords(keywords=None):
         except Exception as e:
             log.error("  Failed '%s': %s", kw, e)
         if i < len(keywords)-1:
-            delay = config.DELAY_BETWEEN_SEARCHES + random.uniform(5, 10)
+            delay = config.DELAY_BETWEEN_SEARCHES + random.uniform(15, 25)
             log.info("  Waiting %ds ...", delay)
             time.sleep(delay)
     log.info("=== Done ===")
