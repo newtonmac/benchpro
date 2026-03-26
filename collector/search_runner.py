@@ -1,5 +1,6 @@
 """
-Search Runner — scrapes Google SERP including Shopping results.
+Search Runner — one keyword at a time for reliability.
+Captures: Sponsored text ads, Organic results, Shopping/product ads.
 """
 import sys, os, time, random, logging
 from urllib.parse import urlparse, urlencode
@@ -45,7 +46,6 @@ def _parse_all_results(page):
         const output = { sponsored: [], organic: [], shopping: [] };
         const seen_sp = new Set();
         const seen_org = new Set();
-        const seen_shop = new Set();
 
         // === SPONSORED TEXT ADS ===
         const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null);
@@ -111,107 +111,113 @@ def _parse_all_results(page):
         }
 
         // === GOOGLE SHOPPING / SPONSORED PRODUCTS ===
-        // These are the product cards with images, prices, and store names
-        // They appear in carousels labeled "Sponsored" with data-pla or in commercial units
-        const shopContainers = document.querySelectorAll(
-            '[data-pla], .commercial-unit-desktop-top, .cu-container, .pla-unit, .mnr-c.pla-unit, .sh-dgr__grid-result'
+        // These are the image product cards with prices
+        // Strategy: find ALL elements with dollar prices near product-like content
+        const priceRx = /\$[\d,]+\.?\d*/;
+        const seen_shop = new Set();
+        
+        // Method 1: Find "Sponsored products" or "Sponsored" labels near product grids
+        const allEls = document.querySelectorAll('*');
+        let shopContainers = [];
+        
+        // Look for the product carousel/grid containers
+        // Google uses various structures: .sh-dgr, commercial-unit, pla-unit
+        const shopGrids = document.querySelectorAll(
+            '.commercial-unit-desktop-top, .cu-container, .sh-dgr__grid-result, .pla-unit-container, .sh-pr__product-results, [data-pla="1"]'
         );
-        // Also try finding product cards by structure: image + price + store
-        const allProductCards = document.querySelectorAll(
-            '.pla-unit, .sh-dgr__content, [data-docid], .mnr-c, .commercial-unit-desktop-top .pla-unit-container'
-        );
-        const productEls = shopContainers.length > 0 ? shopContainers : allProductCards;
-
-        // Broader approach: find all elements with a price pattern
-        const priceRegex = /\$[\d,]+\.?\d*/;
-        const shopItems = document.querySelectorAll('.pla-unit, [data-dtld], .sh-dgr__grid-result');
-
-        // Walk through elements looking for product card patterns
-        const allEls = document.querySelectorAll('a[href*="shopping"], a[href*="merchant"], a[href*="aclk"]');
-        for (const el of allEls) {
-            // Walk up to find the product card container
-            let card = el;
-            for (let i = 0; i < 5; i++) {
-                card = card.parentElement;
-                if (!card) break;
-                const text = card.textContent || '';
-                const priceMatch = text.match(priceRegex);
-                if (!priceMatch) continue;
-
-                // Found a product card with a price
-                // Get product title - usually the most prominent text
-                const titleEl = card.querySelector('h3, [role="heading"], .pymv4e, .sh-np__product-title, a[aria-label]');
-                let title = '';
-                if (titleEl) {
-                    title = titleEl.textContent.trim() || titleEl.getAttribute('aria-label') || '';
-                }
-                if (!title) {
-                    // Try aria-label on the link itself
-                    title = el.getAttribute('aria-label') || '';
-                }
-                if (!title || title.length < 3) continue;
-
-                // Get store/merchant name - usually at the bottom
-                const storeEls = card.querySelectorAll('.aULzUe, .sh-dgr__merchant-name, .LGOjhe, .zPEcBd, span');
-                let store = '';
-                for (const se of storeEls) {
-                    const st = se.textContent.trim();
-                    // Store names are typically short, not a price, and not the title
-                    if (st.length > 2 && st.length < 40 && !priceRegex.test(st) && st !== title && !st.includes('$')) {
-                        // Heuristic: store name is usually after the price
-                        store = st;
+        
+        if (shopGrids.length > 0) {
+            for (const grid of shopGrids) {
+                // Each product card inside the grid
+                const cards = grid.querySelectorAll('a[href]');
+                for (const card of cards) {
+                    const text = card.innerText || card.textContent || '';
+                    const pm = text.match(priceRx);
+                    if (!pm) continue;
+                    
+                    const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0 && l.length < 200);
+                    let title = '', store = '', price = pm[0];
+                    
+                    for (const line of lines) {
+                        if (priceRx.test(line)) continue;
+                        if (line.length < 3) continue;
+                        if (!title && line.length >= 5) title = line;
+                        else if (title && !store && line.length >= 2 && line.length < 50 && line !== title) store = line;
                     }
+                    
+                    if (!title || title.length < 3) continue;
+                    const key = title.substring(0,40) + price;
+                    if (seen_shop.has(key)) continue;
+                    seen_shop.add(key);
+                    
+                    output.shopping.push({
+                        title: title.substring(0, 150),
+                        price: price,
+                        store: store || 'unknown',
+                        domain: store ? store.toLowerCase().replace(/[^a-z0-9.]/g, '') : ''
+                    });
                 }
-
-                const price = priceMatch[0];
-                const key = title.substring(0,30) + price;
-                if (seen_shop.has(key)) continue;
-                seen_shop.add(key);
-
-                output.shopping.push({
-                    title: title.substring(0, 150),
-                    price: price,
-                    store: store,
-                    domain: store.toLowerCase().replace(/\s+/g, '').replace(/\.com$/,'')
-                });
-                break;
             }
         }
-
-        // Fallback: look for "Sponsored products" section directly
+        
+        // Method 2: Broader search - find any link with a price nearby
         if (output.shopping.length === 0) {
-            const allText = document.querySelectorAll('span, div');
-            for (const el of allText) {
-                if (el.textContent.trim() === 'Sponsored products' || el.textContent.trim() === 'Sponsored') {
-                    let container = el;
-                    for (let i = 0; i < 8; i++) {
-                        container = container.parentElement;
-                        if (!container) break;
-                        // Look for product cards within
-                        const cards = container.querySelectorAll('a');
-                        for (const card of cards) {
-                            const text = card.textContent || '';
-                            const pm = text.match(priceRegex);
-                            if (!pm) continue;
-                            const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
-                            let title = '', store = '', price = pm[0];
-                            for (const line of lines) {
-                                if (priceRegex.test(line)) continue;
-                                if (!title && line.length > 5) title = line;
-                                else if (title && line.length > 1 && line.length < 40) store = line;
-                            }
-                            if (!title) continue;
-                            const key = title.substring(0,30) + price;
-                            if (seen_shop.has(key)) continue;
-                            seen_shop.add(key);
-                            output.shopping.push({
-                                title: title.substring(0,150), price, store,
-                                domain: store.toLowerCase().replace(/\s+/g,'')
-                            });
-                        }
-                        if (output.shopping.length > 0) break;
+            const links = document.querySelectorAll('a[href*="shopping"], a[href*="aclk"], a[href*="merchant"]');
+            for (const link of links) {
+                let card = link;
+                for (let i = 0; i < 6; i++) {
+                    card = card.parentElement;
+                    if (!card) break;
+                    const text = card.innerText || '';
+                    const pm = text.match(priceRx);
+                    if (!pm) continue;
+                    
+                    const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+                    let title = '', store = '', price = pm[0];
+                    for (const line of lines) {
+                        if (priceRx.test(line)) continue;
+                        if (line.length < 3) continue;
+                        if (!title && line.length >= 5) title = line;
+                        else if (title && !store && line.length >= 2 && line.length < 50) store = line;
                     }
-                    if (output.shopping.length > 0) break;
+                    if (!title) continue;
+                    const key = title.substring(0,40) + price;
+                    if (seen_shop.has(key)) continue;
+                    seen_shop.add(key);
+                    output.shopping.push({
+                        title: title.substring(0,150), price, store: store||'unknown',
+                        domain: store ? store.toLowerCase().replace(/[^a-z0-9.]/g,'') : ''
+                    });
+                    break;
+                }
+            }
+        }
+        
+        // Method 3: Just look for any element with a $ price and a nearby image
+        if (output.shopping.length === 0) {
+            const imgs = document.querySelectorAll('img[src*="encrypted"], img[data-src]');
+            for (const img of imgs) {
+                let card = img;
+                for (let i = 0; i < 5; i++) {
+                    card = card.parentElement;
+                    if (!card) break;
+                    const text = card.innerText || '';
+                    if (text.length > 500) continue;
+                    const pm = text.match(priceRx);
+                    if (!pm) continue;
+                    const lines = text.split('\n').map(l=>l.trim()).filter(l=>l.length>2 && l.length<150);
+                    let title='', store='', price=pm[0];
+                    for (const line of lines) {
+                        if (priceRx.test(line)) continue;
+                        if (!title && line.length>=5) title=line;
+                        else if (title && !store && line.length>=2 && line.length<50) store=line;
+                    }
+                    if (!title) continue;
+                    const key = title.substring(0,40)+price;
+                    if (seen_shop.has(key)) continue;
+                    seen_shop.add(key);
+                    output.shopping.push({title:title.substring(0,150),price,store:store||'unknown',domain:''});
+                    break;
                 }
             }
         }
@@ -259,81 +265,102 @@ def _parse_all_results(page):
         return output;
     }""")
 
-def search_keyword(keyword, browser):
-    url = _build_url(keyword)
+def search_one_keyword(keyword):
+    """Launch a fresh browser for each keyword — max isolation."""
     log.info("Searching: '%s' ...", keyword)
-    context = browser.new_context(user_agent=random.choice(USER_AGENTS), viewport={"width":1366,"height":900}, locale="en-US")
-    context.add_init_script("Object.defineProperty(navigator,'webdriver',{get:()=>undefined});window.chrome={runtime:{}};")
-    page = context.new_page()
-    try:
-        page.goto(url, timeout=30000, wait_until="domcontentloaded")
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True, args=[
+            "--disable-blink-features=AutomationControlled",
+            "--no-sandbox","--disable-dev-shm-usage"
+        ])
+        context = browser.new_context(
+            user_agent=random.choice(USER_AGENTS),
+            viewport={"width":1366,"height":900},
+            locale="en-US",
+        )
+        context.add_init_script("""
+            Object.defineProperty(navigator,'webdriver',{get:()=>undefined});
+            Object.defineProperty(navigator,'languages',{get:()=>['en-US','en']});
+            window.chrome={runtime:{}};
+        """)
+        page = context.new_page()
         try:
-            page.wait_for_selector("#search, #rso, #main, #center_col, #rcnt, body", timeout=10000)
-        except: pass
-        page.wait_for_timeout(4000)
-        page.evaluate("window.scrollTo(0, 1200)")
-        page.wait_for_timeout(1500)
-        page.evaluate("window.scrollTo(0, 2400)")
-        page.wait_for_timeout(1500)
-        page.evaluate("window.scrollTo(0, 0)")
-        page.wait_for_timeout(500)
-        for sel in ['button:has-text("Accept all")', 'button:has-text("Reject all")', 'button:has-text("I agree")']:
-            btn = page.query_selector(sel)
-            if btn:
-                try: btn.click(); page.wait_for_timeout(2000)
-                except: pass
-                break
-        if page.query_selector("#captcha-form, #recaptcha"):
-            log.error("  CAPTCHA on '%s'", keyword)
-            context.close()
+            url = _build_url(keyword)
+            page.goto(url, timeout=30000, wait_until="domcontentloaded")
+            try:
+                page.wait_for_selector("#search, #rso, #main, #center_col, #rcnt, body", timeout=10000)
+            except: pass
+            page.wait_for_timeout(4000)
+            # Scroll to load shopping + organic below the fold
+            page.evaluate("window.scrollTo(0, 800)")
+            page.wait_for_timeout(1500)
+            page.evaluate("window.scrollTo(0, 1600)")
+            page.wait_for_timeout(1500)
+            page.evaluate("window.scrollTo(0, 2400)")
+            page.wait_for_timeout(1000)
+            page.evaluate("window.scrollTo(0, 0)")
+            page.wait_for_timeout(500)
+            # Dismiss banners
+            for sel in ['button:has-text("Accept all")', 'button:has-text("Reject all")', 'button:has-text("I agree")']:
+                btn = page.query_selector(sel)
+                if btn:
+                    try: btn.click(); page.wait_for_timeout(2000)
+                    except: pass
+                    break
+            if page.query_selector("#captcha-form, #recaptcha"):
+                log.error("  CAPTCHA on '%s'", keyword)
+                browser.close()
+                return [], [], []
+            raw = _parse_all_results(page)
+            # Process sponsored
+            sponsored = []
+            seen_sp = set()
+            for ad in raw.get("sponsored",[]):
+                domain = _domain_from_display(ad["displayUrl"])
+                if not domain or domain in seen_sp: continue
+                seen_sp.add(domain)
+                sponsored.append({"position":len(sponsored)+1,"title":ad["title"],"domain":domain,"display_url":ad["displayUrl"],"snippet":ad["snippet"]})
+                if len(sponsored) >= config.TOP_N_SPONSORED: break
+            # Process organic
+            organic = []
+            seen_org = set()
+            for item in raw.get("organic",[]):
+                domain = _extract_domain(item["href"])
+                if not domain or domain in seen_org: continue
+                seen_org.add(domain)
+                organic.append({"position":len(organic)+1,"title":item["title"],"domain":domain,"link":item["href"],"snippet":item["snippet"]})
+                if len(organic) >= config.TOP_N_ORGANIC: break
+            # Process shopping
+            shopping = []
+            for i, item in enumerate(raw.get("shopping",[])):
+                shopping.append({"position":i+1,"title":item["title"],"price":item["price"],"store":item["store"],"domain":item.get("domain","")})
+                if i >= 9: break
+            log.info("  Found: %d sponsored, %d organic, %d shopping", len(sponsored), len(organic), len(shopping))
+            for s in sponsored: log.info("    Ad #%d: %s", s["position"], s["domain"])
+            for o in organic: log.info("    Org #%d: %s", o["position"], o["domain"])
+            for s in shopping: log.info("    Shop #%d: %s %s (%s)", s["position"], s["title"][:40], s["price"], s["store"])
+            browser.close()
+            return sponsored, organic, shopping
+        except Exception as e:
+            log.error("  Error: %s", e)
+            try: browser.close()
+            except: pass
             return [], [], []
-        raw = _parse_all_results(page)
-        sponsored, organic, shopping = [], [], []
-        seen_sp, seen_org = set(), set()
-        for ad in raw.get("sponsored",[]):
-            domain = _domain_from_display(ad["displayUrl"])
-            if not domain or domain in seen_sp: continue
-            seen_sp.add(domain)
-            sponsored.append({"position":len(sponsored)+1,"title":ad["title"],"domain":domain,"display_url":ad["displayUrl"],"snippet":ad["snippet"]})
-            if len(sponsored) >= config.TOP_N_SPONSORED: break
-        for item in raw.get("organic",[]):
-            domain = _extract_domain(item["href"])
-            if not domain or domain in seen_org: continue
-            seen_org.add(domain)
-            organic.append({"position":len(organic)+1,"title":item["title"],"domain":domain,"link":item["href"],"snippet":item["snippet"]})
-            if len(organic) >= config.TOP_N_ORGANIC: break
-        for i, item in enumerate(raw.get("shopping",[])):
-            shopping.append({"position":i+1,"title":item["title"],"price":item["price"],"store":item["store"],"domain":item.get("domain","")})
-            if i >= 9: break
-        log.info("  Found: %d sponsored, %d organic, %d shopping", len(sponsored), len(organic), len(shopping))
-        for s in sponsored: log.info("    Ad #%d: %s", s["position"], s["domain"])
-        for o in organic: log.info("    Org #%d: %s", o["position"], o["domain"])
-        for s in shopping: log.info("    Shop #%d: %s (%s) %s", s["position"], s["title"][:40], s["price"], s["store"])
-        context.close()
-        return sponsored, organic, shopping
-    except Exception as e:
-        log.error("  Error: %s", e)
-        try: context.close()
-        except: pass
-        return [], [], []
 
 def run_all_keywords(keywords=None):
     keywords = keywords or config.KEYWORDS
     log.info("=== BenchPro run at %s ===", datetime.now().strftime("%Y-%m-%d %H:%M"))
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled","--no-sandbox","--disable-dev-shm-usage"])
-        for i, kw in enumerate(keywords):
-            try:
-                sp, org, shop = search_keyword(kw, browser)
-                rid = save_search_run(kw, sp, org, shop)
-                log.info("  Saved: %s", rid)
-            except Exception as e:
-                log.error("  Failed '%s': %s", kw, e)
-            if i < len(keywords)-1:
-                delay = config.DELAY_BETWEEN_SEARCHES + random.uniform(3,7)
-                log.info("  Waiting %ds ...", delay)
-                time.sleep(delay)
-        browser.close()
+    for i, kw in enumerate(keywords):
+        try:
+            sp, org, shop = search_one_keyword(kw)
+            rid = save_search_run(kw, sp, org, shop)
+            log.info("  Saved: %s", rid)
+        except Exception as e:
+            log.error("  Failed '%s': %s", kw, e)
+        if i < len(keywords)-1:
+            delay = config.DELAY_BETWEEN_SEARCHES + random.uniform(5, 10)
+            log.info("  Waiting %ds between keywords...", delay)
+            time.sleep(delay)
     log.info("=== Done ===")
 
 if __name__ == "__main__":
