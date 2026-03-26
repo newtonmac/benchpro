@@ -22,6 +22,7 @@ TOP_N_ORGANIC = 5
 # Google search parameters
 SEARCH_LANGUAGE = "en"
 SEARCH_COUNTRY = "us"
+SEARCH_LOCATION = "San Diego, California, United States"
 
 # Seconds between each keyword search (be polite to Google)
 DELAY_BETWEEN_SEARCHES = 8
