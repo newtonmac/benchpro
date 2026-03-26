@@ -1,180 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BenchPro</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BenchPro</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
 </head>
 <body>
-    <!-- ═══ PASSWORD GATE ═══ -->
-    <div id="login-screen" class="login-screen">
-        <div class="login-card">
-            <div class="login-logo">
-                <span class="logo-icon">◆</span>
-                <span class="logo-text">Bench<strong>Pro</strong></span>
-            </div>
-            <p class="login-sub">SERP Intelligence Dashboard</p>
-            <div class="login-form">
-                <input type="password" id="pw-input" placeholder="Enter password" autofocus
-                       onkeydown="if(event.key==='Enter') attemptLogin()">
-                <button onclick="attemptLogin()" class="btn-login">Enter</button>
-            </div>
-            <p id="pw-error" class="pw-error hidden">Incorrect password</p>
-        </div>
-    </div>
-
-    <!-- ═══ TOKEN SETUP MODAL ═══ -->
-    <div id="token-modal" class="modal-overlay hidden">
-        <div class="modal-card">
-            <h3>Connect to GitHub Actions</h3>
-            <p class="modal-desc">
-                To run searches from this dashboard, you need a free GitHub token.
-                This is a one-time setup — the token is saved in your browser.
-            </p>
-            <ol class="modal-steps">
-                <li>Go to <a href="https://github.com/settings/tokens?type=beta" target="_blank">GitHub → Settings → Tokens</a></li>
-                <li>Click <strong>Generate new token</strong></li>
-                <li>Name it <strong>BenchPro</strong>, set expiration to <strong>90 days</strong></li>
-                <li>Under Repository access → select <strong>Only select repositories</strong> → choose <strong>benchpro</strong></li>
-                <li>Under Permissions → Repository permissions → <strong>Actions: Read and write</strong></li>
-                <li>Click <strong>Generate token</strong> and paste it below</li>
-            </ol>
-            <div class="modal-form">
-                <input type="password" id="token-input" placeholder="github_pat_xxxxxxxxxxxxx"
-                       onkeydown="if(event.key==='Enter') saveToken()">
-                <div class="modal-buttons">
-                    <button onclick="saveToken()" class="btn-login">Save token</button>
-                    <button onclick="closeTokenModal()" class="btn-sm btn-ghost">Cancel</button>
-                </div>
-            </div>
-            <p id="token-error" class="pw-error hidden">Token looks invalid — should start with ghp_ or github_pat_</p>
-        </div>
-    </div>
-
-    <!-- ═══ DASHBOARD (hidden until login) ═══ -->
-    <div id="dashboard" class="dashboard hidden">
-        <header class="topbar">
-            <div class="topbar-left">
-                <div class="logo">
-                    <span class="logo-icon">◆</span>
-                    <span class="logo-text">Bench<strong>Pro</strong></span>
-                </div>
-                <span class="tagline">benchdepot.com — SERP tracker</span>
-            </div>
-            <div class="topbar-right">
-                <div id="last-updated" class="meta-pill">—</div>
-                <button id="btn-run" class="btn-run" onclick="triggerRun()">
-                    <span class="btn-run-icon" id="run-icon">▶</span>
-                    <span id="run-label">Run now</span>
-                </button>
-                <button class="btn-sm" onclick="loadData()">↻ Refresh</button>
-                <button class="btn-sm btn-ghost" onclick="logout()">Logout</button>
-            </div>
-        </header>
-
-        <!-- Run Status Bar (appears when a run is in progress) -->
-        <div id="run-status" class="run-status hidden">
-            <span class="run-status-dot"></span>
-            <span id="run-status-text">Searching Google for your keywords...</span>
-            <span id="run-status-time" class="meta-pill" style="margin-left:auto">—</span>
-        </div>
-
-        <!-- Alert Banner -->
-        <div id="alert-banner" class="alert-banner hidden">
-            <span class="alert-icon">⚠</span>
-            <span id="alert-text"></span>
-        </div>
-
-        <!-- Status Cards -->
-        <section class="status-row" id="status-cards"></section>
-
-        <!-- Main Grid -->
-        <main class="grid-main">
-            <!-- Left: Keyword Results -->
-            <section class="panel">
-                <div class="panel-header">
-                    <h2>Current positions</h2>
-                    <div class="keyword-tabs" id="keyword-tabs"></div>
-                </div>
-                <div id="results-container">
-                    <div class="results-section">
-                        <h3 class="section-label"><span class="dot sponsored"></span> Sponsored (ads)</h3>
-                        <div id="sponsored-list" class="results-list">
-                            <div class="empty-state">No data yet — click "Run now" to collect data</div>
-                        </div>
-                    </div>
-                    <div class="results-section">
-                        <h3 class="section-label"><span class="dot organic"></span> Organic</h3>
-                        <div id="organic-list" class="results-list">
-                            <div class="empty-state">No data yet</div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Right: Competitors -->
-            <section class="panel">
-                <div class="panel-header">
-                    <h2>Top competitors (sponsored)</h2>
-                    <select id="days-select" onchange="renderAll()">
-                        <option value="7">Last 7 days</option>
-                        <option value="30" selected>Last 30 days</option>
-                        <option value="90">Last 90 days</option>
-                    </select>
-                </div>
-                <div class="table-wrap">
-                    <table id="competitor-table">
-                        <thead>
-                            <tr>
-                                <th>Domain</th>
-                                <th>Appearances</th>
-                                <th>Avg pos</th>
-                                <th>Keywords</th>
-                            </tr>
-                        </thead>
-                        <tbody id="competitor-tbody">
-                            <tr><td colspan="4" class="empty-state">No data yet</td></tr>
-                        </tbody>
-                    </table>
-                </div>
-            </section>
-        </main>
-
-        <!-- Charts -->
-        <section class="charts-row">
-            <div class="panel chart-panel">
-                <div class="panel-header">
-                    <h2>benchdepot.com — position over time</h2>
-                    <div class="chart-legend">
-                        <span class="legend-item"><span class="dot sponsored"></span> Sponsored</span>
-                        <span class="legend-item"><span class="dot organic"></span> Organic</span>
-                    </div>
-                </div>
-                <canvas id="position-chart" height="300"></canvas>
-            </div>
-            <div class="panel chart-panel">
-                <div class="panel-header">
-                    <h2>Competitor bidding by hour</h2>
-                </div>
-                <canvas id="heatmap-chart" height="300"></canvas>
-            </div>
-        </section>
-
-        <!-- Settings row -->
-        <section class="settings-row">
-            <button class="btn-sm btn-ghost" onclick="openTokenModal()">⚙ GitHub token settings</button>
-            <span class="token-status" id="token-status"></span>
-        </section>
-
-        <footer class="footer">
-            <span>BenchPro — competitive SERP intelligence for benchdepot.com</span>
-            <span>Shopping results excluded. Runs entirely on GitHub Actions — free.</span>
-        </footer>
-    </div>
-
-    <script src="js/dashboard.js"></script>
-</body>
-</html>
+<div id="login-screen" class="login-screen"><div class="login-card"><div class="login-logo"><span class="logo-icon">&#9670;</span> Bench<strong>Pro</strong></div><p class="login-sub">SERP Intelligence Dashboard</p><div class="login-form"><input type="password" id="pw-input" placeholder="Enter password" autofocus onkeydown="if(event.key==='Enter') attemptLogin()"><button onclick="attemptLogin()" class="btn-login">Enter</button></div><p id="pw-error" class="pw-error hidden">Incorrect password</p></div></div>
+<div id="token-modal" class="modal-overlay hidden"><div class="modal-card"><h3>Connect to GitHub Actions</h3><p class="modal-desc">One-time setup. Token saved in your browser.</p><ol class="modal-steps"><li>Go to <a href="https://github.com/settings/tokens?type=beta" target="_blank">GitHub Tokens</a></li><li>Generate new token, name BenchPro, 90 days</li><li>Repository: Only benchpro</li><li>Permissions: Actions Read+Write</li><li>Paste below</li></ol><div class="modal-form"><input type="password" id="token-input" placeholder="github_pat_xxx" onkeydown="if(event.key==='Enter') saveToken()"><div class="modal-buttons"><button onclick="saveToken()" class="btn-login">Save</button><button onclick="closeTokenModal()" class="btn-sm btn-ghost">Cancel</button></div></div><p id="token-error" class="pw-error hidden">Invalid token</p></div></div>
+<div id="dashboard" class="dashboard hidden">
+<header class="topbar"><div class="topbar-left"><div class="logo"><span class="logo-icon">&#9670;</span> Bench<strong>Pro</strong></div><span class="tagline">benchdepot.com SERP tracker</span></div><div class="topbar-right"><div id="last-updated" class="meta-pill">&mdash;</div><button id="btn-run" class="btn-run" onclick="triggerRun()"><span class="btn-run-icon" id="run-icon">&#9654;</span><span id="run-label">Run now</span></button><button class="btn-sm" onclick="loadData()">&#8635; Refresh</button><button class="btn-sm btn-ghost" onclick="logout()">Logout</button></div></header>
+<div id="run-status" class="run-status hidden"><span class="run-status-dot"></span><span id="run-status-text">Searching...</span><span id="run-status-time" class="meta-pill" style="margin-left:auto">&mdash;</span></div>
+<div id="alert-banner" class="alert-banner hidden"><span class="alert-icon">&#9888;</span><span id="alert-text"></span></div>
+<section class="section-header">benchdepot.com &mdash; current positions</section>
+<section class="status-row" id="status-cards"></section>
+<section class="section-header">Keyword breakdown &mdash; first page placements</section>
+<div id="keyword-breakdowns"></div>
+<section class="section-header">Top advertisers across all keywords<select id="days-select" onchange="renderAll()"><option value="7">7 days</option><option value="30" selected>30 days</option><option value="90">90 days</option></select></section>
+<section class="grid-2col"><div class="panel"><div class="panel-header"><h2>Sponsored &mdash; who is bidding</h2></div><div class="table-wrap"><table class="data-table"><thead><tr><th>Domain</th><th>Appearances</th><th>Avg pos</th><th>Best</th><th>Keywords</th></tr></thead><tbody id="advertisers-tbody"><tr><td colspan="5" class="empty">No data</td></tr></tbody></table></div></div><div class="panel"><div class="panel-header"><h2>Organic &mdash; who ranks</h2></div><div class="table-wrap"><table class="data-table"><thead><tr><th>Domain</th><th>Appearances</th><th>Avg pos</th><th>Best</th><th>Keywords</th></tr></thead><tbody id="organic-tbody"><tr><td colspan="5" class="empty">No data</td></tr></tbody></table></div></div></section>
+<section class="section-header">Position history &mdash; benchdepot.com</section>
+<section class="grid-2col"><div class="panel chart-panel"><div class="panel-header"><h2>Sponsored over time</h2></div><canvas id="sp-chart" height="280"></canvas></div><div class="panel chart-panel"><div class="panel-header"><h2>Organic over time</h2></div><canvas id="org-chart" height="280"></canvas></div></section>
+<section class="section-header">Competitor history</section>
+<section class="grid-1col"><div class="panel chart-panel"><div class="panel-header"><h2>Top 5 advertisers &mdash; position over time</h2></div><canvas id="comp-chart" height="320"></canvas></div></section>
+<section class="section-header">Bidding patterns</section>
+<section class="grid-1col"><div class="panel chart-panel"><div class="panel-header"><h2>Competitor ads by hour</h2></div><canvas id="hour-chart" height="260"></canvas></div></section>
+<section class="settings-row"><button class="btn-sm btn-ghost" onclick="openTokenModal()">&#9881; Token settings</button><span class="token-status" id="token-status"></span></section>
+<footer class="footer"><span>BenchPro &mdash; benchdepot.com SERP intel</span><span>Shopping excluded. First page only.</span></footer>
+</div>
+<script src="js/dashboard.js"></script>
+</body></html>
