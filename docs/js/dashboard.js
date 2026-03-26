@@ -42,16 +42,17 @@ function renderHourChart(){const days=getDays(),co=cutoff(days).toISOString(),ct
 function chartOpts(days){return{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:"bottom",labels:{color:"#7d8590",font:{family:"'JetBrains Mono'",size:10}}}},scales:{x:{type:"time",time:{unit:days<=7?"hour":"day"},grid:{color:"#21262d"},ticks:{color:"#484f58",font:{size:10}}},y:{reverse:true,min:1,max:10,grid:{color:"#21262d"},ticks:{color:"#484f58",font:{family:"'JetBrains Mono'",size:10},stepSize:1,callback:v=>"#"+v},title:{display:true,text:"Position",color:"#484f58"}}}};}
 setInterval(loadData,5*60*1000);
 
+function bind(id,evt,fn){var el=document.getElementById(id);if(el)el.addEventListener(evt,fn);}
 document.addEventListener("DOMContentLoaded",async function(){
-  document.getElementById("btn-login").addEventListener("click",attemptLogin);
-  document.getElementById("pw-input").addEventListener("keydown",function(e){if(e.key==="Enter")attemptLogin();});
-  document.getElementById("btn-run").addEventListener("click",triggerRun);
-  document.getElementById("btn-refresh").addEventListener("click",loadData);
-  document.getElementById("btn-logout").addEventListener("click",logout);
-  document.getElementById("btn-save-token").addEventListener("click",saveToken);
-  document.getElementById("btn-cancel-token").addEventListener("click",closeTokenModal);
-  document.getElementById("btn-token-settings").addEventListener("click",openTokenModal);
-  document.getElementById("token-input").addEventListener("keydown",function(e){if(e.key==="Enter")saveToken();});
-  document.getElementById("days-select").addEventListener("change",renderAll);
+  bind("btn-login","click",attemptLogin);
+  bind("pw-input","keydown",function(e){if(e.key==="Enter")attemptLogin();});
+  bind("btn-run","click",triggerRun);
+  bind("btn-refresh","click",loadData);
+  bind("btn-logout","click",logout);
+  bind("btn-save-token","click",saveToken);
+  bind("btn-cancel-token","click",closeTokenModal);
+  bind("btn-token-settings","click",openTokenModal);
+  bind("token-input","keydown",function(e){if(e.key==="Enter")saveToken();});
+  bind("days-select","change",renderAll);
   if(await checkAuth())showDashboard();
 });
