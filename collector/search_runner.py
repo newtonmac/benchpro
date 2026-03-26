@@ -1,10 +1,11 @@
 """
-Search Runner — one keyword at a time for reliability.
-Captures: Sponsored text ads, Organic results, Shopping/product ads.
+Search Runner — one fresh browser per keyword.
+Captures: Sponsored text ads, Organic, Shopping/product ads.
+Records search location. Filters junk. UTC timestamps.
 """
 import sys, os, time, random, logging
 from urllib.parse import urlparse, urlencode
-from datetime import datetime
+from datetime import datetime, timezone
 from playwright.sync_api import sync_playwright
 import config
 from collector.storage import save_search_run
@@ -16,6 +17,19 @@ USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
 ]
+
+US_LOCATIONS = [
+    "Houston, Texas", "Chicago, Illinois", "Los Angeles, California",
+    "New York, New York", "Dallas, Texas", "Atlanta, Georgia",
+    "Detroit, Michigan", "Phoenix, Arizona", "Philadelphia, Pennsylvania",
+    "San Diego, California", "Seattle, Washington", "Denver, Colorado",
+]
+
+# Domains to ignore (not workbench product sellers)
+JUNK_DOMAINS = {"workbench.developerforce.com", "mysql.com", "postgresql.org", "ubuntu.com"}
+
+# Junk shopping store names (Google UI artifacts)
+JUNK_STORES = {"cancel", "(4)", "(2k+)", "more", "see more", "show more", "sponsored", "ad", ""}
 
 def _domain_from_display(text):
     if not text: return ""
@@ -35,28 +49,17 @@ def _extract_domain(url):
         d = parsed.netloc.lower()
         if d.startswith("www."): d = d[4:]
         if "google." in d or "gstatic" in d or "youtube.com" in d: return ""
+        if d in JUNK_DOMAINS: return ""
         return d
     except: return ""
 
-# Rotate through major US industrial markets each run
-US_LOCATIONS = [
-    "Houston, Texas",
-    "Chicago, Illinois",
-    "Los Angeles, California",
-    "New York, New York",
-    "Dallas, Texas",
-    "Atlanta, Georgia",
-    "Detroit, Michigan",
-    "Phoenix, Arizona",
-    "Philadelphia, Pennsylvania",
-    "San Diego, California",
-    "Seattle, Washington",
-    "Denver, Colorado",
-]
+def _is_junk_domain(domain):
+    return domain in JUNK_DOMAINS
 
-def _build_url(keyword):
-    location = random.choice(US_LOCATIONS)
-    log.info("    Location: %s", location)
+def _is_junk_store(store):
+    return store.lower().strip() in JUNK_STORES or len(store) < 3 or store.startswith("(")
+
+def _build_url(keyword, location):
     params = {
         "q": keyword,
         "hl": config.SEARCH_LANGUAGE,
@@ -135,57 +138,33 @@ def _parse_all_results(page):
             }
         }
 
-        // === GOOGLE SHOPPING / SPONSORED PRODUCTS ===
-        // These are the image product cards with prices
-        // Strategy: find ALL elements with dollar prices near product-like content
+        // === GOOGLE SHOPPING ===
         const priceRx = /\$[\d,]+\.?\d*/;
         const seen_shop = new Set();
-        
-        // Method 1: Find "Sponsored products" or "Sponsored" labels near product grids
-        const allEls = document.querySelectorAll('*');
-        let shopContainers = [];
-        
-        // Look for the product carousel/grid containers
-        // Google uses various structures: .sh-dgr, commercial-unit, pla-unit
         const shopGrids = document.querySelectorAll(
             '.commercial-unit-desktop-top, .cu-container, .sh-dgr__grid-result, .pla-unit-container, .sh-pr__product-results, [data-pla="1"]'
         );
-        
-        if (shopGrids.length > 0) {
-            for (const grid of shopGrids) {
-                // Each product card inside the grid
-                const cards = grid.querySelectorAll('a[href]');
-                for (const card of cards) {
-                    const text = card.innerText || card.textContent || '';
-                    const pm = text.match(priceRx);
-                    if (!pm) continue;
-                    
-                    const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0 && l.length < 200);
-                    let title = '', store = '', price = pm[0];
-                    
-                    for (const line of lines) {
-                        if (priceRx.test(line)) continue;
-                        if (line.length < 3) continue;
-                        if (!title && line.length >= 5) title = line;
-                        else if (title && !store && line.length >= 2 && line.length < 50 && line !== title) store = line;
-                    }
-                    
-                    if (!title || title.length < 3) continue;
-                    const key = title.substring(0,40) + price;
-                    if (seen_shop.has(key)) continue;
-                    seen_shop.add(key);
-                    
-                    output.shopping.push({
-                        title: title.substring(0, 150),
-                        price: price,
-                        store: store || 'unknown',
-                        domain: store ? store.toLowerCase().replace(/[^a-z0-9.]/g, '') : ''
-                    });
+        for (const grid of shopGrids) {
+            const cards = grid.querySelectorAll('a[href]');
+            for (const card of cards) {
+                const text = card.innerText || card.textContent || '';
+                const pm = text.match(priceRx);
+                if (!pm) continue;
+                const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0 && l.length < 200);
+                let title = '', store = '', price = pm[0];
+                for (const line of lines) {
+                    if (priceRx.test(line)) continue;
+                    if (line.length < 3) continue;
+                    if (!title && line.length >= 5) title = line;
+                    else if (title && !store && line.length >= 2 && line.length < 50 && line !== title) store = line;
                 }
+                if (!title || title.length < 3) continue;
+                const key = title.substring(0,40) + price;
+                if (seen_shop.has(key)) continue;
+                seen_shop.add(key);
+                output.shopping.push({title: title.substring(0,150), price, store: store||'unknown', domain: ''});
             }
         }
-        
-        // Method 2: Broader search - find any link with a price nearby
         if (output.shopping.length === 0) {
             const links = document.querySelectorAll('a[href*="shopping"], a[href*="aclk"], a[href*="merchant"]');
             for (const link of links) {
@@ -196,7 +175,6 @@ def _parse_all_results(page):
                     const text = card.innerText || '';
                     const pm = text.match(priceRx);
                     if (!pm) continue;
-                    
                     const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
                     let title = '', store = '', price = pm[0];
                     for (const line of lines) {
@@ -209,39 +187,7 @@ def _parse_all_results(page):
                     const key = title.substring(0,40) + price;
                     if (seen_shop.has(key)) continue;
                     seen_shop.add(key);
-                    output.shopping.push({
-                        title: title.substring(0,150), price, store: store||'unknown',
-                        domain: store ? store.toLowerCase().replace(/[^a-z0-9.]/g,'') : ''
-                    });
-                    break;
-                }
-            }
-        }
-        
-        // Method 3: Just look for any element with a $ price and a nearby image
-        if (output.shopping.length === 0) {
-            const imgs = document.querySelectorAll('img[src*="encrypted"], img[data-src]');
-            for (const img of imgs) {
-                let card = img;
-                for (let i = 0; i < 5; i++) {
-                    card = card.parentElement;
-                    if (!card) break;
-                    const text = card.innerText || '';
-                    if (text.length > 500) continue;
-                    const pm = text.match(priceRx);
-                    if (!pm) continue;
-                    const lines = text.split('\n').map(l=>l.trim()).filter(l=>l.length>2 && l.length<150);
-                    let title='', store='', price=pm[0];
-                    for (const line of lines) {
-                        if (priceRx.test(line)) continue;
-                        if (!title && line.length>=5) title=line;
-                        else if (title && !store && line.length>=2 && line.length<50) store=line;
-                    }
-                    if (!title) continue;
-                    const key = title.substring(0,40)+price;
-                    if (seen_shop.has(key)) continue;
-                    seen_shop.add(key);
-                    output.shopping.push({title:title.substring(0,150),price,store:store||'unknown',domain:''});
+                    output.shopping.push({title: title.substring(0,150), price, store: store||'unknown', domain: ''});
                     break;
                 }
             }
@@ -291,8 +237,8 @@ def _parse_all_results(page):
     }""")
 
 def search_one_keyword(keyword):
-    """Launch a fresh browser for each keyword — max isolation."""
-    log.info("Searching: '%s' ...", keyword)
+    location = random.choice(US_LOCATIONS)
+    log.info("Searching: '%s' (from %s) ...", keyword, location)
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=[
             "--disable-blink-features=AutomationControlled",
@@ -300,8 +246,7 @@ def search_one_keyword(keyword):
         ])
         context = browser.new_context(
             user_agent=random.choice(USER_AGENTS),
-            viewport={"width":1366,"height":900},
-            locale="en-US",
+            viewport={"width":1366,"height":900}, locale="en-US",
         )
         context.add_init_script("""
             Object.defineProperty(navigator,'webdriver',{get:()=>undefined});
@@ -310,13 +255,12 @@ def search_one_keyword(keyword):
         """)
         page = context.new_page()
         try:
-            url = _build_url(keyword)
+            url = _build_url(keyword, location)
             page.goto(url, timeout=30000, wait_until="domcontentloaded")
             try:
                 page.wait_for_selector("#search, #rso, #main, #center_col, #rcnt, body", timeout=10000)
             except: pass
             page.wait_for_timeout(4000)
-            # Scroll to load shopping + organic below the fold
             page.evaluate("window.scrollTo(0, 800)")
             page.wait_for_timeout(1500)
             page.evaluate("window.scrollTo(0, 1600)")
@@ -325,7 +269,6 @@ def search_one_keyword(keyword):
             page.wait_for_timeout(1000)
             page.evaluate("window.scrollTo(0, 0)")
             page.wait_for_timeout(500)
-            # Dismiss banners
             for sel in ['button:has-text("Accept all")', 'button:has-text("Reject all")', 'button:has-text("I agree")']:
                 btn = page.query_selector(sel)
                 if btn:
@@ -335,56 +278,62 @@ def search_one_keyword(keyword):
             if page.query_selector("#captcha-form, #recaptcha"):
                 log.error("  CAPTCHA on '%s'", keyword)
                 browser.close()
-                return [], [], []
+                return [], [], [], location
             raw = _parse_all_results(page)
-            # Process sponsored
+
+            # Process + filter sponsored
             sponsored = []
             seen_sp = set()
             for ad in raw.get("sponsored",[]):
                 domain = _domain_from_display(ad["displayUrl"])
-                if not domain or domain in seen_sp: continue
+                if not domain or domain in seen_sp or _is_junk_domain(domain): continue
                 seen_sp.add(domain)
                 sponsored.append({"position":len(sponsored)+1,"title":ad["title"],"domain":domain,"display_url":ad["displayUrl"],"snippet":ad["snippet"]})
                 if len(sponsored) >= config.TOP_N_SPONSORED: break
-            # Process organic
+
+            # Process + filter organic
             organic = []
             seen_org = set()
             for item in raw.get("organic",[]):
                 domain = _extract_domain(item["href"])
-                if not domain or domain in seen_org: continue
+                if not domain or domain in seen_org or _is_junk_domain(domain): continue
                 seen_org.add(domain)
                 organic.append({"position":len(organic)+1,"title":item["title"],"domain":domain,"link":item["href"],"snippet":item["snippet"]})
                 if len(organic) >= config.TOP_N_ORGANIC: break
-            # Process shopping
+
+            # Process + filter shopping
             shopping = []
             for i, item in enumerate(raw.get("shopping",[])):
-                shopping.append({"position":i+1,"title":item["title"],"price":item["price"],"store":item["store"],"domain":item.get("domain","")})
-                if i >= 9: break
+                store = item.get("store","unknown")
+                if _is_junk_store(store): continue
+                shopping.append({"position":len(shopping)+1,"title":item["title"],"price":item["price"],"store":store,"domain":item.get("domain","")})
+                if len(shopping) >= 10: break
+
             log.info("  Found: %d sponsored, %d organic, %d shopping", len(sponsored), len(organic), len(shopping))
-            for s in sponsored: log.info("    Ad #%d: %s", s["position"], s["domain"])
+            for s in sponsored: log.info("    Ad #%d: %s — %s", s["position"], s["domain"], s["title"][:50])
             for o in organic: log.info("    Org #%d: %s", o["position"], o["domain"])
-            for s in shopping: log.info("    Shop #%d: %s %s (%s)", s["position"], s["title"][:40], s["price"], s["store"])
+            for s in shopping: log.info("    Shop #%d: %s %s (%s)", s["position"], s["title"][:35], s["price"], s["store"])
             browser.close()
-            return sponsored, organic, shopping
+            return sponsored, organic, shopping, location
         except Exception as e:
             log.error("  Error: %s", e)
             try: browser.close()
             except: pass
-            return [], [], []
+            return [], [], [], location
 
 def run_all_keywords(keywords=None):
     keywords = keywords or config.KEYWORDS
-    log.info("=== BenchPro run at %s ===", datetime.now().strftime("%Y-%m-%d %H:%M"))
+    log.info("=== BenchPro run at %s UTC ===", datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M"))
     for i, kw in enumerate(keywords):
         try:
-            sp, org, shop = search_one_keyword(kw)
-            rid = save_search_run(kw, sp, org, shop)
+            sp, org, shop, loc = search_one_keyword(kw)
+            rid = save_search_run(kw, sp, org, shop, loc)
             log.info("  Saved: %s", rid)
         except Exception as e:
             log.error("  Failed '%s': %s", kw, e)
         if i < len(keywords)-1:
             delay = config.DELAY_BETWEEN_SEARCHES + random.uniform(5, 10)
-            log.info("  Waiting %ds between keywords...", delay)
+            log.info("  Waiting %ds ...", delay)
             time.sleep(delay)
     log.info("=== Done ===")
 

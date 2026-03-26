@@ -1,8 +1,8 @@
 """
-Data storage — JSON file committed to repo, read by GitHub Pages.
+Data storage — JSON file for GitHub Pages dashboard.
 """
 import os, json
-from datetime import datetime
+from datetime import datetime, timezone
 import config
 
 def _load_data():
@@ -10,7 +10,8 @@ def _load_data():
         try:
             with open(config.DATA_FILE, "r") as f:
                 return json.load(f)
-        except: pass
+        except:
+            pass
     return {"runs": []}
 
 def _save_data(data):
@@ -18,21 +19,22 @@ def _save_data(data):
     with open(config.DATA_FILE, "w") as f:
         json.dump(data, f, indent=2)
 
-def save_search_run(keyword, sponsored, organic, shopping=None):
+def save_search_run(keyword, sponsored, organic, shopping=None, location=None):
     data = _load_data()
-    now = datetime.now()
+    now = datetime.now(timezone.utc)
     run_id = now.strftime("%Y%m%d_%H%M%S") + "_" + keyword.replace(" ", "_")
     run = {
         "id": run_id,
         "timestamp": now.isoformat(timespec="seconds"),
         "keyword": keyword,
+        "location": location or "US",
         "sponsored": sponsored,
         "organic": organic,
         "shopping": shopping or [],
     }
     data["runs"].append(run)
-    cutoff_count = 90 * 12
-    if len(data["runs"]) > cutoff_count:
-        data["runs"] = data["runs"][-cutoff_count:]
+    # Keep last 90 days (~6 runs/day × 4 kw × 90 days = 2160)
+    if len(data["runs"]) > 2200:
+        data["runs"] = data["runs"][-2200:]
     _save_data(data)
     return run_id
