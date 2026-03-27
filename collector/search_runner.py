@@ -76,66 +76,52 @@ def _parse_all_results(page):
         const seen_org = new Set();
 
         // === SPONSORED TEXT ADS ===
-        const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null);
-        const spNodes = [];
-        while (walker.nextNode()) {
-            const t = walker.currentNode.textContent.trim();
-            if (t === 'Sponsored' || t === 'Ad' || t === 'Ads')
-                spNodes.push(walker.currentNode.parentElement);
-        }
-        for (const labelEl of spNodes) {
-            let container = labelEl;
+        // Simple approach: find ALL cite elements on the page, then check if they're inside a sponsored section
+        const allCites = document.querySelectorAll('cite');
+        for (const cite of allCites) {
+            // Walk up to check if this cite is inside a sponsored/ad section
+            let node = cite;
+            let isAd = false;
+            let isShopping = false;
             for (let i = 0; i < 15; i++) {
-                container = container.parentElement;
-                if (!container) break;
-                if (container.querySelector('[data-pla], .pla-unit, .commercial-unit-desktop-top, .cu-container')) continue;
-                if (container.closest('[data-pla], .pla-unit, .commercial-unit-desktop-top, .cu-container')) continue;
-                const headings = container.querySelectorAll('h3, div[role="heading"]');
-                if (headings.length > 0) {
-                    for (const heading of headings) {
-                        let ab = heading;
-                        for (let j = 0; j < 8; j++) {
-                            ab = ab.parentElement;
-                            if (!ab) break;
-                            const cite = ab.querySelector('cite, span[data-dtld], .qzEoUe, .x2VHCd');
-                            if (!cite) continue;
-                            const du = cite.textContent.trim();
-                            if (!du || seen_sp.has(du)) break;
-                            seen_sp.add(du);
-                            let sn = '';
-                            ab.querySelectorAll('.MUxGbd, .yDYNvb, .lyLwlc, [role="text"]').forEach(d => {
-                                const t = d.textContent.trim();
-                                if (t.length > sn.length && t !== heading.textContent.trim()) sn = t;
-                            });
-                            output.sponsored.push({title: heading.textContent.trim(), displayUrl: du, snippet: sn.substring(0,250)});
-                            break;
-                        }
-                    }
-                    // continue looking for more ads
+                node = node.parentElement;
+                if (!node) break;
+                // Check if in shopping
+                if (node.querySelector('[data-pla]') || node.closest('[data-pla], .commercial-unit-desktop-top, .cu-container, .pla-unit')) {
+                    isShopping = true; break;
+                }
+                // Check if in sponsored text ads
+                const text = node.innerText || '';
+                if (text.includes('Sponsored') || node.id === 'tads' || node.id === 'tadsb') {
+                    isAd = true; break;
                 }
             }
-        }
-        if (output.sponsored.length === 0) {
-            for (const id of ['tads','tadsb']) {
-                const c = document.getElementById(id);
-                if (!c) continue;
-                c.querySelectorAll('h3, div[role="heading"]').forEach(heading => {
-                    let bl = heading;
-                    for (let j = 0; j < 8; j++) {
-                        bl = bl.parentElement;
-                        if (!bl) break;
-                        const ci = bl.querySelector('cite, span[data-dtld], .x2VHCd');
-                        if (!ci) continue;
-                        const du = ci.textContent.trim();
-                        if (seen_sp.has(du)) break;
-                        seen_sp.add(du);
-                        let sn = '';
-                        bl.querySelectorAll('.MUxGbd, .yDYNvb').forEach(d => {const t=d.textContent.trim();if(t.length>sn.length)sn=t;});
-                        output.sponsored.push({title: heading.textContent.trim(), displayUrl: du, snippet: sn.substring(0,250)});
-                        break;
-                    }
-                });
+            if (!isAd || isShopping) continue;
+            
+            const du = cite.textContent.trim();
+            if (!du || seen_sp.has(du)) continue;
+            
+            // Find the heading (h3) that belongs to this ad
+            let adBlock = cite;
+            let title = '';
+            let snippet = '';
+            for (let i = 0; i < 8; i++) {
+                adBlock = adBlock.parentElement;
+                if (!adBlock) break;
+                const h3 = adBlock.querySelector('h3, div[role="heading"]');
+                if (h3) {
+                    title = h3.textContent.trim();
+                    const descEls = adBlock.querySelectorAll('.MUxGbd, .yDYNvb, .lyLwlc');
+                    descEls.forEach(d => {
+                        const t = d.textContent.trim();
+                        if (t.length > snippet.length && t !== title) snippet = t;
+                    });
+                    break;
+                }
             }
+            if (!title) continue;
+            seen_sp.add(du);
+            output.sponsored.push({title: title, displayUrl: du, snippet: snippet.substring(0,250)});
         }
 
         // === GOOGLE SHOPPING ===
