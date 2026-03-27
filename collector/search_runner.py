@@ -111,7 +111,7 @@ def _parse_all_results(page):
                             break;
                         }
                     }
-                    if (output.sponsored.length > 0) break;
+                    // continue looking for more ads
                 }
             }
         }
