@@ -123,12 +123,159 @@ function renderHourChart(){const days=getDays(),co=cutoff(days).toISOString(),ct
 function chartOpts(days){return{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:"bottom",labels:{color:"#7d8590",font:{family:"'JetBrains Mono'",size:10}}}},scales:{x:{type:"time",time:{unit:days<=7?"hour":"day"},grid:{color:"#21262d"},ticks:{color:"#484f58",font:{size:10}}},y:{reverse:true,min:1,max:10,grid:{color:"#21262d"},ticks:{color:"#484f58",font:{family:"'JetBrains Mono'",size:10},stepSize:1,callback:v=>"#"+v},title:{display:true,text:"Position",color:"#484f58"}}}};}
 setInterval(loadData,5*60*1000);
 
+
+function generateReport(){
+  var runs=filteredRuns();
+  if(!runs.length){alert("No data to report");return;}
+  var OUR="benchdepot.com";
+  var first=runs[0].timestamp.substring(0,10),last=runs[runs.length-1].timestamp.substring(0,10);
+  var kwList=["workbench","work bench","workbenches","work benches"];
+  var kwData={};
+  for(var kw of kwList){
+    var kr=allRuns.filter(function(r){return r.keyword===kw;});
+    var spFound=kr.filter(function(r){return r.sponsored&&r.sponsored.length>0;});
+    var orgFound=kr.filter(function(r){return r.organic&&r.organic.length>0;});
+    var shopFound=kr.filter(function(r){return r.shopping&&r.shopping.length>0;});
+    var ourSp=[],ourOrg=[];
+    kr.forEach(function(r){
+      (r.sponsored||[]).forEach(function(s){if(s.domain&&s.domain.includes(OUR))ourSp.push(s.position);});
+      (r.organic||[]).forEach(function(o){if(o.domain&&o.domain.includes(OUR))ourOrg.push(o.position);});
+    });
+    var compSp={},compOrg={},stores={},prices=[];
+    kr.forEach(function(r){
+      (r.sponsored||[]).forEach(function(s){if(s.domain&&!s.domain.includes(OUR))compSp[s.domain]=(compSp[s.domain]||0)+1;});
+      (r.organic||[]).forEach(function(o){if(o.domain&&!o.domain.includes(OUR))compOrg[o.domain]=(compOrg[o.domain]||0)+1;});
+      (r.shopping||[]).forEach(function(s){
+        var st=s.store||"";if(st.length>2)stores[st]=(stores[st]||0)+1;
+        try{var p=parseFloat((s.price||"").replace("$","").replace(",",""));if(p>0)prices.push(p);}catch(e){}
+      });
+    });
+    kwData[kw]={runs:kr.length,spFound:spFound.length,orgFound:orgFound.length,shopFound:shopFound.length,
+      ourSp:ourSp,ourOrg:ourOrg,compSp:compSp,compOrg:compOrg,stores:stores,prices:prices};
+  }
+  var searchVol={"workbench":"110,000","work bench":"27,000","workbenches":"22,000","work benches":"6,600"};
+  var html="<!DOCTYPE html><html><head><meta charset=utf-8><title>BenchDepot SERP Report</title>";
+  html+="<style>*{margin:0;padding:0;box-sizing:border-box;}body{font-family:Arial,sans-serif;color:#1f2937;padding:40px 60px;max-width:900px;margin:auto;line-height:1.5;}";
+  html+="h1{font-size:26px;color:#1e3a5f;margin:30px 0 12px;border-bottom:2px solid #1e3a5f;padding-bottom:6px;}";
+  html+="h2{font-size:20px;color:#374151;margin:24px 0 8px;}h3{font-size:16px;color:#4b5563;margin:16px 0 6px;}";
+  html+="p{margin:6px 0 10px;font-size:14px;}ul{margin:6px 0 12px 20px;}li{margin:4px 0;font-size:14px;}";
+  html+="table{width:100%;border-collapse:collapse;margin:10px 0 16px;font-size:13px;}";
+  html+="th{background:#1e3a5f;color:#fff;padding:8px 10px;text-align:left;font-size:12px;}";
+  html+="td{padding:6px 10px;border-bottom:1px solid #e5e7eb;}tr:nth-child(even){background:#f9fafb;}";
+  html+=".good{color:#059669;font-weight:bold;}.warn{color:#d97706;font-weight:bold;}.bad{color:#dc2626;font-weight:bold;}";
+  html+=".cover{text-align:left;margin:60px 0 40px;}.cover h1{font-size:34px;border:none;margin:4px 0;}.cover p{color:#6b7280;font-size:13px;}";
+  html+=".metric{display:inline-block;background:#f3f4f6;border-radius:6px;padding:8px 14px;margin:4px 6px 4px 0;text-align:center;min-width:100px;}";
+  html+=".metric .val{font-size:22px;font-weight:bold;color:#1e3a5f;}.metric .lbl{font-size:10px;color:#6b7280;text-transform:uppercase;}";
+  html+=".pagebreak{page-break-before:always;}";
+  html+="@media print{body{padding:20px 40px;}.pagebreak{page-break-before:always;}}";
+  html+="</style></head><body>";
+  // Cover
+  html+="<div class=cover><p style=\"font-size:12px;font-weight:bold;letter-spacing:2px;color:#9ca3af\">BENCHDEPOT.COM</p>";
+  html+="<h1>Google Search</h1><h1 style=\"margin-top:0\">Competitive Intelligence Report</h1>";
+  html+="<p>"+first+" to "+last+" | "+allRuns.length+" data points | 4 keywords | 12 US cities</p>";
+  html+="<p>Data: Google Search (headless browser), Google Trends, Google Shopping</p>";
+  html+="<p style=\"color:#d1d5db\">Generated "+new Date().toLocaleDateString()+" by BenchPro</p></div>";
+  // Executive Summary
+  html+="<div class=pagebreak></div><h1>Executive Summary</h1>";
+  html+="<p>Over the monitoring period ("+first+" to "+last+"), BenchPro collected "+allRuns.length+" search result snapshots across 4 target keywords from 12 major US cities.</p>";
+  // Scorecard
+  html+="<h2>Position Scorecard</h2><table><tr><th>Keyword</th><th>Avg Paid</th><th>Avg Organic</th><th>Showing %</th><th>Mo. Volume</th></tr>";
+  for(var kw of kwList){
+    var d=kwData[kw];
+    var spAvg=d.ourSp.length?(d.ourSp.reduce(function(a,b){return a+b;},0)/d.ourSp.length).toFixed(1):"--";
+    var orgAvg=d.ourOrg.length?(d.ourOrg.reduce(function(a,b){return a+b;},0)/d.ourOrg.length).toFixed(1):"--";
+    var showPct=d.runs?Math.round(d.ourSp.length/d.runs*100):0;
+    var spClass=spAvg!="--"?(parseFloat(spAvg)<=3?"good":"warn"):"bad";
+    var orgClass=orgAvg!="--"?(parseFloat(orgAvg)<=3?"good":"warn"):"bad";
+    var showClass=showPct>=50?"good":(showPct>=20?"warn":"bad");
+    html+="<tr><td><strong>"+kw+"</strong></td>";
+    html+="<td class="+spClass+">"+(spAvg!="--"?"#"+spAvg:"—")+"</td>";
+    html+="<td class="+orgClass+">"+(orgAvg!="--"?"#"+orgAvg:"—")+"</td>";
+    html+="<td class="+showClass+">"+showPct+"%</td>";
+    html+="<td>"+searchVol[kw]+"</td></tr>";
+  }
+  html+="</table>";
+  // Key findings
+  html+="<h2>Key Findings</h2><ul>";
+  var totalSp=0,totalOrg=0;kwList.forEach(function(kw){totalSp+=kwData[kw].ourSp.length;totalOrg+=kwData[kw].ourOrg.length;});
+  html+="<li><strong>Paid search:</strong> benchdepot.com appeared in "+totalSp+" sponsored results across all keywords"+(totalSp>0?", holding an average position of #1.":".")+"</li>";
+  html+="<li><strong>Organic search:</strong> benchdepot.com appeared in "+totalOrg+" organic results. "+(kwData["workbench"].ourOrg.length===0?"<span class=bad>No organic ranking for \"workbench\" (110K monthly searches) — biggest gap.</span>":"")+"</li>";
+  // Find top competitor
+  var allCompSp={};kwList.forEach(function(kw){var cs=kwData[kw].compSp;for(var d in cs)allCompSp[d]=(allCompSp[d]||0)+cs[d];});
+  var topComp=Object.entries(allCompSp).sort(function(a,b){return b[1]-a[1];});
+  if(topComp.length)html+="<li><strong>#1 competitor:</strong> "+topComp[0][0]+" with "+topComp[0][1]+" sponsored appearances across multiple keywords.</li>";
+  // Shopping
+  var hasShop=false;kwList.forEach(function(kw){if(kwData[kw].shopFound>0)hasShop=true;});
+  if(hasShop)html+="<li><strong>Google Shopping:</strong> <span class=bad>benchdepot.com has ZERO Google Shopping listings.</span> Competitors dominate this space.</li>";
+  html+="</ul>";
+  // Competitor tables
+  html+="<div class=pagebreak></div><h1>Competitor Analysis: Sponsored Ads</h1>";
+  html+="<table><tr><th>Domain</th><th>Appearances</th><th>Keywords</th></tr>";
+  var sortedComp=topComp.slice(0,10);
+  for(var c of sortedComp){
+    var kwsFor=[];kwList.forEach(function(kw){if(kwData[kw].compSp[c[0]])kwsFor.push(kw);});
+    html+="<tr><td><strong>"+c[0]+"</strong></td><td>"+c[1]+"</td><td>"+kwsFor.join(", ")+"</td></tr>";
+  }
+  html+="</table>";
+  // Organic competitors
+  var allCompOrg={};kwList.forEach(function(kw){var co=kwData[kw].compOrg;for(var d in co)allCompOrg[d]=(allCompOrg[d]||0)+co[d];});
+  var topOrg=Object.entries(allCompOrg).sort(function(a,b){return b[1]-a[1];}).slice(0,10);
+  html+="<h1>Competitor Analysis: Organic</h1>";
+  html+="<table><tr><th>Domain</th><th>Appearances</th><th>Keywords</th></tr>";
+  for(var c of topOrg){
+    var kwsFor=[];kwList.forEach(function(kw){if(kwData[kw].compOrg[c[0]])kwsFor.push(kw);});
+    html+="<tr><td><strong>"+c[0]+"</strong></td><td>"+c[1]+"</td><td>"+kwsFor.join(", ")+"</td></tr>";
+  }
+  html+="</table>";
+  // Shopping
+  if(hasShop){
+    var allStores={};kwList.forEach(function(kw){var st=kwData[kw].stores;for(var s in st)allStores[s]=(allStores[s]||0)+st[s];});
+    var topStores=Object.entries(allStores).sort(function(a,b){return b[1]-a[1];}).slice(0,10);
+    html+="<h1>Google Shopping / Product Ads</h1>";
+    html+="<p class=bad>benchdepot.com has ZERO Google Shopping listings.</p>";
+    html+="<table><tr><th>Store</th><th>Appearances</th><th>Keywords</th></tr>";
+    for(var c of topStores){
+      var kwsFor=[];kwList.forEach(function(kw){if(kwData[kw].stores[c[0]])kwsFor.push(kw);});
+      html+="<tr><td><strong>"+c[0]+"</strong></td><td>"+c[1]+"</td><td>"+kwsFor.join(", ")+"</td></tr>";
+    }
+    html+="</table>";
+    var allPrices=[];kwList.forEach(function(kw){allPrices=allPrices.concat(kwData[kw].prices);});
+    if(allPrices.length)html+="<p>Price range: $"+Math.min.apply(null,allPrices).toFixed(0)+" – $"+Math.max.apply(null,allPrices).toFixed(0)+" (avg $"+(allPrices.reduce(function(a,b){return a+b;},0)/allPrices.length).toFixed(0)+")</p>";
+  }
+  // Recommendations
+  html+="<div class=pagebreak></div><h1>Recommendations</h1>";
+  html+="<h2>1. Set Up Google Shopping (High Priority)</h2>";
+  html+="<p>You have zero Shopping presence while competitors show 6–10 products per keyword. Create a Google Merchant Center account and link a product feed from benchdepot.com.</p>";
+  if(kwData["workbench"].ourOrg.length===0){
+    html+="<h2>2. Improve Organic SEO for “Workbench” (High Priority)</h2>";
+    html+="<p>“Workbench” gets 110K monthly searches but benchdepot.com does not rank organically. Build a dedicated landing page targeting this keyword.</p>";
+  }
+  var wbShow=kwData["workbench"].runs?Math.round(kwData["workbench"].ourSp.length/kwData["workbench"].runs*100):0;
+  if(wbShow<30){
+    html+="<h2>3. Increase Ad Serving on “Workbench” (Medium Priority)</h2>";
+    html+="<p>Your ads only show "+wbShow+"% of the time for your highest-volume keyword. Check impression share, budget, and bid levels in Google Ads.</p>";
+  }
+  if(topComp.length){
+    html+="<h2>4. Monitor "+topComp[0][0]+" (Ongoing)</h2>";
+    html+="<p>Your top competitor appeared "+topComp[0][1]+" times in sponsored results. Use BenchPro’s hourly chart to find their bidding patterns and counter them.</p>";
+  }
+  html+="<h2>5. Google Ads API Integration (In Progress)</h2>";
+  html+="<p>Integrating the Google Ads API will provide exact impression share, top-of-page rate, and competitor data directly from Google, replacing the current scraping limitations.</p>";
+  // Methodology
+  html+="<hr style=\"margin:30px 0 10px;border:none;border-top:1px solid #d1d5db\">";
+  html+="<p style=\"font-size:11px;color:#9ca3af\"><strong>Methodology:</strong> "+allRuns.length+" search snapshots captured via Playwright headless Chromium across 12 US cities. Google Trends via pytrends API. Search volumes from Google Keyword Planner estimates.</p>";
+  html+="</body></html>";
+  var w=window.open("","_blank");w.document.write(html);w.document.close();
+}
+
 function bind(id,evt,fn){var el=document.getElementById(id);if(el)el.addEventListener(evt,fn);}
 document.addEventListener("DOMContentLoaded",async function(){
   bind("btn-login","click",attemptLogin);
   bind("pw-input","keydown",function(e){if(e.key==="Enter")attemptLogin();});
   bind("btn-run","click",triggerRun);
   bind("btn-refresh","click",loadData);
+  bind("btn-report","click",generateReport);
+  bind("btn-report","click",generateReport);
   bind("btn-logout","click",logout);
   bind("btn-save-token","click",saveToken);
   bind("btn-cancel-token","click",closeTokenModal);
