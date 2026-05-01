@@ -25962,6 +25962,42 @@
       "sponsored": [],
       "organic": [],
       "shopping": []
+    },
+    {
+      "id": "20260501_165201_workbench",
+      "timestamp": "2026-05-01T16:52:01+00:00",
+      "keyword": "workbench",
+      "location": "Chicago, Illinois",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260501_165242_work_bench",
+      "timestamp": "2026-05-01T16:52:42+00:00",
+      "keyword": "work bench",
+      "location": "Detroit, Michigan",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260501_165319_workbenches",
+      "timestamp": "2026-05-01T16:53:19+00:00",
+      "keyword": "workbenches",
+      "location": "San Diego, California",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260501_165401_work_benches",
+      "timestamp": "2026-05-01T16:54:01+00:00",
+      "keyword": "work benches",
+      "location": "Denver, Colorado",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
     }
   ]
 }
