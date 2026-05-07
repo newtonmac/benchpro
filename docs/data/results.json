@@ -26826,6 +26826,42 @@
       "sponsored": [],
       "organic": [],
       "shopping": []
+    },
+    {
+      "id": "20260507_174443_workbench",
+      "timestamp": "2026-05-07T17:44:43+00:00",
+      "keyword": "workbench",
+      "location": "Atlanta, Georgia",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260507_174522_work_bench",
+      "timestamp": "2026-05-07T17:45:22+00:00",
+      "keyword": "work bench",
+      "location": "Atlanta, Georgia",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260507_174606_workbenches",
+      "timestamp": "2026-05-07T17:46:06+00:00",
+      "keyword": "workbenches",
+      "location": "Denver, Colorado",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260507_174648_work_benches",
+      "timestamp": "2026-05-07T17:46:48+00:00",
+      "keyword": "work benches",
+      "location": "Chicago, Illinois",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
     }
   ]
 }
