@@ -27114,6 +27114,78 @@
         }
       ],
       "shopping": []
+    },
+    {
+      "id": "20260508_225145_workbench",
+      "timestamp": "2026-05-08T22:51:45+00:00",
+      "keyword": "workbench",
+      "location": "Chicago, Illinois",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260508_225223_work_bench",
+      "timestamp": "2026-05-08T22:52:23+00:00",
+      "keyword": "work bench",
+      "location": "Phoenix, Arizona",
+      "sponsored": [],
+      "organic": [
+        {
+          "position": 1,
+          "title": "Workbench Buying Guide - Gladiator GarageWorks",
+          "domain": "gladiatorgarageworks.com",
+          "link": "https://www.gladiatorgarageworks.com/blogs/news/workbench-buying-guide#:~:text=There%20are%20also%20benches%20designed,in%20use%2C%20helping%20save%20space.",
+          "snippet": "Workbench Buying Guide - Gladiator GarageWorksgladiatorgarageworks.comhttps://www.gladiatorgarageworks.com \u203a blogs \u203a news"
+        },
+        {
+          "position": 2,
+          "title": "Garage Workbench Maintenance: A Guide to Protecting Your Bench",
+          "domain": "livowalny.com",
+          "link": "https://www.livowalny.com/blogs/blog/keep-your-garage-workbench-clean-safe-and-ready-for-every-project",
+          "snippet": "Garage Workbench Maintenance: A Guide to Protecting Your Benchlivowalny.comhttps://www.livowalny.com \u203a blogs \u203a blog \u203a keep-your-..."
+        },
+        {
+          "position": 3,
+          "title": "Mobile Work Benches & Tops",
+          "domain": "lowes.com",
+          "link": "https://www.lowes.com/pl/tool-storage-work-benches/work-benches-tops/mobile/4294857655-16724313",
+          "snippet": "Mobile Work Benches & TopsLowe'shttps://www.lowes.com \u203a ... \u203a Work Benches & Tops"
+        },
+        {
+          "position": 4,
+          "title": "Need help finding a work bench for my husband",
+          "domain": "reddit.com",
+          "link": "https://www.reddit.com/r/Workbenches/comments/1mqm684/need_help_finding_a_work_bench_for_my_husband/",
+          "snippet": "Need help finding a work bench for my husbandReddit\u00a0\u00b7\u00a0r/Workbenches30+ comments  \u00b7  8 months ago"
+        },
+        {
+          "position": 5,
+          "title": "Plastic Work Benches for sale",
+          "domain": "ebay.com",
+          "link": "https://www.ebay.com/b/Plastic-Work-Benches/33088/bn_7116615029",
+          "snippet": "Plastic Work Benches for saleeBayhttps://www.ebay.com \u203a ... \u203a Work Benches"
+        }
+      ],
+      "shopping": []
+    },
+    {
+      "id": "20260508_225308_workbenches",
+      "timestamp": "2026-05-08T22:53:08+00:00",
+      "keyword": "workbenches",
+      "location": "Detroit, Michigan",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260508_225346_work_benches",
+      "timestamp": "2026-05-08T22:53:46+00:00",
+      "keyword": "work benches",
+      "location": "Philadelphia, Pennsylvania",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
     }
   ]
 }
