@@ -31110,6 +31110,78 @@
         }
       ],
       "shopping": []
+    },
+    {
+      "id": "20260604_082011_workbench",
+      "timestamp": "2026-06-04T08:20:11+00:00",
+      "keyword": "workbench",
+      "location": "Atlanta, Georgia",
+      "sponsored": [],
+      "organic": [
+        {
+          "position": 1,
+          "title": "Shop Work Benches & Workbench Solutions - Gladiator Garage",
+          "domain": "gladiatorgarageworks.com",
+          "link": "https://www.gladiatorgarageworks.com/pages/work-benches?srsltid=AfmBOootI8M2JlOV6NziVJRbE54uI3v7bL7xZduGt01qP6BITiVbd3TX",
+          "snippet": "Shop Work Benches & Workbench Solutions - Gladiator Garagegladiatorgarageworks.com\u00b7https://www.gladiatorgarageworks.com \u203a pages \u203a work-be..."
+        },
+        {
+          "position": 2,
+          "title": "r/Workbenches",
+          "domain": "reddit.com",
+          "link": "https://www.reddit.com/r/Workbenches/",
+          "snippet": "r/WorkbenchesReddit\u00a0\u00b7\u00a0r/Workbenches\u00b7243.4K+ followers"
+        },
+        {
+          "position": 3,
+          "title": "Workbenches - Harbor Freight Tools",
+          "domain": "harborfreight.com",
+          "link": "https://www.harborfreight.com/tool-storage-organization/workbenches.html",
+          "snippet": "Workbenches - Harbor Freight ToolsHarbor Freight\u00b7https://www.harborfreight.com \u203a tool-storage-organization"
+        },
+        {
+          "position": 4,
+          "title": "Workbenches",
+          "domain": "homedepot.com",
+          "link": "https://www.homedepot.com/b/Garage-Garage-Storage-Workbenches/N-5yc1vZ2fkpdfg",
+          "snippet": "WorkbenchesThe Home Depot\u00b7https://www.homedepot.com \u203a Garage \u203a Garage Storage"
+        },
+        {
+          "position": 5,
+          "title": "Workbench Gallery",
+          "domain": "woodworkingmasterclasses.com",
+          "link": "https://woodworkingmasterclasses.com/galleries/workbench-gallery/",
+          "snippet": "Workbench GalleryWoodworking Masterclasses\u00b7https://woodworkingmasterclasses.com \u203a Galleries"
+        }
+      ],
+      "shopping": []
+    },
+    {
+      "id": "20260604_082056_work_bench",
+      "timestamp": "2026-06-04T08:20:56+00:00",
+      "keyword": "work bench",
+      "location": "Chicago, Illinois",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260604_082138_workbenches",
+      "timestamp": "2026-06-04T08:21:38+00:00",
+      "keyword": "workbenches",
+      "location": "Houston, Texas",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260604_082222_work_benches",
+      "timestamp": "2026-06-04T08:22:22+00:00",
+      "keyword": "work benches",
+      "location": "Detroit, Michigan",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
     }
   ]
 }
