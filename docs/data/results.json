@@ -31578,6 +31578,149 @@
       "sponsored": [],
       "organic": [],
       "shopping": []
+    },
+    {
+      "id": "20260606_092048_workbench",
+      "timestamp": "2026-06-06T09:20:48+00:00",
+      "keyword": "workbench",
+      "location": "Philadelphia, Pennsylvania",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260606_092129_work_bench",
+      "timestamp": "2026-06-06T09:21:29+00:00",
+      "keyword": "work bench",
+      "location": "Detroit, Michigan",
+      "sponsored": [],
+      "organic": [
+        {
+          "position": 1,
+          "title": "Shop Work Benches & Workbench Solutions - Gladiator Garage",
+          "domain": "gladiatorgarageworks.com",
+          "link": "https://www.gladiatorgarageworks.com/pages/work-benches?srsltid=AfmBOoqz1-Ji2pyADLDwFcr9aze2ImsREYvSNyWS0YUlbkJpmnkuxNDi",
+          "snippet": "Shop Work Benches & Workbench Solutions - Gladiator Garagegladiatorgarageworks.comhttps://www.gladiatorgarageworks.com \u203a pages \u203a work-b..."
+        },
+        {
+          "position": 2,
+          "title": "Work Benches & Tops for Efficient Workspaces",
+          "domain": "lowes.com",
+          "link": "https://www.lowes.com/pl/tool-storage-work-benches/work-benches-tops/4294857655",
+          "snippet": "Work Benches & Tops for Efficient WorkspacesLowe'shttps://www.lowes.com \u203a tool-storage-work-benches \u203a w..."
+        },
+        {
+          "position": 3,
+          "title": "Workbenches & Packing Tables, Metal Work Bench in Stock",
+          "domain": "uline.com",
+          "link": "https://www.uline.com/Cls_41/Workbenches-and-Packing-Tables",
+          "snippet": "Workbenches & Packing Tables, Metal Work Bench in StockULINEhttps://www.uline.com \u203a Cls_41 \u203a Workbenches-and-Pa..."
+        },
+        {
+          "position": 4,
+          "title": "Workbenches",
+          "domain": "homedepot.com",
+          "link": "https://www.homedepot.com/b/Garage-Garage-Storage-Workbenches/N-5yc1vZ2fkpdfg",
+          "snippet": "WorkbenchesThe Home Depothttps://www.homedepot.com \u203a Garage \u203a Garage Storage"
+        },
+        {
+          "position": 5,
+          "title": "Best Workbenches",
+          "domain": "amazon.com",
+          "link": "https://www.amazon.com/Best-Sellers-Workbenches/zgbs/hi/553602",
+          "snippet": "Best WorkbenchesAmazon.comhttps://www.amazon.com \u203a zgbs"
+        }
+      ],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "Redford Charter Twp",
+          "price": "$119.99",
+          "store": "Yukon 48 in. Workbench with Light",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "WORKPRO 48\"/60\" Adjustable Workbench 2000 LBS Load Capacity Hardwood Worktable with Power Outlets, 48 inch",
+          "price": "$187.99",
+          "store": "workprotools",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "Adjustable Workbench, 5000 lbs Capacity, 24 Inch Oak Wood Top Workstation with 4 AC Outlets & 2 USB Ports, Heavy-Duty Hardwood Worktable for Garage,",
+          "price": "$299.99",
+          "store": "Wayfair",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "Work table, Workbench for garage, Heavy-Duty Height-Adjustable Workbench with Power Outlets - 60\"x22 \" Workbench, Work bench for garage, 2000 Lbs",
+          "price": "$115.78",
+          "store": "Temu",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "Muwood Multifunctional Workbench 60x22 inch with Pegboard Worktable w/ Power Outlets, Led, Work Bench For Garage max. 1500w Heavy Duty Workbench",
+          "price": "$219.99",
+          "store": "Walmart",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Dearborn",
+          "price": "$159.99",
+          "store": "Yukon 60 in., 3-Drawer Hardwood Workbench",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "Industrial Packing Table - 60x36\", Composite Wood Top - ULINE",
+          "price": "$370.00",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "60 inch Heavy-Duty Adjustable Workbench, Rubber Wood Shop Table with Wheels, Pegboard, Power Outlets, Workstation, Size: 60x 22 with Wheels, Black",
+          "price": "$159.99",
+          "store": "Walmart",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "Dearborn",
+          "price": "$329.99",
+          "store": "Harbor Freight Tools",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "VEVOR Adjustable Workbench, 5000 lbs. Capacity, 72 x 24 In. Oak Top with 4 AC Outlets & 2 USB Ports, for Home Commercial",
+          "price": "$252.99",
+          "store": "Home Depot",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20260606_092206_workbenches",
+      "timestamp": "2026-06-06T09:22:06+00:00",
+      "keyword": "workbenches",
+      "location": "Phoenix, Arizona",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260606_092243_work_benches",
+      "timestamp": "2026-06-06T09:22:43+00:00",
+      "keyword": "work benches",
+      "location": "Detroit, Michigan",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
     }
   ]
 }
