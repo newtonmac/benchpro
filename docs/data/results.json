@@ -33426,6 +33426,78 @@
         }
       ],
       "shopping": []
+    },
+    {
+      "id": "20260609_175644_workbench",
+      "timestamp": "2026-06-09T17:56:44+00:00",
+      "keyword": "workbench",
+      "location": "Phoenix, Arizona",
+      "sponsored": [],
+      "organic": [
+        {
+          "position": 1,
+          "title": "Shop Work Benches & Workbench Solutions - Gladiator Garage",
+          "domain": "gladiatorgarageworks.com",
+          "link": "https://www.gladiatorgarageworks.com/pages/work-benches?srsltid=AfmBOopxI-NVGJ3tfF7OggWpewb6iKDiu4nGryc1dA9wF1w-hkFB9ic-",
+          "snippet": "Shop Work Benches & Workbench Solutions - Gladiator Garagegladiatorgarageworks.comhttps://www.gladiatorgarageworks.com \u203a pages \u203a work-b..."
+        },
+        {
+          "position": 2,
+          "title": "r/Workbenches",
+          "domain": "reddit.com",
+          "link": "https://www.reddit.com/r/Workbenches/",
+          "snippet": "r/WorkbenchesReddit\u00a0\u00b7\u00a0r/Workbenches244K+ followers"
+        },
+        {
+          "position": 3,
+          "title": "Workbench",
+          "domain": "amazon.com",
+          "link": "https://www.amazon.com/workbench/s?k=workbench",
+          "snippet": "WorkbenchAmazon.comhttps://www.amazon.com \u203a workbench \u203a k=workbench"
+        },
+        {
+          "position": 4,
+          "title": "Wood Workbench Maintenance Guide | Dash-Board Portable Workshop",
+          "domain": "dashboardpws.com",
+          "link": "https://www.dashboardpws.com/post/wood-workbench-maintenance-guide",
+          "snippet": "Wood Workbench Maintenance Guide | Dash-Board Portable Workshopdashboardpws.comhttps://www.dashboardpws.com \u203a post \u203a wood-workbenc..."
+        },
+        {
+          "position": 5,
+          "title": "Workbenches",
+          "domain": "homedepot.com",
+          "link": "https://www.homedepot.com/b/Garage-Garage-Storage-Workbenches/N-5yc1vZ2fkpdfg",
+          "snippet": "WorkbenchesThe Home Depothttps://www.homedepot.com \u203a Garage \u203a Garage Storage"
+        }
+      ],
+      "shopping": []
+    },
+    {
+      "id": "20260609_175721_work_bench",
+      "timestamp": "2026-06-09T17:57:21+00:00",
+      "keyword": "work bench",
+      "location": "Los Angeles, California",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260609_175807_workbenches",
+      "timestamp": "2026-06-09T17:58:07+00:00",
+      "keyword": "workbenches",
+      "location": "Seattle, Washington",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260609_175850_work_benches",
+      "timestamp": "2026-06-09T17:58:50+00:00",
+      "keyword": "work benches",
+      "location": "Dallas, Texas",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
     }
   ]
 }
