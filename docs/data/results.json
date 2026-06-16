@@ -35721,6 +35721,42 @@
       "sponsored": [],
       "organic": [],
       "shopping": []
+    },
+    {
+      "id": "20260616_120702_workbench",
+      "timestamp": "2026-06-16T12:07:02+00:00",
+      "keyword": "workbench",
+      "location": "Houston, Texas",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260616_120742_work_bench",
+      "timestamp": "2026-06-16T12:07:42+00:00",
+      "keyword": "work bench",
+      "location": "Houston, Texas",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260616_120821_workbenches",
+      "timestamp": "2026-06-16T12:08:21+00:00",
+      "keyword": "workbenches",
+      "location": "Denver, Colorado",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260616_120859_work_benches",
+      "timestamp": "2026-06-16T12:08:59+00:00",
+      "keyword": "work benches",
+      "location": "Denver, Colorado",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
     }
   ]
 }
