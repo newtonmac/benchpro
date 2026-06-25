@@ -44201,6 +44201,78 @@
         }
       ],
       "shopping": []
+    },
+    {
+      "id": "20260625_231203_workbench",
+      "timestamp": "2026-06-25T23:12:03+00:00",
+      "keyword": "workbench",
+      "location": "Dallas, Texas",
+      "sponsored": [],
+      "organic": [
+        {
+          "position": 1,
+          "title": "Work Benches & Tops for Efficient Workspaces",
+          "domain": "lowes.com",
+          "link": "https://www.lowes.com/pl/tool-storage-work-benches/work-benches-tops/4294857655",
+          "snippet": "Work Benches & Tops for Efficient WorkspacesLowe'shttps://www.lowes.com \u203a tool-storage-work-benches \u203a w..."
+        },
+        {
+          "position": 2,
+          "title": "Workbench",
+          "domain": "thegaragewithstevebutler.com",
+          "link": "https://thegaragewithstevebutler.com/product/workbench/",
+          "snippet": "WorkbenchThe Garage with Steve Butlerhttps://thegaragewithstevebutler.com \u203a Plans"
+        },
+        {
+          "position": 3,
+          "title": "Amazon Best Sellers: Best Workbenches",
+          "domain": "amazon.com",
+          "link": "https://www.amazon.com/Best-Sellers-Workbenches/zgbs/hi/553602",
+          "snippet": "Amazon Best Sellers: Best WorkbenchesAmazon.comhttps://www.amazon.com \u203a zgbs"
+        },
+        {
+          "position": 4,
+          "title": "r/Workbenches",
+          "domain": "reddit.com",
+          "link": "https://www.reddit.com/r/Workbenches/",
+          "snippet": "r/WorkbenchesReddit\u00a0\u00b7\u00a0r/Workbenches245.2K+ followers"
+        },
+        {
+          "position": 5,
+          "title": "WORKBENCH Definition & Meaning",
+          "domain": "merriam-webster.com",
+          "link": "https://www.merriam-webster.com/dictionary/workbench",
+          "snippet": "WORKBENCH Definition & MeaningMerriam-Websterhttps://www.merriam-webster.com \u203a dictionary \u203a workb..."
+        }
+      ],
+      "shopping": []
+    },
+    {
+      "id": "20260625_231244_work_bench",
+      "timestamp": "2026-06-25T23:12:44+00:00",
+      "keyword": "work bench",
+      "location": "Phoenix, Arizona",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260625_231327_workbenches",
+      "timestamp": "2026-06-25T23:13:27+00:00",
+      "keyword": "workbenches",
+      "location": "New York, New York",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260625_231408_work_benches",
+      "timestamp": "2026-06-25T23:14:08+00:00",
+      "keyword": "work benches",
+      "location": "Philadelphia, Pennsylvania",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
     }
   ]
 }
