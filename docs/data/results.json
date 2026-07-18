@@ -70294,6 +70294,42 @@
       "sponsored": [],
       "organic": [],
       "shopping": []
+    },
+    {
+      "id": "20260718_084515_workbench",
+      "timestamp": "2026-07-18T08:45:15+00:00",
+      "keyword": "workbench",
+      "location": "Seattle, Washington",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260718_084559_work_bench",
+      "timestamp": "2026-07-18T08:45:59+00:00",
+      "keyword": "work bench",
+      "location": "Dallas, Texas",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260718_084642_workbenches",
+      "timestamp": "2026-07-18T08:46:42+00:00",
+      "keyword": "workbenches",
+      "location": "Houston, Texas",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260718_084726_work_benches",
+      "timestamp": "2026-07-18T08:47:26+00:00",
+      "keyword": "work benches",
+      "location": "New York, New York",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
     }
   ]
 }
