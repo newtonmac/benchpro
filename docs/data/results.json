@@ -71050,6 +71050,42 @@
       "sponsored": [],
       "organic": [],
       "shopping": []
+    },
+    {
+      "id": "20260723_171349_workbench",
+      "timestamp": "2026-07-23T17:13:49+00:00",
+      "keyword": "workbench",
+      "location": "Philadelphia, Pennsylvania",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260723_171431_work_bench",
+      "timestamp": "2026-07-23T17:14:31+00:00",
+      "keyword": "work bench",
+      "location": "Philadelphia, Pennsylvania",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260723_171516_workbenches",
+      "timestamp": "2026-07-23T17:15:16+00:00",
+      "keyword": "workbenches",
+      "location": "Dallas, Texas",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260723_171555_work_benches",
+      "timestamp": "2026-07-23T17:15:55+00:00",
+      "keyword": "work benches",
+      "location": "Denver, Colorado",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
     }
   ]
 }
