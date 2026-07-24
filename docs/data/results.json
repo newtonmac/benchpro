@@ -71302,6 +71302,42 @@
       "sponsored": [],
       "organic": [],
       "shopping": []
+    },
+    {
+      "id": "20260724_225620_workbench",
+      "timestamp": "2026-07-24T22:56:20+00:00",
+      "keyword": "workbench",
+      "location": "Los Angeles, California",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260724_225659_work_bench",
+      "timestamp": "2026-07-24T22:56:59+00:00",
+      "keyword": "work bench",
+      "location": "San Diego, California",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260724_225745_workbenches",
+      "timestamp": "2026-07-24T22:57:45+00:00",
+      "keyword": "workbenches",
+      "location": "New York, New York",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260724_225831_work_benches",
+      "timestamp": "2026-07-24T22:58:31+00:00",
+      "keyword": "work benches",
+      "location": "Los Angeles, California",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
     }
   ]
 }
