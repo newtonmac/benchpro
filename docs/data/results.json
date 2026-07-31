@@ -1,85 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260326_174502_workbench",
-      "timestamp": "2026-03-26T17:45:02",
-      "keyword": "workbench",
-      "sponsored": [],
-      "organic": []
-    },
-    {
-      "id": "20260326_174518_work_bench",
-      "timestamp": "2026-03-26T17:45:18",
-      "keyword": "work bench",
-      "sponsored": [
-        {
-          "position": 1,
-          "title": "Industrial Grade WorkBenches | Prices & Specifications Online",
-          "domain": "benchdepot.com",
-          "display_url": "https://www.benchdepot.com",
-          "snippet": ""
-        },
-        {
-          "position": 2,
-          "title": "Workbenches & Packing Tables | In Stock \u2013 Ships Today",
-          "domain": "uline.com",
-          "display_url": "https://www.uline.com \u203a packing-table \u203a workbenches",
-          "snippet": ""
-        },
-        {
-          "position": 3,
-          "title": "Heavy-Duty Workbenches - 3' - 8' Workbench Options - Work Bench",
-          "domain": "gladiatorgarageworks.com",
-          "display_url": "https://www.gladiatorgarageworks.com",
-          "snippet": ""
-        }
-      ],
-      "organic": []
-    },
-    {
-      "id": "20260326_174546_workbenches",
-      "timestamp": "2026-03-26T17:45:46",
-      "keyword": "workbenches",
-      "sponsored": [],
-      "organic": []
-    },
-    {
-      "id": "20260326_174601_work_benches",
-      "timestamp": "2026-03-26T17:46:01",
-      "keyword": "work benches",
-      "sponsored": [
-        {
-          "position": 1,
-          "title": "Industrial Grade WorkBenches | Prices & Specifications Online",
-          "domain": "benchdepot.com",
-          "display_url": "https://www.benchdepot.com",
-          "snippet": ""
-        },
-        {
-          "position": 2,
-          "title": "Workbenches & Packing Tables | In Stock \u2013 Ships Today | Fast Delivery",
-          "domain": "uline.com",
-          "display_url": "https://www.uline.com \u203a packing-table \u203a workbenches",
-          "snippet": ""
-        },
-        {
-          "position": 3,
-          "title": "3' - 8' Workbench Options | Gladiator\u00ae Workbenches",
-          "domain": "gladiatorgarageworks.com",
-          "display_url": "https://www.gladiatorgarageworks.com",
-          "snippet": ""
-        },
-        {
-          "position": 4,
-          "title": "Heavy Duty Benches Made in USA | Made in USA. Industrial Grade",
-          "domain": "formaspace.com",
-          "display_url": "https://www.formaspace.com \u203a workbenches \u203a modular",
-          "snippet": ""
-        }
-      ],
-      "organic": []
-    },
-    {
       "id": "20260326_175843_workbench",
       "timestamp": "2026-03-26T17:58:43",
       "keyword": "workbench",
@@ -72151,6 +72072,42 @@
       "timestamp": "2026-07-31T09:40:58+00:00",
       "keyword": "work benches",
       "location": "San Diego, California",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260731_172344_workbench",
+      "timestamp": "2026-07-31T17:23:44+00:00",
+      "keyword": "workbench",
+      "location": "Atlanta, Georgia",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260731_172429_work_bench",
+      "timestamp": "2026-07-31T17:24:29+00:00",
+      "keyword": "work bench",
+      "location": "Seattle, Washington",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260731_172508_workbenches",
+      "timestamp": "2026-07-31T17:25:08+00:00",
+      "keyword": "workbenches",
+      "location": "Seattle, Washington",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260731_172548_work_benches",
+      "timestamp": "2026-07-31T17:25:48+00:00",
+      "keyword": "work benches",
+      "location": "Philadelphia, Pennsylvania",
       "sponsored": [],
       "organic": [],
       "shopping": []
