@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260411_074607_workbench",
-      "timestamp": "2026-04-11T07:46:07+00:00",
-      "keyword": "workbench",
-      "location": "Denver, Colorado",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260411_074650_work_bench",
-      "timestamp": "2026-04-11T07:46:50+00:00",
-      "keyword": "work bench",
-      "location": "Seattle, Washington",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260411_074735_workbenches",
-      "timestamp": "2026-04-11T07:47:35+00:00",
-      "keyword": "workbenches",
-      "location": "Seattle, Washington",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260411_074819_work_benches",
-      "timestamp": "2026-04-11T07:48:19+00:00",
-      "keyword": "work benches",
-      "location": "Detroit, Michigan",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260411_184205_workbench",
       "timestamp": "2026-04-11T18:42:05+00:00",
       "keyword": "workbench",
@@ -53632,6 +53596,42 @@
       "timestamp": "2026-08-24T04:43:41+00:00",
       "keyword": "work benches",
       "location": "Atlanta, Georgia",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260824_075205_workbench",
+      "timestamp": "2026-08-24T07:52:05+00:00",
+      "keyword": "workbench",
+      "location": "Los Angeles, California",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260824_075243_work_bench",
+      "timestamp": "2026-08-24T07:52:43+00:00",
+      "keyword": "work bench",
+      "location": "Los Angeles, California",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260824_075321_workbenches",
+      "timestamp": "2026-08-24T07:53:21+00:00",
+      "keyword": "workbenches",
+      "location": "Phoenix, Arizona",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260824_075359_work_benches",
+      "timestamp": "2026-08-24T07:53:59+00:00",
+      "keyword": "work benches",
+      "location": "Los Angeles, California",
       "sponsored": [],
       "organic": [],
       "shopping": []
