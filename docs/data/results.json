@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260427_171745_workbench",
-      "timestamp": "2026-04-27T17:17:45+00:00",
-      "keyword": "workbench",
-      "location": "New York, New York",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260427_171829_work_bench",
-      "timestamp": "2026-04-27T17:18:29+00:00",
-      "keyword": "work bench",
-      "location": "New York, New York",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260427_171914_workbenches",
-      "timestamp": "2026-04-27T17:19:14+00:00",
-      "keyword": "workbenches",
-      "location": "Philadelphia, Pennsylvania",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260427_171951_work_benches",
-      "timestamp": "2026-04-27T17:19:51+00:00",
-      "keyword": "work benches",
-      "location": "Atlanta, Georgia",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260427_200345_workbench",
       "timestamp": "2026-04-27T20:03:45+00:00",
       "keyword": "workbench",
@@ -55862,6 +55826,92 @@
           "title": "Pro Series 30 Drawer Workbench Package - Workbench, Wall Cabinets & Locker Cabinets, Gunmetal Gray",
           "price": "$12,099",
           "store": "Dragonfire Tool Storage",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20260908_115541_workbench",
+      "timestamp": "2026-09-08T11:55:41+00:00",
+      "keyword": "workbench",
+      "location": "Detroit, Michigan",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260908_115626_work_bench",
+      "timestamp": "2026-09-08T11:56:26+00:00",
+      "keyword": "work bench",
+      "location": "Los Angeles, California",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260908_115711_workbenches",
+      "timestamp": "2026-09-08T11:57:11+00:00",
+      "keyword": "workbenches",
+      "location": "Phoenix, Arizona",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260908_115754_work_benches",
+      "timestamp": "2026-09-08T11:57:54+00:00",
+      "keyword": "work benches",
+      "location": "Chicago, Illinois",
+      "sponsored": [],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "Mesa de Trabajo Industrial - 72x30\", Cubierta de Madera Comprimida, 183x76 cm - ULINE Mexico",
+          "price": "$12,453.76",
+          "store": "ULINE Mexico",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "Mesa de Trabajo Modular con Cajones - Isla de 2 Pedestales, 60x30\", Cubierta de Arce - ULINE Mexico",
+          "price": "$89,320",
+          "store": "ULINE Mexico",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "Antiest\u00e1tica - Mesa de Trabajo - Est\u00e1ndar, 60x30\" - ULINE Mexico",
+          "price": "$65,841.60",
+          "store": "ULINE Mexico",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "Mesa de Trabajo Modular con Cajones - 1 Pedestal, 60x30\", Cubierta de Arce - ULINE Mexico",
+          "price": "$57,420",
+          "store": "ULINE Mexico",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "Mesa de Trabajo Modular con Cajones - 2 Pedestales, 96x30\", Cubierta de Arce - ULINE Mexico",
+          "price": "$86,130",
+          "store": "ULINE Mexico",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Banco de trabajo ajustable VEVOR capacidad de 900 kg banco de trabajo resistente de 155 x 50 cm con ajuste de altura de 68 a 91 cm banco de trabajo",
+          "price": "$5,062",
+          "store": "vevor.mx",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "VEVOR Banco de Trabajo Ajustable de 122 cm Capacidad de Carga de 907 kg con Toma de Corriente Ruedas y Tablero Perforado Mesa de Trabajo Resistente",
+          "price": "$4,884",
+          "store": "vevor.mx",
           "domain": ""
         }
       ]
