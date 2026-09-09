@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260428_174342_workbench",
-      "timestamp": "2026-04-28T17:43:42+00:00",
-      "keyword": "workbench",
-      "location": "Philadelphia, Pennsylvania",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260428_174425_work_bench",
-      "timestamp": "2026-04-28T17:44:25+00:00",
-      "keyword": "work bench",
-      "location": "San Diego, California",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260428_174509_workbenches",
-      "timestamp": "2026-04-28T17:45:09+00:00",
-      "keyword": "workbenches",
-      "location": "Seattle, Washington",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260428_174555_work_benches",
-      "timestamp": "2026-04-28T17:45:55+00:00",
-      "keyword": "work benches",
-      "location": "Dallas, Texas",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260428_200943_workbench",
       "timestamp": "2026-04-28T20:09:43+00:00",
       "keyword": "workbench",
@@ -56698,6 +56662,363 @@
           "title": "96\"84\"72\"60\"48\"Adjustable Height Workbench with Power Outlet & Pegboard, 28\"-40\"Height Heavy Duty Solid Wood Work Table with 2000 to 5000 LBS Load",
           "price": "$186.19",
           "store": "Temu",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20260909_120516_workbench",
+      "timestamp": "2026-09-09T12:05:16+00:00",
+      "keyword": "workbench",
+      "location": "Philadelphia, Pennsylvania",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260909_120556_work_bench",
+      "timestamp": "2026-09-09T12:05:56+00:00",
+      "keyword": "work bench",
+      "location": "San Diego, California",
+      "sponsored": [],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "Industrial Packing Table - 72x30\", Composite Wood Top - ULINE",
+          "price": "$390",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$359.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "WORKPRO Hardwood Workbench | 48\" Worktable | 2000 LBS Capacity | 4 AC Outlets | 2 USB Ports",
+          "price": "$191.99",
+          "store": "workprotools.store",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "BenchPro Industrial Workbench: 1,600 lb Cap., 72 in W x 30 in D, 30 in to 36 in H, Particleboard Model: RPB3072",
+          "price": "$337.10",
+          "store": "Grainger Industrial Supply",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "Miramar",
+          "price": "$119.99",
+          "store": "Yukon 48 in. Workbench With Light",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Adjustable Leg Workbench | 96x30\" | ULINE",
+          "price": "$565",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "Industrial Packing Table - 60x30\", Steel Top - ULINE | Painted Steel Workbench",
+          "price": "$435",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "Deluxe Workstation Starter Table - 96x30\", Composite Wood Top - ULINE",
+          "price": "$975",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "Adjustable Height Workbench - 48x36\" Composite Wood Top Industrial Packing Table - ULINE",
+          "price": "$350",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "Deluxe Workstation Starter Table - 72x36\", Composite Wood Top - ULINE",
+          "price": "$815",
+          "store": "ULINE",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20260909_120635_workbenches",
+      "timestamp": "2026-09-09T12:06:35+00:00",
+      "keyword": "workbenches",
+      "location": "Detroit, Michigan",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Workbenches",
+          "domain": "homedepot.com",
+          "display_url": "https://www.homedepot.com \u203a Garage \u203a Garage Storage",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Industrial Workbenches & Tables",
+          "domain": "source4industries.com",
+          "display_url": "https://www.source4industries.com \u203a collections \u203a workb...",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "Amazon Best Sellers: Best Workbenches",
+          "domain": "amazon.com",
+          "display_url": "https://www.amazon.com \u203a zgbs",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "Workbenches & Shop Desks",
+          "domain": "globalindustrial.com",
+          "display_url": "https://www.globalindustrial.com \u203a work-benches",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "Workbenches",
+          "domain": "craftsman.com",
+          "display_url": "https://www.craftsman.com \u203a ... \u203a Storage & Organization",
+          "snippet": ""
+        }
+      ],
+      "organic": [
+        {
+          "position": 1,
+          "title": "Workbenches",
+          "domain": "homedepot.com",
+          "link": "https://www.homedepot.com/b/Garage-Garage-Storage-Workbenches/N-5yc1vZ2fkpdfg",
+          "snippet": "WorkbenchesThe Home Depothttps://www.homedepot.com \u203a Garage \u203a Garage Storage"
+        },
+        {
+          "position": 2,
+          "title": "Industrial Workbenches & Tables",
+          "domain": "source4industries.com",
+          "link": "https://www.source4industries.com/collections/workbenches?srsltid=AfmBOorqGMs4XX2AaR1UaQpFnL06MDQru0ZotQNGaLi90k6nt9KpWxNx",
+          "snippet": "Industrial Workbenches & TablesSource 4 Industrieshttps://www.source4industries.com \u203a collections \u203a workb..."
+        },
+        {
+          "position": 3,
+          "title": "Amazon Best Sellers: Best Workbenches",
+          "domain": "amazon.com",
+          "link": "https://www.amazon.com/Best-Sellers-Workbenches/zgbs/hi/553602",
+          "snippet": "Amazon Best Sellers: Best WorkbenchesAmazon.comhttps://www.amazon.com \u203a zgbs"
+        },
+        {
+          "position": 4,
+          "title": "Workbenches & Shop Desks",
+          "domain": "globalindustrial.com",
+          "link": "https://www.globalindustrial.com/t/work-benches?srsltid=AfmBOorathBqyLlZ1ohD0XKrt7ju3E9Zys-TffldLSluQhRKfhAeg41q",
+          "snippet": "Workbenches & Shop DesksGlobal Industrial Companyhttps://www.globalindustrial.com \u203a work-benches"
+        },
+        {
+          "position": 5,
+          "title": "Workbenches",
+          "domain": "craftsman.com",
+          "link": "https://www.craftsman.com/en-us/products/storage-organization/workbenches?srsltid=AfmBOoocWfSI4O_RVmCMTrfPfJx7huuN2u0SmyqkFJI__a8ZgwqXxL9Y",
+          "snippet": "WorkbenchesCraftsmanhttps://www.craftsman.com \u203a ... \u203a Storage & Organization"
+        }
+      ],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "Industrial Packing Table - 72x30\", Composite Wood Top - ULINE",
+          "price": "$390",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$359.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "2000 LBS Load Capacity | WORKPRO 48\" Workbench | Power Outlets",
+          "price": "$191.99",
+          "store": "workprotools.store",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "Tennsco Industrial Workbench: 3,600 lb Cap., 72 in W x 30 in D, 34 in H, Square Edge, Gray Model: EB-2-3072M",
+          "price": "$999.57",
+          "store": "Grainger Industrial Supply",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "91 in Height-Adjustable Workbench Mfw1000, 50 - 66 in High, 32 in Deep, incl. Multiplex Worktop, Pegboard, 2 Door Cabinets (Wst), 2 Drawer Cabinets",
+          "price": "$990",
+          "store": "Topregal US",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Adjustable Leg Workbench | 96x30\" | ULINE",
+          "price": "$565",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "Dragonfire 20 Drawer Pro Series 9ft Workbench, Gunmetal Gray",
+          "price": "$5,999",
+          "store": "Dragonfire Tool Storage",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "500 lb Capacity Workbench | ULINE | 60x30\" Laminate Surface | Steel Underframe",
+          "price": "$390",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "72\"W x 36\"D Production Workbench - ESD Safety Edge Complete Bench - Blue, Global Industrial",
+          "price": "$1,299",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "Industrial Packing Table - 72x30\", Steel Top - ULINE | Adjustable Height Steel Work Table",
+          "price": "$480",
+          "store": "ULINE",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20260909_120717_work_benches",
+      "timestamp": "2026-09-09T12:07:17+00:00",
+      "keyword": "work benches",
+      "location": "Chicago, Illinois",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Work Benches & Tops for Efficient Workspaces",
+          "domain": "lowes.com",
+          "display_url": "https://www.lowes.com \u203a tool-storage-work-benches \u203a w...",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Industrial Workbenches and Tables for Sale",
+          "domain": "benchdepot.com",
+          "display_url": "https://benchdepot.com \u203a products \u203a workbenches",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "Workbenches",
+          "domain": "homedepot.com",
+          "display_url": "https://www.homedepot.com \u203a Garage \u203a Garage Storage",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "Amazon Best Sellers: Best Workbenches",
+          "domain": "amazon.com",
+          "display_url": "https://www.amazon.com \u203a zgbs",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "Shop Work Benches & Workbench Solutions - Gladiator Garage",
+          "domain": "gladiatorgarageworks.com",
+          "display_url": "https://www.gladiatorgarageworks.com \u203a pages \u203a work-b...",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$359.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "91 in Height-Adjustable Workbench Mfw1000, 50 - 66 in High, 32 in Deep, incl. Multiplex Worktop, Pegboard, 2 Door Cabinets (Wst), 2 Drawer Cabinets",
+          "price": "$990",
+          "store": "Topregal US",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "Tennsco Industrial Workbench: 3,600 lb Cap., 72 in W x 30 in D, 34 in H, Square Edge, Gray Model: EB-2-3072M",
+          "price": "$999.57",
+          "store": "Grainger Industrial Supply",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "WORKPRO 48\" Adjustable Height Workbench 2000 LBS Load Capacity Hardwood Worktable with Power Outlets",
+          "price": "$191.99",
+          "store": "workprotools.store",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "Cicero",
+          "price": "$119.99",
+          "store": "Yukon 48 in. Workbench With Light",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "91 in Height-Adjustable Workbench Mfw1000, 30 - 46 in High, 32 in Deep, incl. Multiplex Worktop, 2 Door Cabinets (Wst) & 2 Drawer Cabinets (Ws4)",
+          "price": "$890",
+          "store": "Topregal US",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "Anti-Static Workbench - Standard, 60x30\" - ULINE",
+          "price": "$2,150",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "72\"W x 36\"D Production Workbench - ESD Safety Edge Complete Bench - Blue, Global Industrial",
+          "price": "$1,299",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "Workbench with Flared Leg, 60 x 30\", Steel Square Edge Global Industrial",
+          "price": "$349.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "Dragonfire 20 Drawer Pro Series 9ft Workbench, Gunmetal Gray",
+          "price": "$5,999",
+          "store": "Dragonfire Tool Storage",
           "domain": ""
         }
       ]
