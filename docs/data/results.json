@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260430_200459_workbench",
-      "timestamp": "2026-04-30T20:04:59+00:00",
-      "keyword": "workbench",
-      "location": "Houston, Texas",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260430_200537_work_bench",
-      "timestamp": "2026-04-30T20:05:37+00:00",
-      "keyword": "work bench",
-      "location": "Detroit, Michigan",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260430_200623_workbenches",
-      "timestamp": "2026-04-30T20:06:23+00:00",
-      "keyword": "workbenches",
-      "location": "Houston, Texas",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260430_200707_work_benches",
-      "timestamp": "2026-04-30T20:07:07+00:00",
-      "keyword": "work benches",
-      "location": "Dallas, Texas",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260430_224657_workbench",
       "timestamp": "2026-04-30T22:46:57+00:00",
       "keyword": "workbench",
@@ -58174,6 +58138,78 @@
       "timestamp": "2026-09-11T12:00:31+00:00",
       "keyword": "work benches",
       "location": "Phoenix, Arizona",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260911_185552_workbench",
+      "timestamp": "2026-09-11T18:55:52+00:00",
+      "keyword": "workbench",
+      "location": "Chicago, Illinois",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Workbenches",
+          "domain": "homedepot.com",
+          "display_url": "https://www.homedepot.com \u203a Garage \u203a Garage Storage",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Workbench Market | Buy Factory-Direct Ergonomic ...",
+          "domain": "workbenchmarket.com",
+          "display_url": "https://www.workbenchmarket.com",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "Workbench",
+          "domain": "en.wikipedia.org",
+          "display_url": "https://en.wikipedia.org \u203a wiki \u203a Workbench",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "Amazon Best Sellers: Best Workbenches",
+          "domain": "amazon.com",
+          "display_url": "https://www.amazon.com \u203a zgbs",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "Work Benches at Tractor Supply Co.",
+          "domain": "tractorsupply.com",
+          "display_url": "https://www.tractorsupply.com \u203a tsc \u203a catalog \u203a work-be...",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260911_185637_work_bench",
+      "timestamp": "2026-09-11T18:56:37+00:00",
+      "keyword": "work bench",
+      "location": "Phoenix, Arizona",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260911_185718_workbenches",
+      "timestamp": "2026-09-11T18:57:18+00:00",
+      "keyword": "workbenches",
+      "location": "San Diego, California",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260911_185802_work_benches",
+      "timestamp": "2026-09-11T18:58:02+00:00",
+      "keyword": "work benches",
+      "location": "Detroit, Michigan",
       "sponsored": [],
       "organic": [],
       "shopping": []
