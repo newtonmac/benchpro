@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260501_200047_workbench",
-      "timestamp": "2026-05-01T20:00:47+00:00",
-      "keyword": "workbench",
-      "location": "Denver, Colorado",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260501_200130_work_bench",
-      "timestamp": "2026-05-01T20:01:30+00:00",
-      "keyword": "work bench",
-      "location": "Detroit, Michigan",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260501_200207_workbenches",
-      "timestamp": "2026-05-01T20:02:07+00:00",
-      "keyword": "workbenches",
-      "location": "Seattle, Washington",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260501_200250_work_benches",
-      "timestamp": "2026-05-01T20:02:50+00:00",
-      "keyword": "work benches",
-      "location": "Chicago, Illinois",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260501_224347_workbench",
       "timestamp": "2026-05-01T22:43:47+00:00",
       "keyword": "workbench",
@@ -58210,6 +58174,42 @@
       "timestamp": "2026-09-12T20:12:46+00:00",
       "keyword": "work benches",
       "location": "Phoenix, Arizona",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260913_122913_workbench",
+      "timestamp": "2026-09-13T12:29:13+00:00",
+      "keyword": "workbench",
+      "location": "Houston, Texas",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260913_122955_work_bench",
+      "timestamp": "2026-09-13T12:29:55+00:00",
+      "keyword": "work bench",
+      "location": "Philadelphia, Pennsylvania",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260913_123040_workbenches",
+      "timestamp": "2026-09-13T12:30:40+00:00",
+      "keyword": "workbenches",
+      "location": "Philadelphia, Pennsylvania",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260913_123126_work_benches",
+      "timestamp": "2026-09-13T12:31:26+00:00",
+      "keyword": "work benches",
+      "location": "Atlanta, Georgia",
       "sponsored": [],
       "organic": [],
       "shopping": []
