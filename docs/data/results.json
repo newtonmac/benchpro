@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260507_225644_workbench",
-      "timestamp": "2026-05-07T22:56:44+00:00",
-      "keyword": "workbench",
-      "location": "San Diego, California",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260507_225724_work_bench",
-      "timestamp": "2026-05-07T22:57:24+00:00",
-      "keyword": "work bench",
-      "location": "Denver, Colorado",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260507_225807_workbenches",
-      "timestamp": "2026-05-07T22:58:07+00:00",
-      "keyword": "workbenches",
-      "location": "Denver, Colorado",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260507_225845_work_benches",
-      "timestamp": "2026-05-07T22:58:45+00:00",
-      "keyword": "work benches",
-      "location": "New York, New York",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260508_055628_workbench",
       "timestamp": "2026-05-08T05:56:28+00:00",
       "keyword": "workbench",
@@ -58210,6 +58174,42 @@
       "timestamp": "2026-09-18T18:50:41+00:00",
       "keyword": "work benches",
       "location": "Philadelphia, Pennsylvania",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260918_212131_workbench",
+      "timestamp": "2026-09-18T21:21:31+00:00",
+      "keyword": "workbench",
+      "location": "Dallas, Texas",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260918_212215_work_bench",
+      "timestamp": "2026-09-18T21:22:15+00:00",
+      "keyword": "work bench",
+      "location": "Chicago, Illinois",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260918_212256_workbenches",
+      "timestamp": "2026-09-18T21:22:56+00:00",
+      "keyword": "workbenches",
+      "location": "Philadelphia, Pennsylvania",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260918_212334_work_benches",
+      "timestamp": "2026-09-18T21:23:34+00:00",
+      "keyword": "work benches",
+      "location": "Seattle, Washington",
       "sponsored": [],
       "organic": [],
       "shopping": []
