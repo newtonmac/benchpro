@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260512_093139_workbench",
-      "timestamp": "2026-05-12T09:31:39+00:00",
-      "keyword": "workbench",
-      "location": "Philadelphia, Pennsylvania",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260512_093222_work_bench",
-      "timestamp": "2026-05-12T09:32:22+00:00",
-      "keyword": "work bench",
-      "location": "Denver, Colorado",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260512_093302_workbenches",
-      "timestamp": "2026-05-12T09:33:02+00:00",
-      "keyword": "workbenches",
-      "location": "Denver, Colorado",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260512_093341_work_benches",
-      "timestamp": "2026-05-12T09:33:41+00:00",
-      "keyword": "work benches",
-      "location": "Seattle, Washington",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260512_175546_workbench",
       "timestamp": "2026-05-12T17:55:46+00:00",
       "keyword": "workbench",
@@ -58138,6 +58102,42 @@
       "timestamp": "2026-09-22T23:59:12+00:00",
       "keyword": "work benches",
       "location": "Denver, Colorado",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260923_090453_workbench",
+      "timestamp": "2026-09-23T09:04:53+00:00",
+      "keyword": "workbench",
+      "location": "Atlanta, Georgia",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260923_090536_work_bench",
+      "timestamp": "2026-09-23T09:05:36+00:00",
+      "keyword": "work bench",
+      "location": "Detroit, Michigan",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260923_090621_workbenches",
+      "timestamp": "2026-09-23T09:06:21+00:00",
+      "keyword": "workbenches",
+      "location": "Dallas, Texas",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260923_090701_work_benches",
+      "timestamp": "2026-09-23T09:07:01+00:00",
+      "keyword": "work benches",
+      "location": "Houston, Texas",
       "sponsored": [],
       "organic": [],
       "shopping": []
