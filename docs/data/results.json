@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260516_084528_workbench",
-      "timestamp": "2026-05-16T08:45:28+00:00",
-      "keyword": "workbench",
-      "location": "San Diego, California",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260516_084605_work_bench",
-      "timestamp": "2026-05-16T08:46:05+00:00",
-      "keyword": "work bench",
-      "location": "Philadelphia, Pennsylvania",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260516_084644_workbenches",
-      "timestamp": "2026-05-16T08:46:44+00:00",
-      "keyword": "workbenches",
-      "location": "Phoenix, Arizona",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260516_084725_work_benches",
-      "timestamp": "2026-05-16T08:47:25+00:00",
-      "keyword": "work benches",
-      "location": "San Diego, California",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260516_190144_workbench",
       "timestamp": "2026-05-16T19:01:44+00:00",
       "keyword": "workbench",
@@ -58212,6 +58176,220 @@
       "sponsored": [],
       "organic": [],
       "shopping": []
+    },
+    {
+      "id": "20260928_144851_workbench",
+      "timestamp": "2026-09-28T14:48:51+00:00",
+      "keyword": "workbench",
+      "location": "Dallas, Texas",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260928_144934_work_bench",
+      "timestamp": "2026-09-28T14:49:34+00:00",
+      "keyword": "work bench",
+      "location": "Detroit, Michigan",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260928_145021_workbenches",
+      "timestamp": "2026-09-28T14:50:21+00:00",
+      "keyword": "workbenches",
+      "location": "Philadelphia, Pennsylvania",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Shop Fox - Workbenches",
+          "domain": "homedepot.com",
+          "display_url": "https://www.homedepot.com \u203a ... \u203a Workbenches",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Craftsman Workbench",
+          "domain": "amazon.com",
+          "display_url": "https://www.amazon.com \u203a craftsman-workbench",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "Borroughs\u00ae Rolling Hardwood Workbench - Ships in 2-3 ...",
+          "domain": "borroughs.com",
+          "display_url": "https://www.borroughs.com \u203a product \u203a 48-wide-rolling-...",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "Mobile Work Benches: Bench Type: Mobile Workbench",
+          "domain": "mscdirect.com",
+          "display_url": "https://www.mscdirect.com \u203a product \u203a details",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "48\" Heavy Duty Steel Workbench, Work Bench ... - Target",
+          "domain": "target.com",
+          "display_url": "https://www.target.com \u203a ... \u203a Workbenches & Sawhorses",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$369.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "Industrial Packing Table | ULINE | 72x30\"",
+          "price": "$390",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "WORKPRO Workbench with Metal Legs | 48\" Garage Worktable | 2000 LBS Capacity",
+          "price": "$191.99",
+          "store": "workprotools.store",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "91 in Height-Adjustable Industrial Workbench Mfw1000, 50 - 66 in High, 32 in Deep, incl. Multiplex Worktop, Pegboard, 2 Door Cabinets (Wst), 2 Drawer",
+          "price": "$990",
+          "store": "Topregal US",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "Work bench, Workbench for garage, Garage work bench and tool storage, 60\"\u00d7 22 \" Garage Workbench with Drawers & Pegboard-- Adjustable Heavy Duty",
+          "price": "$214.85",
+          "store": "Temu",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Industrial Work Table | 96x30\" | ULINE",
+          "price": "$565",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "Standard Cabinet Workbench - 72x30\", Composite Wood Top - ULINE",
+          "price": "$850",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "Workbench w/ Maple Square Edge Top, 6 Drawers & 2 Cabinets, 72\"Wx30\"D, Gray, Global Industrial",
+          "price": "$1,499",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "8' Adjustable Height Hardwood Workbench Hammered Granite",
+          "price": "$649.99",
+          "store": "Gladiator brand",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "Gladiator Premier 4-Piece Garage Cabinet Set",
+          "price": "$1,879.99",
+          "store": "Garage Giant",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20260928_145059_work_benches",
+      "timestamp": "2026-09-28T14:50:59+00:00",
+      "keyword": "work benches",
+      "location": "Philadelphia, Pennsylvania",
+      "sponsored": [],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$369.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "WORKPRO 48 x 20 Heavy-duty Workbench for Garage,2000 LBS Load Capacity with Rubberwood Top",
+          "price": "$191.99",
+          "store": "workprotools.store",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "70\" \u00d7 35\" Heavy Duty Workbench w/ Shelf | 4Dock",
+          "price": "$399",
+          "store": "4Dock",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "Anti-Static Workbench - Standard, 60x30\" - ULINE",
+          "price": "$2,150",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "WORKPRO 7-Drawer & 2-Door Mobile Storage Cabinet, 1000 lbs Capcity, Heavy Duty 62\" x 20\" Tool Cabinet with Power Strip",
+          "price": "$799.99",
+          "store": "workprotools.store",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Workbench w/ Maple Square Edge Top & Riser, 72\"W x 30\"D, Gray, Global Industrial",
+          "price": "$735",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "Gladiator Premier 4-Piece Garage Cabinet Set",
+          "price": "$1,879.99",
+          "store": "Garage Giant",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "91 in Height-Adjustable Industrial Workbench Mfw1000, 50 - 66 in High, 32 in Deep, incl. Multiplex Worktop, Pegboard, 2 Door Cabinets (Wst), 2 Drawer",
+          "price": "$990",
+          "store": "Topregal US",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "L-Shaped Workbench, 72 x 78\", Adjustable Height, Shop Top Square Edge Global Industrial",
+          "price": "$689",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "Steelton 30\" x 60\" 18-Gauge Stainless Steel Equipment Stand with Undershelf and Galvanized Legs",
+          "price": "$179.99",
+          "store": "WebstaurantStore.com",
+          "domain": ""
+        }
+      ]
     }
   ]
 }
