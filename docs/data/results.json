@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260516_190144_workbench",
-      "timestamp": "2026-05-16T19:01:44+00:00",
-      "keyword": "workbench",
-      "location": "Atlanta, Georgia",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260516_190222_work_bench",
-      "timestamp": "2026-05-16T19:02:22+00:00",
-      "keyword": "work bench",
-      "location": "San Diego, California",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260516_190305_workbenches",
-      "timestamp": "2026-05-16T19:03:05+00:00",
-      "keyword": "workbenches",
-      "location": "Los Angeles, California",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260516_190342_work_benches",
-      "timestamp": "2026-05-16T19:03:42+00:00",
-      "keyword": "work benches",
-      "location": "Atlanta, Georgia",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260517_090017_workbench",
       "timestamp": "2026-05-17T09:00:17+00:00",
       "keyword": "workbench",
@@ -58387,6 +58351,113 @@
           "title": "Steelton 30\" x 60\" 18-Gauge Stainless Steel Equipment Stand with Undershelf and Galvanized Legs",
           "price": "$179.99",
           "store": "WebstaurantStore.com",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20260928_213125_workbench",
+      "timestamp": "2026-09-28T21:31:25+00:00",
+      "keyword": "workbench",
+      "location": "Los Angeles, California",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260928_213209_work_bench",
+      "timestamp": "2026-09-28T21:32:09+00:00",
+      "keyword": "work bench",
+      "location": "Denver, Colorado",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260928_213248_workbenches",
+      "timestamp": "2026-09-28T21:32:48+00:00",
+      "keyword": "workbenches",
+      "location": "Denver, Colorado",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20260928_213329_work_benches",
+      "timestamp": "2026-09-28T21:33:29+00:00",
+      "keyword": "work benches",
+      "location": "Detroit, Michigan",
+      "sponsored": [],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$369.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "91 in Height-Adjustable Industrial Workbench Mfw1000, 50 - 66 in High, 32 in Deep, incl. Multiplex Worktop, Pegboard, 2 Door Cabinets (Wst), 2 Drawer",
+          "price": "$990",
+          "store": "Topregal US",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "WORKPRO Workbench with Metal Legs | 48\" Garage Worktable | 2000 LBS Capacity",
+          "price": "$191.99",
+          "store": "workprotools.store",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "Dearborn",
+          "price": "$159.99",
+          "store": "Yukon 60 In., 3-Drawer Hardwood Workbench",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "70\" \u00d7 35\" Heavy Duty Workbench w/ Shelf | 4Dock",
+          "price": "$399",
+          "store": "4Dock",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "48 in Height-Adjustable Industrial Workbench Mfw1000, 50 - 66 in High, 32 in Deep, incl. Multiplex Worktop, Pegboard, 1 Door Cabinet (Wst), 1 Drawer",
+          "price": "$590",
+          "store": "Topregal US",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "Dearborn",
+          "price": "$119.99",
+          "store": "Yukon 48 in. Workbench With Light",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "91 in Height-Adjustable Industrial Workbench Mfw1000, 30 - 46 in High, 32 in Deep, incl. Multiplex Worktop, 2 Door Cabinets (Wst) & 2 Drawer Cabinets",
+          "price": "$890",
+          "store": "Topregal US",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "Tennsco Industrial Workbench: 3,600 lb Cap., 72 in W x 30 in D, 34 in H, Square Edge, Gray Model: EB-2-3072M",
+          "price": "$999.57",
+          "store": "Grainger Industrial Supply",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "1,000 lbs. Capacity Roosevelt Series Workbenches - With Heavy Formica Laminate Top-24 X 48\"",
+          "price": "$200.73",
+          "store": "Material Handling Solutions",
           "domain": ""
         }
       ]
