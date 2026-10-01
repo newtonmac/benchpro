@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260520_074417_workbench",
-      "timestamp": "2026-05-20T07:44:17+00:00",
-      "keyword": "workbench",
-      "location": "Dallas, Texas",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260520_074459_work_bench",
-      "timestamp": "2026-05-20T07:44:59+00:00",
-      "keyword": "work bench",
-      "location": "Chicago, Illinois",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260520_074540_workbenches",
-      "timestamp": "2026-05-20T07:45:40+00:00",
-      "keyword": "workbenches",
-      "location": "Denver, Colorado",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260520_074624_work_benches",
-      "timestamp": "2026-05-20T07:46:24+00:00",
-      "keyword": "work benches",
-      "location": "Philadelphia, Pennsylvania",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260520_102231_workbench",
       "timestamp": "2026-05-20T10:22:31+00:00",
       "keyword": "workbench",
@@ -59129,6 +59093,121 @@
       "timestamp": "2026-10-01T01:01:57+00:00",
       "keyword": "work benches",
       "location": "Atlanta, Georgia",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261001_104343_workbench",
+      "timestamp": "2026-10-01T10:43:43+00:00",
+      "keyword": "workbench",
+      "location": "Houston, Texas",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261001_104427_work_bench",
+      "timestamp": "2026-10-01T10:44:27+00:00",
+      "keyword": "work bench",
+      "location": "Philadelphia, Pennsylvania",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261001_104508_workbenches",
+      "timestamp": "2026-10-01T10:45:08+00:00",
+      "keyword": "workbenches",
+      "location": "Atlanta, Georgia",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Shop Fox - Workbenches",
+          "domain": "homedepot.com",
+          "display_url": "https://www.homedepot.com \u203a ... \u203a Workbenches",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Portable Workbench | Heavy Duty, Adjustable, with Wheels",
+          "domain": "target.com",
+          "display_url": "https://www.target.com \u203a Home & Decor",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "Stainless Steel Cabinet Workbenches",
+          "domain": "mcmaster.com",
+          "display_url": "https://www.mcmaster.com \u203a products \u203a stainless-steel-ca...",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "I finally made myself some decent workbenches.",
+          "domain": "60+",
+          "display_url": "60+ comments  \u00b7  3 years ago",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "Craftsman Workbench",
+          "domain": "amazon.com",
+          "display_url": "https://www.amazon.com \u203a craftsman-workbench",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$369.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "91 in Height-Adjustable Industrial Workbench Mfw1000, 50 - 66 in High, 32 in Deep, incl. Multiplex Worktop, Pegboard, 2 Door Cabinets (Wst), 2 Drawer",
+          "price": "$990",
+          "store": "Topregal US",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "Standard Cabinet Workbench - 72x30\", Composite Wood Top - ULINE",
+          "price": "$850",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "WORKPRO 48\" Adjustable Height Workbench 2000 LBS Load Capacity Hardwood Worktable with Power Outlets",
+          "price": "$191.99",
+          "store": "workprotools.store",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "Lithia Springs",
+          "price": "$124.99",
+          "store": "Yukon 48 in. Workbench With Light",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Adjustable Height Industrial Packing Table | ULINE | 72x30\" | Composite Top",
+          "price": "$390",
+          "store": "ULINE",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261001_104552_work_benches",
+      "timestamp": "2026-10-01T10:45:52+00:00",
+      "keyword": "work benches",
+      "location": "Los Angeles, California",
       "sponsored": [],
       "organic": [],
       "shopping": []
