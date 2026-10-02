@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260521_203026_workbench",
-      "timestamp": "2026-05-21T20:30:26+00:00",
-      "keyword": "workbench",
-      "location": "Atlanta, Georgia",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260521_203108_work_bench",
-      "timestamp": "2026-05-21T20:31:08+00:00",
-      "keyword": "work bench",
-      "location": "New York, New York",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260521_203145_workbenches",
-      "timestamp": "2026-05-21T20:31:45+00:00",
-      "keyword": "workbenches",
-      "location": "Denver, Colorado",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260521_203223_work_benches",
-      "timestamp": "2026-05-21T20:32:23+00:00",
-      "keyword": "work benches",
-      "location": "Los Angeles, California",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260521_225930_workbench",
       "timestamp": "2026-05-21T22:59:30+00:00",
       "keyword": "workbench",
@@ -59659,6 +59623,78 @@
       "keyword": "work benches",
       "location": "Denver, Colorado",
       "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261002_224101_workbench",
+      "timestamp": "2026-10-02T22:41:01+00:00",
+      "keyword": "workbench",
+      "location": "Denver, Colorado",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261002_224143_work_bench",
+      "timestamp": "2026-10-02T22:41:43+00:00",
+      "keyword": "work bench",
+      "location": "San Diego, California",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261002_224228_workbenches",
+      "timestamp": "2026-10-02T22:42:28+00:00",
+      "keyword": "workbenches",
+      "location": "New York, New York",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261002_224309_work_benches",
+      "timestamp": "2026-10-02T22:43:09+00:00",
+      "keyword": "work benches",
+      "location": "Los Angeles, California",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Highly Rated - Mobile Workbenches",
+          "domain": "homedepot.com",
+          "display_url": "https://www.homedepot.com \u203a ... \u203a Mobile Workbenches",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Heavy Duty Mobile Workbenches | Portable Worksurfaces",
+          "domain": "globalindustrial.com",
+          "display_url": "https://www.globalindustrial.com \u203a work-benches \u203a heav...",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "Performance Tool Workbenches + Work Tables",
+          "domain": "northerntool.com",
+          "display_url": "https://www.northerntool.com \u203a ... \u203a Storage + Organizers",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "Shop for Traveller Work Benches at ...",
+          "domain": "tractorsupply.com",
+          "display_url": "https://www.tractorsupply.com \u203a tsc \u203a brand \u203a work-ben...",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "Discover 25 Work benches and workbench plans ideas",
+          "domain": "pinterest.com",
+          "display_url": "https://www.pinterest.com \u203a dodeboy \u203a work-benches",
+          "snippet": ""
+        }
+      ],
       "organic": [],
       "shopping": []
     }
