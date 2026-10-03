@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260521_225930_workbench",
-      "timestamp": "2026-05-21T22:59:30+00:00",
-      "keyword": "workbench",
-      "location": "Atlanta, Georgia",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260521_230014_work_bench",
-      "timestamp": "2026-05-21T23:00:14+00:00",
-      "keyword": "work bench",
-      "location": "Los Angeles, California",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260521_230051_workbenches",
-      "timestamp": "2026-05-21T23:00:51+00:00",
-      "keyword": "workbenches",
-      "location": "Phoenix, Arizona",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260521_230130_work_benches",
-      "timestamp": "2026-05-21T23:01:30+00:00",
-      "keyword": "work benches",
-      "location": "Denver, Colorado",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260522_074307_workbench",
       "timestamp": "2026-05-22T07:43:07+00:00",
       "keyword": "workbench",
@@ -59697,6 +59661,214 @@
       ],
       "organic": [],
       "shopping": []
+    },
+    {
+      "id": "20261003_005242_workbench",
+      "timestamp": "2026-10-03T00:52:42+00:00",
+      "keyword": "workbench",
+      "location": "Atlanta, Georgia",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261003_005320_work_bench",
+      "timestamp": "2026-10-03T00:53:20+00:00",
+      "keyword": "work bench",
+      "location": "Denver, Colorado",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Shelf & Steel Square Edge, 72\"W x 36\"D, 14000 ...",
+          "domain": "globalindustrial.com",
+          "display_url": "https://www.globalindustrial.com \u203a 14000-lbs-capacity-w...",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "r/woodworking - Low-Budget Workbench Build",
+          "domain": "30+",
+          "display_url": "30+ comments  \u00b7  11 years ago",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "Black Diamond 9 Drawer Mobile Workbench - 46\"",
+          "domain": "farmandhomesupply.com",
+          "display_url": "https://www.farmandhomesupply.com \u203a black-diamond...",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "Let's see them work benches and boxes!",
+          "domain": "20+",
+          "display_url": "20+ comments  \u00b7  3 months ago",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "Small Work Bench Advice - Hand Tools",
+          "domain": "thepatriotwoodworker.com",
+          "display_url": "https://thepatriotwoodworker.com \u203a ... \u203a Hand Tools",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "Harbor Freight Tools",
+          "price": "$119.99",
+          "store": "4.6(2K) \u00b7 90-day returns",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "48\" 60\" 96\"Heavy Duty Adjustable Workbench W/ Power Outlet & Pegboard - 28-40\" Height, 2000/5000 LBS Capacity, Thick Rubber Wood Top - for Garage,",
+          "price": "$99.73",
+          "store": "Free by 10/14",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "workprotools.store",
+          "price": "$191.99",
+          "store": "15-day returns",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "Gladiator brand",
+          "price": "$492.99",
+          "store": "90-day returns",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261003_005405_workbenches",
+      "timestamp": "2026-10-03T00:54:05+00:00",
+      "keyword": "workbenches",
+      "location": "Seattle, Washington",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261003_005446_work_benches",
+      "timestamp": "2026-10-03T00:54:46+00:00",
+      "keyword": "work benches",
+      "location": "Denver, Colorado",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Highly Rated - Mobile Workbenches",
+          "domain": "homedepot.com",
+          "display_url": "https://www.homedepot.com \u203a ... \u203a Mobile Workbenches",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Heavy Duty Mobile Workbenches | Portable Worksurfaces",
+          "domain": "globalindustrial.com",
+          "display_url": "https://www.globalindustrial.com \u203a work-benches \u203a heav...",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "Tagged \"Cabinet & Drawer Pedestal Workbenches\"",
+          "domain": "stackbin.com",
+          "display_url": "https://stackbin.com \u203a collections \u203a cabinet-&-drawer-p...",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "Performance Tool Workbenches + Work Tables",
+          "domain": "northerntool.com",
+          "display_url": "https://www.northerntool.com \u203a ... \u203a Storage + Organizers",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "Discover 25 Work benches and workbench plans ideas",
+          "domain": "pinterest.com",
+          "display_url": "https://www.pinterest.com \u203a dodeboy \u203a work-benches",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "96\"84\"72\" Heavy Duty Workbench, 2-Tier Adjustable Work Table with Power Outlet And Pegboard, 5000 LBS Capacity Rubber Wood Bench for Garage",
+          "price": "$326.40",
+          "store": "Temu",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "WORKPRO 48\" Adjustable Height Workbench 2000 LBS Load Capacity Hardwood Worktable with Power Outlets",
+          "price": "$191.99",
+          "store": "workprotools.store",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$369.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "Thornton",
+          "price": "$169.99",
+          "store": "Yukon 60 In., 3-Drawer Hardwood Workbench",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "Adjustable Workbench, 5000 lbs Capacity, 96 x 24 Inch Oak Wood Top Workstation with 4 AC Outlets & 2 USB Ports, Heavy-Duty Hardwood Worktable for",
+          "price": "$299.99",
+          "store": "Wayfair",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Work bench, Workbench for garage, Garage work bench and tool storage, 60\"\u00d7 22 \" Garage Workbench with Drawers & Pegboard-- Adjustable Heavy Duty",
+          "price": "$235.07",
+          "store": "Temu",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "96\"84\"72\"60\"48\"Adjustable Height Workbench with Power Outlet & Pegboard, 28\"-40\"Height Heavy Duty Solid Wood Work Table with 2000 to 5000 LBS Load",
+          "price": "$136.79",
+          "store": "Temu",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "Aurora",
+          "price": "$119.99",
+          "store": "Yukon 48 in. Workbench With Light",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "8' Adjustable Height Hardwood Workbench Hammered Granite",
+          "price": "$552.49",
+          "store": "Gladiator brand",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "WORKPRO 60\"\u00d724\" Adjustable Workbench 1500 LBS Load Capacity Hardwood Worktable with Power Outlets, Leveling Foot",
+          "price": "$239.99",
+          "store": "workprotools.store",
+          "domain": ""
+        }
+      ]
     }
   ]
 }
