@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260522_102049_workbench",
-      "timestamp": "2026-05-22T10:20:49+00:00",
-      "keyword": "workbench",
-      "location": "San Diego, California",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260522_102133_work_bench",
-      "timestamp": "2026-05-22T10:21:33+00:00",
-      "keyword": "work bench",
-      "location": "Atlanta, Georgia",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260522_102215_workbenches",
-      "timestamp": "2026-05-22T10:22:15+00:00",
-      "keyword": "workbenches",
-      "location": "Chicago, Illinois",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260522_102256_work_benches",
-      "timestamp": "2026-05-22T10:22:56+00:00",
-      "keyword": "work benches",
-      "location": "New York, New York",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260522_174757_workbench",
       "timestamp": "2026-05-22T17:47:57+00:00",
       "keyword": "workbench",
@@ -59973,6 +59937,113 @@
       "timestamp": "2026-10-03T12:12:51+00:00",
       "keyword": "work benches",
       "location": "Los Angeles, California",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261003_203519_workbench",
+      "timestamp": "2026-10-03T20:35:19+00:00",
+      "keyword": "workbench",
+      "location": "New York, New York",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261003_203558_work_bench",
+      "timestamp": "2026-10-03T20:35:58+00:00",
+      "keyword": "work bench",
+      "location": "Denver, Colorado",
+      "sponsored": [],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "WORKPRO 48\" Adjustable Height Workbench 2000 LBS Load Capacity Hardwood Worktable with Power Outlets",
+          "price": "$191.99",
+          "store": "workprotools.store",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "Industrial Packing Table - 72x30\", Composite Wood Top - ULINE",
+          "price": "$390",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "96\"84\"72\"60\"48\"Adjustable Height Workbench with Power Outlet & Pegboard, 28\"-40\"Height Heavy Duty Solid Wood Work Table with 2000 to 5000 LBS Load",
+          "price": "$136.79",
+          "store": "Temu",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "Aurora",
+          "price": "$119.99",
+          "store": "Yukon 48 in. Workbench With Light",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "Cammoo 48 inch Adjustable Heavy Duty Workbench, 2000 lbs Capacity Solid Rubberwood Top Desk with ETL Power Strip & Tool-Free 6-Height Adjustment for",
+          "price": "$104.49",
+          "store": "Walmart",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Work Table | 96x30\" Composite Wood | ULINE",
+          "price": "$565",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "Adjustable Workbench, 5000 lbs Capacity, 96 x 24 Inch Oak Wood Top Workstation with 4 AC Outlets & 2 USB Ports, Heavy-Duty Hardwood Worktable for",
+          "price": "$299.99",
+          "store": "Wayfair",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "Thornton",
+          "price": "$169.99",
+          "store": "Yukon 60 In., 3-Drawer Hardwood Workbench",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$369.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "Industrial Packing Table | ULINE 48x36\" Composite Wood Top | Adjustable Legs",
+          "price": "$350",
+          "store": "ULINE",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261003_203645_workbenches",
+      "timestamp": "2026-10-03T20:36:45+00:00",
+      "keyword": "workbenches",
+      "location": "Phoenix, Arizona",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261003_203725_work_benches",
+      "timestamp": "2026-10-03T20:37:25+00:00",
+      "keyword": "work benches",
+      "location": "Dallas, Texas",
       "sponsored": [],
       "organic": [],
       "shopping": []
