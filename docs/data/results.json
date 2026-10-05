@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260522_225255_workbench",
-      "timestamp": "2026-05-22T22:52:55+00:00",
-      "keyword": "workbench",
-      "location": "Houston, Texas",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260522_225333_work_bench",
-      "timestamp": "2026-05-22T22:53:33+00:00",
-      "keyword": "work bench",
-      "location": "Houston, Texas",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260522_225418_workbenches",
-      "timestamp": "2026-05-22T22:54:18+00:00",
-      "keyword": "workbenches",
-      "location": "San Diego, California",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260522_225501_work_benches",
-      "timestamp": "2026-05-22T22:55:01+00:00",
-      "keyword": "work benches",
-      "location": "Detroit, Michigan",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260523_085955_workbench",
       "timestamp": "2026-05-23T08:59:55+00:00",
       "keyword": "workbench",
@@ -60115,6 +60079,42 @@
       "timestamp": "2026-10-04T20:53:53+00:00",
       "keyword": "work benches",
       "location": "Dallas, Texas",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261005_111052_workbench",
+      "timestamp": "2026-10-05T11:10:52+00:00",
+      "keyword": "workbench",
+      "location": "Phoenix, Arizona",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261005_111130_work_bench",
+      "timestamp": "2026-10-05T11:11:30+00:00",
+      "keyword": "work bench",
+      "location": "Phoenix, Arizona",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261005_111213_workbenches",
+      "timestamp": "2026-10-05T11:12:13+00:00",
+      "keyword": "workbenches",
+      "location": "Phoenix, Arizona",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261005_111255_work_benches",
+      "timestamp": "2026-10-05T11:12:55+00:00",
+      "keyword": "work benches",
+      "location": "Detroit, Michigan",
       "sponsored": [],
       "organic": [],
       "shopping": []
