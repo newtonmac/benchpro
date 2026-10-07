@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260526_074320_workbench",
-      "timestamp": "2026-05-26T07:43:20+00:00",
-      "keyword": "workbench",
-      "location": "Phoenix, Arizona",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260526_074359_work_bench",
-      "timestamp": "2026-05-26T07:43:59+00:00",
-      "keyword": "work bench",
-      "location": "Philadelphia, Pennsylvania",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260526_074438_workbenches",
-      "timestamp": "2026-05-26T07:44:38+00:00",
-      "keyword": "workbenches",
-      "location": "San Diego, California",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260526_074516_work_benches",
-      "timestamp": "2026-05-26T07:45:16+00:00",
-      "keyword": "work benches",
-      "location": "Atlanta, Georgia",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260526_182205_workbench",
       "timestamp": "2026-05-26T18:22:05+00:00",
       "keyword": "workbench",
@@ -60653,6 +60617,184 @@
       "sponsored": [],
       "organic": [],
       "shopping": []
+    },
+    {
+      "id": "20261007_105059_workbench",
+      "timestamp": "2026-10-07T10:50:59+00:00",
+      "keyword": "workbench",
+      "location": "Philadelphia, Pennsylvania",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261007_105146_work_bench",
+      "timestamp": "2026-10-07T10:51:46+00:00",
+      "keyword": "work bench",
+      "location": "Phoenix, Arizona",
+      "sponsored": [],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "Glendale",
+          "price": "$119.99",
+          "store": "Yukon 48 in. Workbench With Light",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "91 in Height-Adjustable Industrial Workbench Mfw1000, 50 - 66 in High, 32 in Deep, incl. Multiplex Worktop, Pegboard, 2 Door Cabinets (Wst), 2 Drawer",
+          "price": "$990",
+          "store": "Topregal US",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "WORKPRO 48\" Adjustable Height Workbench 2000 LBS Load Capacity Hardwood Worktable with Power Outlets",
+          "price": "$191.99",
+          "store": "workprotools.store",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$369.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "Cammoo 48 inch Adjustable Heavy Duty Workbench, 2000 lbs Capacity Solid Rubberwood Top Desk with ETL Power Strip & Tool-Free 6-Height Adjustment for",
+          "price": "$104.49",
+          "store": "Walmart",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Industrial Packing Table - 60x36\", Composite Wood Top - ULINE",
+          "price": "$390",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "Glendale",
+          "price": "$169.99",
+          "store": "Yukon 60 In., 3-Drawer Hardwood Workbench",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "96\"84\"72\"60\"48\"Adjustable Height Workbench with Power Outlet & Pegboard, 28\"-40\"Height Heavy Duty Solid Wood Work Table with 2000 to 5000 LBS Load",
+          "price": "$136.79",
+          "store": "Temu",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "48 in Height-Adjustable Industrial Workbench Mfw1000, 50 - 66 in High, 32 in Deep, incl. Multiplex Worktop, Pegboard, 1 Door Cabinet (Wst), 1 Drawer",
+          "price": "$590",
+          "store": "Topregal US",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "91 in Height-Adjustable Industrial Workbench Mfw1000, 30 - 46 in High, 32 in Deep, incl. Multiplex Worktop, 2 Door Cabinets (Wst) & 2 Drawer Cabinets",
+          "price": "$890",
+          "store": "Topregal US",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261007_105230_workbenches",
+      "timestamp": "2026-10-07T10:52:30+00:00",
+      "keyword": "workbenches",
+      "location": "Detroit, Michigan",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261007_105316_work_benches",
+      "timestamp": "2026-10-07T10:53:16+00:00",
+      "keyword": "work benches",
+      "location": "San Diego, California",
+      "sponsored": [],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "91 in Height-Adjustable Industrial Workbench Mfw1000, 50 - 66 in High, 32 in Deep, incl. Multiplex Worktop, Pegboard, 2 Door Cabinets (Wst), 2 Drawer",
+          "price": "$990",
+          "store": "Topregal US",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "WORKPRO 48\" Adjustable Height Workbench 2000 LBS Load Capacity Hardwood Worktable with Power Outlets",
+          "price": "$191.99",
+          "store": "workprotools.store",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "Miramar",
+          "price": "$169.99",
+          "store": "Yukon 60 In., 3-Drawer Hardwood Workbench",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$369.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "Adjustable Workbench, 5000 lbs Capacity, 96 x 24 Inch Oak Wood Top Workstation with 4 AC Outlets & 2 USB Ports, Heavy-Duty Hardwood Worktable for",
+          "price": "$299.99",
+          "store": "Wayfair",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "91 in Height-Adjustable Industrial Workbench Mfw1000, 30 - 46 in High, 32 in Deep, incl. Multiplex Worktop, 2 Door Cabinets (Wst) & 2 Drawer Cabinets",
+          "price": "$890",
+          "store": "Topregal US",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "48 in Height-Adjustable Industrial Workbench Mfw1000, 50 - 66 in High, 32 in Deep, incl. Multiplex Worktop, Pegboard, 1 Door Cabinet (Wst), 1 Drawer",
+          "price": "$590",
+          "store": "Topregal US",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "Miramar",
+          "price": "$119.99",
+          "store": "Yukon 48 in. Workbench With Light",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "Work bench, Workbench for garage, Garage work bench and tool storage, 60\"\u00d7 22 \" Garage Workbench with Drawers & Pegboard-- Adjustable Heavy Duty",
+          "price": "$214.78",
+          "store": "Temu",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "Midway District",
+          "price": "$359.99",
+          "store": "Harbor Freight Tools",
+          "domain": ""
+        }
+      ]
     }
   ]
 }
