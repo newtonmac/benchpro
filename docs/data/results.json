@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260526_230458_workbench",
-      "timestamp": "2026-05-26T23:04:58+00:00",
-      "keyword": "workbench",
-      "location": "Phoenix, Arizona",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260526_230537_work_bench",
-      "timestamp": "2026-05-26T23:05:37+00:00",
-      "keyword": "work bench",
-      "location": "San Diego, California",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260526_230617_workbenches",
-      "timestamp": "2026-05-26T23:06:17+00:00",
-      "keyword": "workbenches",
-      "location": "Philadelphia, Pennsylvania",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260526_230658_work_benches",
-      "timestamp": "2026-05-26T23:06:58+00:00",
-      "keyword": "work benches",
-      "location": "Philadelphia, Pennsylvania",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260527_080216_workbench",
       "timestamp": "2026-05-27T08:02:16+00:00",
       "keyword": "workbench",
@@ -60863,6 +60827,42 @@
       "timestamp": "2026-10-07T20:58:58+00:00",
       "keyword": "work benches",
       "location": "Detroit, Michigan",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261007_232347_workbench",
+      "timestamp": "2026-10-07T23:23:47+00:00",
+      "keyword": "workbench",
+      "location": "Philadelphia, Pennsylvania",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261007_232424_work_bench",
+      "timestamp": "2026-10-07T23:24:24+00:00",
+      "keyword": "work bench",
+      "location": "Denver, Colorado",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261007_232507_workbenches",
+      "timestamp": "2026-10-07T23:25:07+00:00",
+      "keyword": "workbenches",
+      "location": "Atlanta, Georgia",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261007_232548_work_benches",
+      "timestamp": "2026-10-07T23:25:48+00:00",
+      "keyword": "work benches",
+      "location": "Denver, Colorado",
       "sponsored": [],
       "organic": [],
       "shopping": []
