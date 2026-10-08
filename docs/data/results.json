@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260527_182228_workbench",
-      "timestamp": "2026-05-27T18:22:28+00:00",
-      "keyword": "workbench",
-      "location": "Detroit, Michigan",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260527_182309_work_bench",
-      "timestamp": "2026-05-27T18:23:09+00:00",
-      "keyword": "work bench",
-      "location": "Philadelphia, Pennsylvania",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260527_182351_workbenches",
-      "timestamp": "2026-05-27T18:23:51+00:00",
-      "keyword": "workbenches",
-      "location": "Philadelphia, Pennsylvania",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260527_182430_work_benches",
-      "timestamp": "2026-05-27T18:24:30+00:00",
-      "keyword": "work benches",
-      "location": "Detroit, Michigan",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260527_205756_workbench",
       "timestamp": "2026-05-27T20:57:56+00:00",
       "keyword": "workbench",
@@ -60932,6 +60896,113 @@
     {
       "id": "20261008_111051_work_benches",
       "timestamp": "2026-10-08T11:10:51+00:00",
+      "keyword": "work benches",
+      "location": "New York, New York",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261008_141806_workbench",
+      "timestamp": "2026-10-08T14:18:06+00:00",
+      "keyword": "workbench",
+      "location": "Chicago, Illinois",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261008_141845_work_bench",
+      "timestamp": "2026-10-08T14:18:45+00:00",
+      "keyword": "work bench",
+      "location": "New York, New York",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261008_141925_workbenches",
+      "timestamp": "2026-10-08T14:19:25+00:00",
+      "keyword": "workbenches",
+      "location": "Atlanta, Georgia",
+      "sponsored": [],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$369.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "72x30\" Industrial Packing Table | ULINE | Composite Wood Top | Adjustable Legs",
+          "price": "$390",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "WORKPRO 48\" Adjustable Height Workbench 2000 LBS Load Capacity Hardwood Worktable with Power Outlets",
+          "price": "$191.99",
+          "store": "workprotools.store",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "Tennsco Industrial Workbench: 3,600 lb Cap., 72 in W x 30 in D, 34 in H, Square Edge, Gray Model: EB-2-3072M",
+          "price": "$999.57",
+          "store": "Grainger Industrial Supply",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "Adjustable Workbench, 5000 lbs Capacity, 96 x 24 Inch Oak Wood Top Workstation with 4 AC Outlets & 2 USB Ports, Heavy-Duty Hardwood Worktable for",
+          "price": "$299.99",
+          "store": "Wayfair",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "60 x 30 Production Workbench - Laminate Square Edge Complete Bench - Blue Global Industrial",
+          "price": "$1,019",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "Adjustable Height Workbench, 72 x 30\", Shop Top Square Edge, Black Global Industrial",
+          "price": "$349.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "Woodworking Workbench 96x30\" | ULINE Composite Wood Packing Table",
+          "price": "$565",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "Workbench w/ Maple Square Edge Top & Riser, 72\"W x 30\"D, Gray, Global Industrial",
+          "price": "$735",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "96\"84 \" 72\"60 \" 48\"Adjustable Height Workbench with Power Outlet & Pegboard, Work bench for garage, Garage workbench 28 \"-40\"Height",
+          "price": "$218.49",
+          "store": "Temu",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261008_142008_work_benches",
+      "timestamp": "2026-10-08T14:20:08+00:00",
       "keyword": "work benches",
       "location": "New York, New York",
       "sponsored": [],
