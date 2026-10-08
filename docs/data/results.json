@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260527_231257_workbench",
-      "timestamp": "2026-05-27T23:12:57+00:00",
-      "keyword": "workbench",
-      "location": "San Diego, California",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260527_231334_work_bench",
-      "timestamp": "2026-05-27T23:13:34+00:00",
-      "keyword": "work bench",
-      "location": "Chicago, Illinois",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260527_231416_workbenches",
-      "timestamp": "2026-05-27T23:14:16+00:00",
-      "keyword": "workbenches",
-      "location": "Chicago, Illinois",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260527_231502_work_benches",
-      "timestamp": "2026-05-27T23:15:02+00:00",
-      "keyword": "work benches",
-      "location": "Los Angeles, California",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260528_075609_workbench",
       "timestamp": "2026-05-28T07:56:09+00:00",
       "keyword": "workbench",
@@ -61005,6 +60969,107 @@
       "timestamp": "2026-10-08T21:00:57+00:00",
       "keyword": "work benches",
       "location": "Los Angeles, California",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261008_233608_workbench",
+      "timestamp": "2026-10-08T23:36:08+00:00",
+      "keyword": "workbench",
+      "location": "Houston, Texas",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261008_233656_work_bench",
+      "timestamp": "2026-10-08T23:36:56+00:00",
+      "keyword": "work bench",
+      "location": "Seattle, Washington",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "48\" Heavy Duty Work Bench W/ Drawers Adjustable Height ...",
+          "domain": "ebay.com",
+          "display_url": "https://www.ebay.com \u203a ... \u203a Work Benches",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "The 8 Best Workbenches For Any DIY Space",
+          "domain": "hunker.com",
+          "display_url": "https://www.hunker.com \u203a the-best-workbenche",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "https://www.lowes.com/pd/Wildaven-Steel-Workbench-...",
+          "domain": "lowes.com",
+          "display_url": "https://www.lowes.com \u203a sr-cyrl",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "WORKPRO Workbench with Power Outlets | 48-Inch Adjustable Height Worktable",
+          "price": "$191.99",
+          "store": "workprotools.store",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$369.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "Seattle",
+          "price": "$119.99",
+          "store": "Yukon 48 in. Workbench With Light",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "AECOJOY 60\u2019\u2019 Workbench and Garage Cabinet Storage System 2000LBS Heavy Duty Work Bench Table",
+          "price": "$329.99",
+          "store": "Aecojoy",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "48 in Height-Adjustable Industrial Workbench Mfw1000, 50 - 66 in High, 32 in Deep, incl. Multiplex Worktop, Pegboard, 1 Door Cabinet (Wst), 1 Drawer",
+          "price": "$590",
+          "store": "Topregal US",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Workbench 60x36 Composite Wood Top | ULINE",
+          "price": "$390",
+          "store": "ULINE",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261008_233742_workbenches",
+      "timestamp": "2026-10-08T23:37:42+00:00",
+      "keyword": "workbenches",
+      "location": "Houston, Texas",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261008_233827_work_benches",
+      "timestamp": "2026-10-08T23:38:27+00:00",
+      "keyword": "work benches",
+      "location": "New York, New York",
       "sponsored": [],
       "organic": [],
       "shopping": []
