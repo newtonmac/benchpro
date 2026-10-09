@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260528_104934_workbench",
-      "timestamp": "2026-05-28T10:49:34+00:00",
-      "keyword": "workbench",
-      "location": "New York, New York",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260528_105016_work_bench",
-      "timestamp": "2026-05-28T10:50:16+00:00",
-      "keyword": "work bench",
-      "location": "Atlanta, Georgia",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260528_105103_workbenches",
-      "timestamp": "2026-05-28T10:51:03+00:00",
-      "keyword": "workbenches",
-      "location": "Denver, Colorado",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260528_105143_work_benches",
-      "timestamp": "2026-05-28T10:51:43+00:00",
-      "keyword": "work benches",
-      "location": "Philadelphia, Pennsylvania",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260528_183240_workbench",
       "timestamp": "2026-05-28T18:32:40+00:00",
       "keyword": "workbench",
@@ -61180,6 +61144,149 @@
           "domain": ""
         }
       ]
+    },
+    {
+      "id": "20261009_110736_workbench",
+      "timestamp": "2026-10-09T11:07:36+00:00",
+      "keyword": "workbench",
+      "location": "Philadelphia, Pennsylvania",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261009_110823_work_bench",
+      "timestamp": "2026-10-09T11:08:23+00:00",
+      "keyword": "work bench",
+      "location": "Seattle, Washington",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261009_110908_workbenches",
+      "timestamp": "2026-10-09T11:09:08+00:00",
+      "keyword": "workbenches",
+      "location": "New York, New York",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Garage Workbenches & Workbench Tables | GarageAppeal.com",
+          "domain": "garageappeal.com",
+          "display_url": "https://www.garageappeal.com \u203a Garage",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Garage Workbenches",
+          "domain": "garage-organization.com",
+          "display_url": "https://www.garage-organization.com \u203a Category \u203a Gar...",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "The Best Workbenches | Tested by Bob Vila",
+          "domain": "bobvila.com",
+          "display_url": "https://www.bobvila.com \u203a Reviews \u203a Tools & Materials",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "Best Workbenches for Garage & Home Workshops",
+          "domain": "4dock.com",
+          "display_url": "https://www.4dock.com \u203a Knowledge Center",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "Workbenches",
+          "domain": "woodcraft.com",
+          "display_url": "https://www.woodcraft.com \u203a collections \u203a workbenches",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$369.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "Industrial Packing Table - 72x30\", Composite Wood Top - ULINE",
+          "price": "$390",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "91 in Height-Adjustable Industrial Workbench Mfw1000, 50 - 66 in High, 32 in Deep, incl. Multiplex Worktop, Pegboard, 2 Door Cabinets (Wst), 2 Drawer",
+          "price": "$990",
+          "store": "Topregal US",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "8' Adjustable Height Hardwood Workbench Hammered Granite",
+          "price": "$552.49",
+          "store": "Gladiator brand",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "Tennsco Industrial Workbench: 4,000 lb Cap., 60 in W x 30 in D, 34 in H, Square Edge, Gray Model: WB-1-3060W",
+          "price": "$573.43",
+          "store": "Grainger Industrial Supply",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Workbench Set, Formica Top, 30x60, 6000 lb Cap",
+          "price": "$1,776.99",
+          "store": "School Outfitters",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "Anti-Static Workbench - Standard, 60x30\" - ULINE",
+          "price": "$2,150",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "72 x 30 Production Workbench - Laminate Square Edge Complete Bench - Blue, Global Industrial",
+          "price": "$959",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "96x30\" Industrial Packing Table | ULINE Composite Wood Top Workbench",
+          "price": "$565",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "Adjustable Height Workbench, 72 x 30\", Shop Top Square Edge, Black Global Industrial",
+          "price": "$349.95",
+          "store": "Global Industrial",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261009_110946_work_benches",
+      "timestamp": "2026-10-09T11:09:46+00:00",
+      "keyword": "work benches",
+      "location": "Los Angeles, California",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
     }
   ]
 }
