@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260529_104001_workbench",
-      "timestamp": "2026-05-29T10:40:01+00:00",
-      "keyword": "workbench",
-      "location": "Phoenix, Arizona",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260529_104044_work_bench",
-      "timestamp": "2026-05-29T10:40:44+00:00",
-      "keyword": "work bench",
-      "location": "Detroit, Michigan",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260529_104126_workbenches",
-      "timestamp": "2026-05-29T10:41:26+00:00",
-      "keyword": "workbenches",
-      "location": "Seattle, Washington",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260529_104211_work_benches",
-      "timestamp": "2026-05-29T10:42:11+00:00",
-      "keyword": "work benches",
-      "location": "Dallas, Texas",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260529_182908_workbench",
       "timestamp": "2026-05-29T18:29:08+00:00",
       "keyword": "workbench",
@@ -61427,6 +61391,149 @@
       "timestamp": "2026-10-10T01:28:21+00:00",
       "keyword": "work benches",
       "location": "Los Angeles, California",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261010_131138_workbench",
+      "timestamp": "2026-10-10T13:11:38+00:00",
+      "keyword": "workbench",
+      "location": "Dallas, Texas",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261010_131219_work_bench",
+      "timestamp": "2026-10-10T13:12:19+00:00",
+      "keyword": "work bench",
+      "location": "Seattle, Washington",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Modular Workbenches for Garage - Gladiator GarageWorks",
+          "domain": "gladiatorgarageworks.com",
+          "display_url": "https://www.gladiatorgarageworks.com \u203a collections \u203a m...",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Industrial Steel Workbenches",
+          "domain": "homak.com",
+          "display_url": "https://homak.com \u203a product-category \u203a workbenches",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "14 Super-Simple Workbenches You Can Build",
+          "domain": "familyhandyman.com",
+          "display_url": "https://www.familyhandyman.com \u203a ... \u203a Workbench",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "Workbench Toolbox Combos & Tool Storage Systems",
+          "domain": "dragonfiretools.com",
+          "display_url": "https://dragonfiretools.com \u203a collections \u203a workbenches...",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "The Best Workbenches | Tested by Bob Vila",
+          "domain": "bobvila.com",
+          "display_url": "https://www.bobvila.com \u203a Reviews \u203a Tools & Materials",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "Seattle",
+          "price": "$119.99",
+          "store": "Yukon 48 in. Workbench With Light",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "WORKPRO 48\" Adjustable Height Workbench 2000 LBS Load Capacity Hardwood Worktable with Power Outlets",
+          "price": "$199.99",
+          "store": "workprotools.store",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "Adjustable Workbench, 5000 lbs Capacity, 96 x 24 Inch Oak Wood Top Workstation with 4 AC Outlets & 2 USB Ports, Heavy-Duty Hardwood Worktable for",
+          "price": "$279.99",
+          "store": "Wayfair",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$369.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "PioneerWorks 60\"x22\" Heavy Duty Workbench with Pegboard & Storage Shelf, 2000 Lbs Load Capacity, 29\"-38.5\" Adjustable Height",
+          "price": "$237.99",
+          "store": "Home Depot",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Adjustable Leg Industrial Packing Table | ULINE 60x30\" | Composite Wood Top",
+          "price": "$350",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "Bellevue",
+          "price": "$139.99",
+          "store": "Yukon 60 In., 3-Drawer Hardwood Workbench",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "Bellevue",
+          "price": "$359.99",
+          "store": "Harbor Freight Tools",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "Packing Table Workbench - 96x36\", Composite Wood Top - ULINE",
+          "price": "$635",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "96\"84 \" 72\"60 \" 48\"Adjustable Height Workbench with Power Outlet & Pegboard, Garage work bench, Work bench table, Garage workbench, 28 \" -40\"Height",
+          "price": "$118.09",
+          "store": "Temu",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261010_131302_workbenches",
+      "timestamp": "2026-10-10T13:13:02+00:00",
+      "keyword": "workbenches",
+      "location": "Phoenix, Arizona",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261010_131347_work_benches",
+      "timestamp": "2026-10-10T13:13:47+00:00",
+      "keyword": "work benches",
+      "location": "Houston, Texas",
       "sponsored": [],
       "organic": [],
       "shopping": []
