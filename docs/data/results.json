@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260530_091154_workbench",
-      "timestamp": "2026-05-30T09:11:54+00:00",
-      "keyword": "workbench",
-      "location": "Los Angeles, California",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260530_091240_work_bench",
-      "timestamp": "2026-05-30T09:12:40+00:00",
-      "keyword": "work bench",
-      "location": "Dallas, Texas",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260530_091323_workbenches",
-      "timestamp": "2026-05-30T09:13:23+00:00",
-      "keyword": "workbenches",
-      "location": "Philadelphia, Pennsylvania",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260530_091401_work_benches",
-      "timestamp": "2026-05-30T09:14:01+00:00",
-      "keyword": "work benches",
-      "location": "Seattle, Washington",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260530_191047_workbench",
       "timestamp": "2026-05-30T19:10:47+00:00",
       "keyword": "workbench",
@@ -62035,6 +61999,113 @@
       "timestamp": "2026-10-11T21:29:52+00:00",
       "keyword": "work benches",
       "location": "Seattle, Washington",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261012_113933_workbench",
+      "timestamp": "2026-10-12T11:39:33+00:00",
+      "keyword": "workbench",
+      "location": "Atlanta, Georgia",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261012_114017_work_bench",
+      "timestamp": "2026-10-12T11:40:17+00:00",
+      "keyword": "work bench",
+      "location": "Los Angeles, California",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261012_114104_workbenches",
+      "timestamp": "2026-10-12T11:41:04+00:00",
+      "keyword": "workbenches",
+      "location": "Denver, Colorado",
+      "sponsored": [],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$369.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "Englewood",
+          "price": "$139.99",
+          "store": "Yukon 60 In., 3-Drawer Hardwood Workbench",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "WORKPRO 48\" Workbench for garage 2000 LBS Load Capacity Hardwood Worktable with Adjustbale Metal Legs",
+          "price": "$199.99",
+          "store": "workprotools.store",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "Adjustable Workbench, 5000 lbs Capacity, 96 x 24 Inch Oak Wood Top Workstation with 4 AC Outlets & 2 USB Ports, Heavy-Duty Hardwood Worktable for",
+          "price": "$279.99",
+          "store": "Wayfair",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "AECOJOY 60\u2019\u2019 Workbench and Garage Cabinet Storage System 2000LBS Heavy Duty Work Bench Table",
+          "price": "$329.99",
+          "store": "Aecojoy",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "72x30\" Industrial Packing Table | ULINE | Composite Wood Top | Adjustable Legs",
+          "price": "$390",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "8' Adjustable Height Hardwood Workbench Hammered Granite",
+          "price": "$552.49",
+          "store": "Gladiator brand",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "Adjustable Heavy-Duty Workbench with Power Outlets 48 / 60 / 72 Inch Wood Top Work Table, 2500 lb Capacity, Steel Frame for Garage, Workshop, or Home",
+          "price": "$122.53",
+          "store": "Walmart",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "Aurora",
+          "price": "$119.99",
+          "store": "Yukon 48 in. Workbench With Light",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "5% OFF",
+          "price": "$246.91",
+          "store": "VEVOR",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261012_114148_work_benches",
+      "timestamp": "2026-10-12T11:41:48+00:00",
+      "keyword": "work benches",
+      "location": "New York, New York",
       "sponsored": [],
       "organic": [],
       "shopping": []
