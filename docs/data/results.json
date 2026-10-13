@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260601_092514_workbench",
-      "timestamp": "2026-06-01T09:25:14+00:00",
-      "keyword": "workbench",
-      "location": "Phoenix, Arizona",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260601_092558_work_bench",
-      "timestamp": "2026-06-01T09:25:58+00:00",
-      "keyword": "work bench",
-      "location": "Chicago, Illinois",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260601_092639_workbenches",
-      "timestamp": "2026-06-01T09:26:39+00:00",
-      "keyword": "workbenches",
-      "location": "Houston, Texas",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260601_092719_work_benches",
-      "timestamp": "2026-06-01T09:27:19+00:00",
-      "keyword": "work benches",
-      "location": "Dallas, Texas",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260601_123108_workbench",
       "timestamp": "2026-06-01T12:31:08+00:00",
       "keyword": "workbench",
@@ -62643,6 +62607,113 @@
           "domain": ""
         }
       ]
+    },
+    {
+      "id": "20261013_024809_workbench",
+      "timestamp": "2026-10-13T02:48:09+00:00",
+      "keyword": "workbench",
+      "location": "Detroit, Michigan",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261013_024849_work_bench",
+      "timestamp": "2026-10-13T02:48:49+00:00",
+      "keyword": "work bench",
+      "location": "Phoenix, Arizona",
+      "sponsored": [],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "WORKPRO 48\" Workbench for garage 2000 LBS Load Capacity Hardwood Worktable with Adjustbale Metal Legs",
+          "price": "$199.99",
+          "store": "workprotools.store",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "Glendale",
+          "price": "$119.99",
+          "store": "Yukon 48 in. Workbench With Light",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$369.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "Industrial Packing Table - 72x30\", Composite Wood Top - ULINE",
+          "price": "$390",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "Adjustable Workbench, 5000 lbs Capacity, 96 x 24 Inch Oak Wood Top Workstation with 4 AC Outlets & 2 USB Ports, Heavy-Duty Hardwood Worktable for",
+          "price": "$279.99",
+          "store": "Wayfair",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Glendale",
+          "price": "$169.99",
+          "store": "Yukon 60 In., 3-Drawer Hardwood Workbench",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "Adjustable Industrial Packing Table - 72x36'', 3000lbs, Rubber Wood | 4Dock",
+          "price": "$289",
+          "store": "4Dock",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "Sunvasagoo Heavy Duty Bamboo Wood Steel Workbench, Sturdy Workshop for Home Office",
+          "price": "$186.16",
+          "store": "Home Depot",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "96\"84 \" 72\"60 \" 48\"Adjustable Height Workbench with Power Outlet & Pegboard, Garage work bench, Work bench table, Garage workbench, 28 \" -40\"Height",
+          "price": "$118.31",
+          "store": "Temu",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "60 inch Heavy-Duty Adjustable Workbench, Rubber Wood Shop Table with Wheels, Pegboard, Power Outlets, Workstation, Size: 60x 22 with Wheels, Black",
+          "price": "$169.99",
+          "store": "Walmart",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261013_024935_workbenches",
+      "timestamp": "2026-10-13T02:49:35+00:00",
+      "keyword": "workbenches",
+      "location": "Philadelphia, Pennsylvania",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261013_025012_work_benches",
+      "timestamp": "2026-10-13T02:50:12+00:00",
+      "keyword": "work benches",
+      "location": "Detroit, Michigan",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
     }
   ]
 }
