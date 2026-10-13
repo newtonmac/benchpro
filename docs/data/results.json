@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260601_201332_workbench",
-      "timestamp": "2026-06-01T20:13:32+00:00",
-      "keyword": "workbench",
-      "location": "Houston, Texas",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260601_201415_work_bench",
-      "timestamp": "2026-06-01T20:14:15+00:00",
-      "keyword": "work bench",
-      "location": "Denver, Colorado",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260601_201453_workbenches",
-      "timestamp": "2026-06-01T20:14:53+00:00",
-      "keyword": "workbenches",
-      "location": "Houston, Texas",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260601_201538_work_benches",
-      "timestamp": "2026-06-01T20:15:38+00:00",
-      "keyword": "work benches",
-      "location": "Seattle, Washington",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260601_215659_workbench",
       "timestamp": "2026-06-01T21:56:59+00:00",
       "keyword": "workbench",
@@ -62714,6 +62678,214 @@
       "sponsored": [],
       "organic": [],
       "shopping": []
+    },
+    {
+      "id": "20261013_144349_workbench",
+      "timestamp": "2026-10-13T14:43:49+00:00",
+      "keyword": "workbench",
+      "location": "Seattle, Washington",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261013_144430_work_bench",
+      "timestamp": "2026-10-13T14:44:30+00:00",
+      "keyword": "work bench",
+      "location": "Detroit, Michigan",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261013_144516_workbenches",
+      "timestamp": "2026-10-13T14:45:16+00:00",
+      "keyword": "workbenches",
+      "location": "Chicago, Illinois",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Garage Workbenches & Workbench Tables | GarageAppeal.com",
+          "domain": "garageappeal.com",
+          "display_url": "https://www.garageappeal.com \u203a Garage",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Workbenches",
+          "domain": "tmgindustrial.com",
+          "display_url": "https://www.tmgindustrial.com \u203a collections \u203a workbenc...",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "Best Workbenches for Garage & Home Workshops",
+          "domain": "4dock.com",
+          "display_url": "https://www.4dock.com \u203a Knowledge Center",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "The Best Workbenches | Tested by Bob Vila",
+          "domain": "bobvila.com",
+          "display_url": "https://www.bobvila.com \u203a Reviews \u203a Tools & Materials",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "Workbenches",
+          "domain": "bedbathandbeyond.com",
+          "display_url": "https://www.bedbathandbeyond.com \u203a tool-storage \u203a w...",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "Mesa de Trabajo Industrial - 72x30\", Cubierta de Madera Comprimida, 183x76 cm - ULINE Mexico",
+          "price": "$12,453.76",
+          "store": "ULINE Mexico",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "5,000 lbs. Capacity Kennedy Series Workbenches - With Heavy Lisstat Esd Top-24 X 72\"",
+          "price": "$14,124.73",
+          "store": "Material Handling Solutions",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "96 x 36\" L 33-1/2\" Fixed Height Workbenches Top Plastic Laminate",
+          "price": "$14,720.87",
+          "store": "Material Handling Solutions",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "5,000 lbs. Capacity Kennedy Series Workbenches - With Heavy Formica Laminate Top-30 X 96\"",
+          "price": "$13,432.03",
+          "store": "Material Handling Solutions",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261013_144555_work_benches",
+      "timestamp": "2026-10-13T14:45:55+00:00",
+      "keyword": "work benches",
+      "location": "San Diego, California",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Shop All Workbenches",
+          "domain": "borroughs.com",
+          "display_url": "https://www.borroughs.com \u203a Shop",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Benches & Work Stations",
+          "domain": "rockler.com",
+          "display_url": "https://www.rockler.com \u203a Workshop",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "The Best Workbenches | Tested by Bob Vila",
+          "domain": "bobvila.com",
+          "display_url": "https://www.bobvila.com \u203a Reviews \u203a Tools & Materials",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "Garage Workbench Solution",
+          "domain": "newageproducts.com",
+          "display_url": "https://newageproducts.com \u203a workbenches",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "Workbenches - Garage, Industrial, Portable, Folding",
+          "domain": "toolsid.com",
+          "display_url": "https://www.toolsid.com \u203a Garage",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "Antiest\u00e1tica - Mesa de Trabajo - Est\u00e1ndar, 60x30\" - ULINE Mexico",
+          "price": "$65,841.60",
+          "store": "ULINE Mexico",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "Mesa de Trabajo Industrial - 72x30\", Cubierta de Madera Comprimida, 183x76 cm - ULINE Mexico",
+          "price": "$12,453.76",
+          "store": "ULINE Mexico",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "Juego de banco de trabajo profesional con armario extra\u00edble - 13 piezas | BALTICDIAG | Bancos de trabajo para garaje",
+          "price": "$19,006.83",
+          "store": "balticdiag.com",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "Mesa de Trabajo Industrial - 48x30\", Cubierta de Pl\u00e1stico Laminado, 122x76 cm - ULINE Mexico",
+          "price": "$11,637.12",
+          "store": "ULINE Mexico",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "Mesa de Trabajo Industrial - 96x36\", Cubierta de Madera Comprimida, 244x91 cm - ULINE Mexico",
+          "price": "$20,262.88",
+          "store": "ULINE Mexico",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Antiest\u00e1tica - Mesa de Trabajo - F\u00e1cil de Ajustar, 60x30\" - ULINE Mexico",
+          "price": "$97,843.68",
+          "store": "ULINE Mexico",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "Mesa de Trabajo Industrial - 48x30\", Cubierta de Madera Comprimida, 122x76 cm - ULINE Mexico",
+          "price": "$10,539.76",
+          "store": "ULINE Mexico",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "Banco de trabajo con superficie de madera | BalticDiag",
+          "price": "$5,067.03",
+          "store": "balticdiag.com",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "72 x 30\" L 33-1/2\" Fixed Height Workbenches Top Plastic Laminate",
+          "price": "$9,193.43",
+          "store": "Material Handling Solutions",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "Mesa B\u00e1sica para Estaci\u00f3n de Trabajo de Alta Calidad - 72x30\", Cubierta de Acero, 183x76 cm - ULINE Mexico",
+          "price": "$25,520.00",
+          "store": "ULINE Mexico",
+          "domain": ""
+        }
+      ]
     }
   ]
 }
