@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260602_111353_workbench",
-      "timestamp": "2026-06-02T11:13:53+00:00",
-      "keyword": "workbench",
-      "location": "Detroit, Michigan",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260602_111437_work_bench",
-      "timestamp": "2026-06-02T11:14:37+00:00",
-      "keyword": "work bench",
-      "location": "Dallas, Texas",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260602_111515_workbenches",
-      "timestamp": "2026-06-02T11:15:15+00:00",
-      "keyword": "workbenches",
-      "location": "Dallas, Texas",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260602_111601_work_benches",
-      "timestamp": "2026-06-02T11:16:01+00:00",
-      "keyword": "work benches",
-      "location": "San Diego, California",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260602_193831_workbench",
       "timestamp": "2026-06-02T19:38:31+00:00",
       "keyword": "workbench",
@@ -63075,6 +63039,270 @@
           "title": "Cicero",
           "price": "$119.99",
           "store": "Yukon 48 in. Workbench With Light",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261014_091711_workbench",
+      "timestamp": "2026-10-14T09:17:11+00:00",
+      "keyword": "workbench",
+      "location": "New York, New York",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261014_091757_work_bench",
+      "timestamp": "2026-10-14T09:17:57+00:00",
+      "keyword": "work bench",
+      "location": "Denver, Colorado",
+      "sponsored": [],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "Englewood",
+          "price": "$124.99",
+          "store": "Yukon 48 in. Workbench With Light",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "WORKPRO Workbench with Power Outlets | Adjustable Height Worktable | 48-Inch",
+          "price": "$199.99",
+          "store": "workprotools.store",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "Industrial Workbench | Mfw1000 | Height-Adjustable Workstation w/ Pegboard & Cabinets",
+          "price": "$990",
+          "store": "Topregal US",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "60\" Heavy Duty Workbench | Power Outlet & Pegboard | Rubber Wood Table",
+          "price": "$99.73",
+          "store": "Temu",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "48 x 24 Inch Heavy-Duty Adjustable Workbench Desk Office Computer Table with Storage Shelf & Built-In Power Outlet, 2500 lbs Capacity, Two-Tier Design",
+          "price": "$111.83",
+          "store": "Walmart",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Adjustable Height Industrial Packing Table | ULINE | 72x30\" | Composite Top",
+          "price": "$390",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "Englewood",
+          "price": "$169.99",
+          "store": "Yukon 60 In., 3-Drawer Hardwood Workbench",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261014_091843_workbenches",
+      "timestamp": "2026-10-14T09:18:43+00:00",
+      "keyword": "workbenches",
+      "location": "New York, New York",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Garage Workbenches & Workbench Tables | GarageAppeal.com",
+          "domain": "garageappeal.com",
+          "display_url": "https://www.garageappeal.com \u203a Garage",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Best Workbenches for Garage & Home Workshops",
+          "domain": "4dock.com",
+          "display_url": "https://www.4dock.com \u203a Knowledge Center",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "Workbenches",
+          "domain": "tmgindustrial.com",
+          "display_url": "https://www.tmgindustrial.com \u203a collections \u203a workbenc...",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "The Best Workbenches | Tested by Bob Vila",
+          "domain": "bobvila.com",
+          "display_url": "https://www.bobvila.com \u203a Reviews \u203a Tools & Materials",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "Work Benches | Zoro.com",
+          "domain": "zoro.com",
+          "display_url": "https://www.zoro.com \u203a work-benches",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$369.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "91 in Height-Adjustable Industrial Workbench Mfw1000, 50 - 66 in High, 32 in Deep, incl. Multiplex Worktop, Pegboard, 2 Door Cabinets (Wst), 2 Drawer",
+          "price": "$990",
+          "store": "Topregal US",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "WORKPRO 48\" Adjustable Height Workbench 2000 LBS Load Capacity Hardwood Worktable with Power Outlets",
+          "price": "$199.99",
+          "store": "workprotools.store",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "North Bergen",
+          "price": "$129.99",
+          "store": "Yukon 48 in. Workbench With Light",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "8' Adjustable Height Hardwood Workbench Hammered Granite",
+          "price": "$552.49",
+          "store": "Gladiator brand",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Adjustable Height Industrial Packing Table | ULINE | 72x30\" | Composite Top",
+          "price": "$390",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "Gowanus",
+          "price": "$169.99",
+          "store": "Yukon 60 In., 3-Drawer Hardwood Workbench",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "48\" 60\" 96\"Heavy Duty Adjustable Workbench W/ Power Outlet & Pegboard - 28-40\" Height, 2000/5000 LBS Capacity, Thick Rubber Wood Top - for Garage,",
+          "price": "$99.73",
+          "store": "Temu",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "Adjustable Heavy-Duty Workbench with Power Outlets 48 / 60 / 72 Inch Wood Top Work Table, 2500 lb Capacity, Steel Frame for Garage, Workshop, or Home",
+          "price": "$122.53",
+          "store": "Walmart",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "Adjustable Workbench, 5000 lbs Capacity, 96 x 24 Inch Oak Wood Top Workstation with 4 AC Outlets & 2 USB Ports, Heavy-Duty Hardwood Worktable for",
+          "price": "$309.99",
+          "store": "Wayfair",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261014_091922_work_benches",
+      "timestamp": "2026-10-14T09:19:22+00:00",
+      "keyword": "work benches",
+      "location": "Detroit, Michigan",
+      "sponsored": [],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "91 in Height-Adjustable Industrial Workbench Mfw1000, 50 - 66 in High, 32 in Deep, incl. Multiplex Worktop, Pegboard, 2 Door Cabinets (Wst), 2 Drawer",
+          "price": "$990",
+          "store": "Topregal US",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$369.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "Dearborn",
+          "price": "$119.99",
+          "store": "Yukon 48 in. Workbench With Light",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "2000 LBS Load Capacity | WORKPRO 48\" Workbench | Power Outlets",
+          "price": "$199.99",
+          "store": "workprotools.store",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "48 x 24 Inch Heavy-Duty Adjustable Workbench Desk Office Computer Table with Storage Shelf & Built-In Power Outlet, 2500 lbs Capacity, Two-Tier Design",
+          "price": "$111.83",
+          "store": "Walmart",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Many Sizes, Accessories, Applications and Colors",
+          "price": "$1,390",
+          "store": "BenchDepot",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "[4-Pack Heavy Duty 600 Lbs] Workbench Casters + Adjustable Height + Non-Slip Footrest + Reinforced Frame + Silent Polyurethane Wheels + Universal for",
+          "price": "$74.93",
+          "store": "Temu",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "70\" \u00d7 35\" Heavy Duty Workbench w/ Shelf | 4Dock",
+          "price": "$399",
+          "store": "4Dock",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "Dearborn",
+          "price": "$169.99",
+          "store": "Yukon 60 In., 3-Drawer Hardwood Workbench",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "Adjustable Workbench, 5000 lbs Capacity, 96 x 24 Inch Oak Wood Top Workstation with 4 AC Outlets & 2 USB Ports, Heavy-Duty Hardwood Worktable for",
+          "price": "$309.99",
+          "store": "Wayfair",
           "domain": ""
         }
       ]
