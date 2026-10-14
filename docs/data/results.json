@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260602_193831_workbench",
-      "timestamp": "2026-06-02T19:38:31+00:00",
-      "keyword": "workbench",
-      "location": "Phoenix, Arizona",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260602_193914_work_bench",
-      "timestamp": "2026-06-02T19:39:14+00:00",
-      "keyword": "work bench",
-      "location": "New York, New York",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260602_193958_workbenches",
-      "timestamp": "2026-06-02T19:39:58+00:00",
-      "keyword": "workbenches",
-      "location": "Denver, Colorado",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260602_194036_work_benches",
-      "timestamp": "2026-06-02T19:40:36+00:00",
-      "keyword": "work benches",
-      "location": "Phoenix, Arizona",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260602_214114_workbench",
       "timestamp": "2026-06-02T21:41:14+00:00",
       "keyword": "workbench",
@@ -63303,6 +63267,292 @@
           "title": "Adjustable Workbench, 5000 lbs Capacity, 96 x 24 Inch Oak Wood Top Workstation with 4 AC Outlets & 2 USB Ports, Heavy-Duty Hardwood Worktable for",
           "price": "$309.99",
           "store": "Wayfair",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261014_123540_workbench",
+      "timestamp": "2026-10-14T12:35:40+00:00",
+      "keyword": "workbench",
+      "location": "Seattle, Washington",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261014_123619_work_bench",
+      "timestamp": "2026-10-14T12:36:19+00:00",
+      "keyword": "work bench",
+      "location": "Seattle, Washington",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Heavy Duty Workbench With Drawers | Custom Built by Dyco",
+          "domain": "dycoventures.com",
+          "display_url": "https://dycoventures.com \u203a pages \u203a workbenches",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Workbench",
+          "domain": "toolsource.com",
+          "display_url": "https://www.toolsource.com \u203a Tool Storage",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "Clearance - Workbenches & Tool Organizers",
+          "domain": "grizzly.com",
+          "display_url": "https://www.grizzly.com \u203a Clearance",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "Best Multi-Purpose Workbenches",
+          "domain": "dragonfiretools.com",
+          "display_url": "https://dragonfiretools.com \u203a collections \u203a multipurpose...",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "Rolling - Workbenches",
+          "domain": "homedepot.com",
+          "display_url": "https://www.homedepot.com \u203a ... \u203a Workbenches",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261014_123703_workbenches",
+      "timestamp": "2026-10-14T12:37:03+00:00",
+      "keyword": "workbenches",
+      "location": "Seattle, Washington",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Workbench",
+          "domain": "amazon.com",
+          "display_url": "https://www.amazon.com \u203a workbench",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Best Workbenches for Garage & Home Workshops",
+          "domain": "4dock.com",
+          "display_url": "https://www.4dock.com \u203a Knowledge Center",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "The Best Workbenches | Tested by Bob Vila",
+          "domain": "bobvila.com",
+          "display_url": "https://www.bobvila.com \u203a Reviews \u203a Tools & Materials",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "Workbenches",
+          "domain": "tmgindustrial.com",
+          "display_url": "https://www.tmgindustrial.com \u203a collections \u203a workbenc...",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "25+ Work Benches for sale | Updated Oct 2026",
+          "domain": "ebay.com",
+          "display_url": "https://www.ebay.com \u203a ... \u203a Workshop Equipment",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "Industrial Packing Table - 72x30\", Composite Wood Top - ULINE Canada",
+          "price": "$558",
+          "store": "ULINE Canada",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "Global Industrial Adjustable Height Workbench, 60 x 30\", Shop Top Square Edge, Black",
+          "price": "$389.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "5% OFF",
+          "price": "$374.21",
+          "store": "vevor.ca",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "Trent Austin Design Adjustable Workbench, 5000 lbs Capacity, 96 x 24 Inch Oak Wood Top Workstation with 4 AC Outlets & 2 USB Ports, Heavy-Duty Hardwoo",
+          "price": "$469.99",
+          "store": "Wayfair Canada",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "KLETON Heavy-Duty Modular Workbench, 2500 lbs. Cap., 48\" W x 24\" D (FN636)",
+          "price": "$752",
+          "store": "Tenaquip",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Standard Cabinet Workbench - 96x30\", Composite Wood Top - ULINE Canada",
+          "price": "$1,666",
+          "store": "ULINE Canada",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "Deluxe Workstation Starter Table - 96x30\", Composite Wood Top - ULINE Canada",
+          "price": "$1,394",
+          "store": "ULINE Canada",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "Bold Series 8PC Garage Cabinetry Set \u00b7 24-Gauge Steel \u00b7 Fully Welded \u00b7 180\" W x 18\" D x 76.75\" H - NewAge Products | Canada",
+          "price": "$1,699.99",
+          "store": "NewAge Products",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "Standard Cabinet Workbench - 72x30\", Composite Wood Top - ULINE Canada",
+          "price": "$1,216",
+          "store": "ULINE Canada",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "Global Industrial Adjustable Height Workbench, 60 x 30\", Birch Square Edge, Gray, Black",
+          "price": "$539",
+          "store": "Global Industrial",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261014_123748_work_benches",
+      "timestamp": "2026-10-14T12:37:48+00:00",
+      "keyword": "work benches",
+      "location": "Phoenix, Arizona",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Shop All Workbenches",
+          "domain": "borroughs.com",
+          "display_url": "https://www.borroughs.com \u203a Shop",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Benches & Work Stations",
+          "domain": "rockler.com",
+          "display_url": "https://www.rockler.com \u203a Workshop",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "The Best Workbenches | Tested by Bob Vila",
+          "domain": "bobvila.com",
+          "display_url": "https://www.bobvila.com \u203a Reviews \u203a Tools & Materials",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "Workbenches at Menards\u00ae",
+          "domain": "menards.com",
+          "display_url": "https://www.menards.com \u203a main \u203a tools \u203a tool-storage",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "Workbenches - Garage, Industrial, Portable, Folding",
+          "domain": "toolsid.com",
+          "display_url": "https://www.toolsid.com \u203a Garage",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "5% OFF",
+          "price": "$374.21",
+          "store": "vevor.ca",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "Global Industrial Adjustable Height Workbench, 60 x 30\", Birch Square Edge, Gray, Black",
+          "price": "$539",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "Trent Austin Design Adjustable Workbench, 5000 lbs Capacity, 72 x 24 Inch Oak Wood Top Workstation with 4 AC Outlets & 2 USB Ports, Heavy-Duty Hardwoo",
+          "price": "$449.99",
+          "store": "Wayfair Canada",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "VEVOR Adjustable Workbench, 5000 lbs Capacity, 72 x 24 Inch/ 96 x 24 Inch Oak Wood Top Workstation with 4 AC Outlets & 2 USB Ports, Heavy-Duty",
+          "price": "$194.39",
+          "store": "Temu",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "EMC 10ft Workbench Cabinet Combo 40 Drawers 2 Cabinets",
+          "price": "$3,449",
+          "store": "EMC Industrial",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Bold Series 5PC Garage Cabinetry Set \u00b7 24-Gauge Steel \u00b7 Fully Welded \u00b7 72\" W x 18\" D x 59.25\" H - NewAge Products | Canada",
+          "price": "$899.99",
+          "store": "NewAge Products",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "Bold Series 6PC Garage Cabinetry Set \u00b7 24-Gauge Steel \u00b7 Fully Welded \u00b7 132\" W x 18\" D x 76.75\" H - NewAge Products | Canada",
+          "price": "$1,759.99",
+          "store": "NewAge Products",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "Global Industrial Adjustable Height Workbench, 60 x 30\", Shop Top Square Edge, Black",
+          "price": "$389.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "KLETON Industrial-Duty Workbench, 1000 lbs Cap., 60\" W x 30\" D, 34\" H (FN766)",
+          "price": "$399",
+          "store": "Tenaquip",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "Uline Tool Cabinet - 11 Drawer, Black",
+          "price": "$1,559",
+          "store": "ULINE Canada",
           "domain": ""
         }
       ]
