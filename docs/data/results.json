@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260603_085453_workbench",
-      "timestamp": "2026-06-03T08:54:53+00:00",
-      "keyword": "workbench",
-      "location": "Detroit, Michigan",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260603_085535_work_bench",
-      "timestamp": "2026-06-03T08:55:35+00:00",
-      "keyword": "work bench",
-      "location": "Los Angeles, California",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260603_085619_workbenches",
-      "timestamp": "2026-06-03T08:56:19+00:00",
-      "keyword": "workbenches",
-      "location": "Los Angeles, California",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260603_085705_work_benches",
-      "timestamp": "2026-06-03T08:57:05+00:00",
-      "keyword": "work benches",
-      "location": "San Diego, California",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260603_115155_workbench",
       "timestamp": "2026-06-03T11:51:55+00:00",
       "keyword": "workbench",
@@ -64012,6 +63976,207 @@
           "domain": ""
         }
       ]
+    },
+    {
+      "id": "20261015_001420_workbench",
+      "timestamp": "2026-10-15T00:14:20+00:00",
+      "keyword": "workbench",
+      "location": "Dallas, Texas",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Workbench",
+          "domain": "toolsource.com",
+          "display_url": "https://www.toolsource.com \u203a Tool Storage",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Work Benches",
+          "domain": "maxtool.com",
+          "display_url": "https://www.maxtool.com \u203a collections \u203a work-benches",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "Workbenches & Worktops - Homedepot.ca",
+          "domain": "homedepot.ca",
+          "display_url": "https://www.homedepot.ca \u203a storage-and-organization",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "WORKBENCH definition in American English",
+          "domain": "collinsdictionary.com",
+          "display_url": "https://www.collinsdictionary.com \u203a dictionary \u203a workb...",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "How to Make the Ultimate Garage Workbench",
+          "domain": "curbly.com",
+          "display_url": "https://www.curbly.com \u203a Curbly Original",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261015_001500_work_bench",
+      "timestamp": "2026-10-15T00:15:00+00:00",
+      "keyword": "work bench",
+      "location": "Philadelphia, Pennsylvania",
+      "sponsored": [],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "Harbor Freight Tools",
+          "price": "$119.99",
+          "store": "Shop Harbor Freight Tools",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "workprotools.store",
+          "price": "$199.99",
+          "store": "15-day returns",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "Wayfair",
+          "price": "$279.99",
+          "store": "Wayfair",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "2000Lbs Heavy Duty Workbench With Pegboard, Steel Tool Table Adjustable 2-Tier for Garage Workshop Mechanic Storage 47.24\"W\u00d715.75\"D\u00d747.24\"H Williston",
+          "price": "$109.99",
+          "store": "Free by 10/20",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "48\" 60\" 96\"Heavy Duty Adjustable Workbench W/ Power Outlet & Pegboard - 28-40\" Height, 2000/5000 LBS Capacity, Thick Rubber Wood Top - for Garage,",
+          "price": "$100",
+          "store": "Free by 10/26",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "48\" 60\" 96\"Heavy Duty Adjustable Workbench W/ Power Outlet & Pegboard - 28-40\" Height, 2000/5000 LBS Capacity, Thick Rubber Wood Top - for Garage,",
+          "price": "$99.73",
+          "store": "Free by 10/26",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "96\"84 \" 72\"60 \" 48\"Adjustable Height Workbench with Power Outlet & Pegboard, Garage work bench, Work bench table, Garage workbench, 28 \" -40\"Height",
+          "price": "$118.31",
+          "store": "Free by 10/26",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "Gladiator brand",
+          "price": "$552.49",
+          "store": "Gladiator brand",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261015_001539_workbenches",
+      "timestamp": "2026-10-15T00:15:39+00:00",
+      "keyword": "workbenches",
+      "location": "Denver, Colorado",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Workbench",
+          "domain": "amazon.com",
+          "display_url": "https://www.amazon.com \u203a workbench",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Best Workbenches for Garage & Home Workshops",
+          "domain": "4dock.com",
+          "display_url": "https://www.4dock.com \u203a Knowledge Center",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "The Best Workbenches | Tested by Bob Vila",
+          "domain": "bobvila.com",
+          "display_url": "https://www.bobvila.com \u203a Reviews \u203a Tools & Materials",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "Workbenches",
+          "domain": "tmgindustrial.com",
+          "display_url": "https://www.tmgindustrial.com \u203a collections \u203a workbenc...",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "Workbenches On Sale",
+          "domain": "wayfair.com",
+          "display_url": "https://www.wayfair.com \u203a ... \u203a Workbenches",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261015_001617_work_benches",
+      "timestamp": "2026-10-15T00:16:17+00:00",
+      "keyword": "work benches",
+      "location": "Seattle, Washington",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Shop All Workbenches",
+          "domain": "borroughs.com",
+          "display_url": "https://www.borroughs.com \u203a Shop",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Benches & Work Stations",
+          "domain": "rockler.com",
+          "display_url": "https://www.rockler.com \u203a Workshop",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "The Best Workbenches | Tested by Bob Vila",
+          "domain": "bobvila.com",
+          "display_url": "https://www.bobvila.com \u203a Reviews \u203a Tools & Materials",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "Workbenches at Menards\u00ae",
+          "domain": "menards.com",
+          "display_url": "https://www.menards.com \u203a main \u203a tools \u203a tool-storage",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "Workbenches - Garage, Industrial, Portable, Folding",
+          "domain": "toolsid.com",
+          "display_url": "https://www.toolsid.com \u203a Garage",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": []
     }
   ]
 }
