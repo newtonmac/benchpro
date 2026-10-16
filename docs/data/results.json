@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260604_181156_workbench",
-      "timestamp": "2026-06-04T18:11:56+00:00",
-      "keyword": "workbench",
-      "location": "Atlanta, Georgia",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260604_181239_work_bench",
-      "timestamp": "2026-06-04T18:12:39+00:00",
-      "keyword": "work bench",
-      "location": "Denver, Colorado",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260604_181316_workbenches",
-      "timestamp": "2026-06-04T18:13:16+00:00",
-      "keyword": "workbenches",
-      "location": "Denver, Colorado",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260604_181358_work_benches",
-      "timestamp": "2026-06-04T18:13:58+00:00",
-      "keyword": "work benches",
-      "location": "New York, New York",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260604_205431_workbench",
       "timestamp": "2026-06-04T20:54:31+00:00",
       "keyword": "workbench",
@@ -64884,6 +64848,255 @@
       ],
       "organic": [],
       "shopping": []
+    },
+    {
+      "id": "20261016_120206_workbench",
+      "timestamp": "2026-10-16T12:02:06+00:00",
+      "keyword": "workbench",
+      "location": "Chicago, Illinois",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261016_120246_work_bench",
+      "timestamp": "2026-10-16T12:02:46+00:00",
+      "keyword": "work bench",
+      "location": "Dallas, Texas",
+      "sponsored": [],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$369.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "Adjustable Height Industrial Packing Table | ULINE | 72x30\" | Composite Top",
+          "price": "$390",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "Dallas",
+          "price": "$119.99",
+          "store": "Yukon 48 in. Workbench With Light",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "WORKPRO Garage Workbench | 2000 LBS Load Capacity | 48\" Worktable",
+          "price": "$199.99",
+          "store": "workprotools.store",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "5% OFF",
+          "price": "$246.91",
+          "store": "VEVOR",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Industrial Workbench | Mfw1000 | Height-Adjustable Workstation w/ Pegboard & Cabinets",
+          "price": "$990",
+          "store": "Topregal US",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "Durham Mfg Work Table: Fixed Ht, Steel Top, Iron Frame, 24 in x 18 in, 2,000 lb Cap., Gray, 0 / 0 Model: MT182418-2K195",
+          "price": "$197.49",
+          "store": "Grainger Industrial Supply",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "L-Shaped Workbench, 72 x 78\", Adjustable Height, Shop Top Square Edge Global Industrial",
+          "price": "$689",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "Industrial Packing Table | ULINE 96x30\" Composite Wood Top | Adjustable Legs",
+          "price": "$565",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "Workbench w/ Maple Square Edge Top, 6 Drawers & 2 Cabinets, 72\"Wx30\"D, Gray, Global Industrial",
+          "price": "$1,499",
+          "store": "Global Industrial",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261016_120326_workbenches",
+      "timestamp": "2026-10-16T12:03:26+00:00",
+      "keyword": "workbenches",
+      "location": "Seattle, Washington",
+      "sponsored": [],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$369.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "Adjustable Leg Industrial Packing Table | ULINE 60x30\" | Composite Wood Top",
+          "price": "$350",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "Heavy-duty Loading Table - WORKPRO 48 x 20\" Adjustable Height 2000 LBS Load Capacity with Power Outlets",
+          "price": "$199.99",
+          "store": "workprotools.store",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "91 in Height-Adjustable Industrial Workbench Mfw1000, 50 - 66 in High, 32 in Deep, incl. Multiplex Worktop, Pegboard, 2 Door Cabinets (Wst), 2 Drawer",
+          "price": "$990",
+          "store": "Topregal US",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "BUILT RIGHT 30\" x 60\" K-Series Workbench with Formica Laminate & Rounded Front Edge",
+          "price": "$460.60",
+          "store": "Production Automation Corporation",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "60 x 30 Adj Height Workbench w/Drawer&Riser, Black- Shop Top Square Edge Top Global Industrial",
+          "price": "$639",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "96x30\" Industrial Packing Table | ULINE Composite Wood Top Workbench",
+          "price": "$565",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "96 x 36 Adj Height Workbench w/Drawer, Black- Maple Square Edge Top Global Industrial",
+          "price": "$869",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "Industrial Packing Table - 48x30\", Composite Wood Top - ULINE",
+          "price": "$330",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "Adjustable Height Workbench, 72 x 30\", Shop Top Square Edge, Black Global Industrial",
+          "price": "$349.95",
+          "store": "Global Industrial",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261016_120411_work_benches",
+      "timestamp": "2026-10-16T12:04:11+00:00",
+      "keyword": "work benches",
+      "location": "New York, New York",
+      "sponsored": [],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$369.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "WORKPRO 48\" Adjustable Height Workbench 2000 LBS Load Capacity Hardwood Worktable with Power Outlets",
+          "price": "$199.99",
+          "store": "workprotools.store",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "91 in Height-Adjustable Industrial Workbench Mfw1000, 50 - 66 in High, 32 in Deep, incl. Multiplex Worktop, Pegboard, 2 Door Cabinets (Wst), 2 Drawer",
+          "price": "$990",
+          "store": "Topregal US",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "Adjustable Workbench, 5000 lbs Capacity, 96 x 24 Inch Oak Wood Top Workstation with 4 AC Outlets & 2 USB Ports, Heavy-Duty Hardwood Worktable for",
+          "price": "$309.99",
+          "store": "Wayfair",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "8-Leg Steel Frame Industrial Workbench 90\"x35\" w/ Optional Shelf | 4Dock",
+          "price": "$479",
+          "store": "4Dock",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Anti-Static Workbench - Standard, 60x30\" - ULINE",
+          "price": "$2,150",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "Workbench w/ Maple Square Edge Top, 6 Drawers & 2 Cabinets, 72\"Wx30\"D, Gray, Global Industrial",
+          "price": "$1,499",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "L-Shaped Workbench, 72 x 78\", Adjustable Height, Shop Top Square Edge Global Industrial",
+          "price": "$689",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "Adjustable Height Workbench, 72 x 30\", Shop Top Square Edge, Black Global Industrial",
+          "price": "$349.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "Many Sizes, Accessories, Applications and Colors",
+          "price": "$1,390",
+          "store": "BenchDepot",
+          "domain": ""
+        }
+      ]
     }
   ]
 }
