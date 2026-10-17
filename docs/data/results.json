@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260605_175005_workbench",
-      "timestamp": "2026-06-05T17:50:05+00:00",
-      "keyword": "workbench",
-      "location": "Phoenix, Arizona",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260605_175046_work_bench",
-      "timestamp": "2026-06-05T17:50:46+00:00",
-      "keyword": "work bench",
-      "location": "Dallas, Texas",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260605_175125_workbenches",
-      "timestamp": "2026-06-05T17:51:25+00:00",
-      "keyword": "workbenches",
-      "location": "Phoenix, Arizona",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260605_175207_work_benches",
-      "timestamp": "2026-06-05T17:52:07+00:00",
-      "keyword": "work benches",
-      "location": "Detroit, Michigan",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260605_204453_workbench",
       "timestamp": "2026-06-05T20:44:53+00:00",
       "keyword": "workbench",
@@ -65369,6 +65333,92 @@
           "domain": ""
         }
       ]
+    },
+    {
+      "id": "20261017_200552_workbench",
+      "timestamp": "2026-10-17T20:05:52+00:00",
+      "keyword": "workbench",
+      "location": "Seattle, Washington",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261017_200630_work_bench",
+      "timestamp": "2026-10-17T20:06:30+00:00",
+      "keyword": "work bench",
+      "location": "Chicago, Illinois",
+      "sponsored": [],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "Cicero",
+          "price": "$119.99",
+          "store": "Yukon 48 in. Workbench With Light",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "WORKPRO 48\" Adjustable Height Workbench 2000 LBS Load Capacity Hardwood Worktable with Power Outlets",
+          "price": "$199.99",
+          "store": "workprotools.store",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "Adjustable Workbench, 5000 lbs Capacity, 96 x 24 Inch Oak Wood Top Workstation with 4 AC Outlets & 2 USB Ports, Heavy-Duty Hardwood Worktable for",
+          "price": "$309.99",
+          "store": "Wayfair",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "8% OFF",
+          "price": "$119.51",
+          "store": "VEVOR",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$369.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Cicero",
+          "price": "$139.99",
+          "store": "Yukon 60 In., 3-Drawer Hardwood Workbench",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "72x30\" Industrial Packing Table | ULINE | Composite Wood Top | Adjustable Legs",
+          "price": "$390",
+          "store": "ULINE",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261017_200707_workbenches",
+      "timestamp": "2026-10-17T20:07:07+00:00",
+      "keyword": "workbenches",
+      "location": "Philadelphia, Pennsylvania",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261017_200745_work_benches",
+      "timestamp": "2026-10-17T20:07:45+00:00",
+      "keyword": "work benches",
+      "location": "Phoenix, Arizona",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
     }
   ]
 }
