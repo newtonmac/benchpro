@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260611_111941_workbench",
-      "timestamp": "2026-06-11T11:19:41+00:00",
-      "keyword": "workbench",
-      "location": "Detroit, Michigan",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260611_112021_work_bench",
-      "timestamp": "2026-06-11T11:20:21+00:00",
-      "keyword": "work bench",
-      "location": "Los Angeles, California",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260611_112058_workbenches",
-      "timestamp": "2026-06-11T11:20:58+00:00",
-      "keyword": "workbenches",
-      "location": "Phoenix, Arizona",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260611_112143_work_benches",
-      "timestamp": "2026-06-11T11:21:43+00:00",
-      "keyword": "work benches",
-      "location": "New York, New York",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260611_184402_workbench",
       "timestamp": "2026-06-11T18:44:02+00:00",
       "keyword": "workbench",
@@ -67026,6 +66990,158 @@
           "title": "Workbenches - Garage, Industrial, Portable, Folding",
           "domain": "toolsid.com",
           "display_url": "https://www.toolsid.com \u203a Garage",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261023_214514_workbench",
+      "timestamp": "2026-10-23T21:45:14+00:00",
+      "keyword": "workbench",
+      "location": "Philadelphia, Pennsylvania",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "What is the best simple workbench to build? : r/woodworking",
+          "domain": "20+",
+          "display_url": "20+ comments  \u00b7  2 years ago",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Universal Bench Base with Standard-Height Legs",
+          "domain": "kregtool.com",
+          "display_url": "https://www.kregtool.com \u203a bench-system-components",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "What is Workbench? \u2014 Kreo Glossary",
+          "domain": "kreo.net",
+          "display_url": "https://www.kreo.net \u203a glossary \u203a workbench",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "900+ Best Workbenches ideas | woodworking bench ...",
+          "domain": "pinterest.com",
+          "display_url": "https://www.pinterest.com \u203a lilbitking143 \u203a workbenches",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "61 Inch Workbench, Tools Cabinet Working Tables ...",
+          "domain": "amazon.com",
+          "display_url": "https://www.amazon.com \u203a clp",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261023_214556_work_bench",
+      "timestamp": "2026-10-23T21:45:56+00:00",
+      "keyword": "work bench",
+      "location": "Houston, Texas",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Work Benches - Page 1",
+          "domain": "shop.sjf.com",
+          "display_url": "https://shop.sjf.com \u203a work-benches",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Work Table",
+          "domain": "amazon.com",
+          "display_url": "https://www.amazon.com \u203a work-table \u203a k=work+table",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "Tool Bench",
+          "domain": "walmart.com",
+          "display_url": "https://www.walmart.com \u203a tool-bench",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "Best Multi-Purpose Workbenches",
+          "domain": "dragonfiretools.com",
+          "display_url": "https://dragonfiretools.com \u203a collections \u203a multipurpose...",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "The 8 Best Workbenches For Any DIY Space",
+          "domain": "hunker.com",
+          "display_url": "https://www.hunker.com \u203a the-best-workbenche",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261023_214635_workbenches",
+      "timestamp": "2026-10-23T21:46:35+00:00",
+      "keyword": "workbenches",
+      "location": "Atlanta, Georgia",
+      "sponsored": [],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "(this||self).Bqpk9e=function(f,d,n,e,k,p){var g=document.getElementById(f);if(g&&(g.offsetWidth!==0||g.offsetHeight!==0)){var l=g.querySelector(\"div\")",
+          "price": "$390",
+          "store": "})();",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261023_214723_work_benches",
+      "timestamp": "2026-10-23T21:47:23+00:00",
+      "keyword": "work benches",
+      "location": "Houston, Texas",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Industrial Workbenches & Tables",
+          "domain": "source4industries.com",
+          "display_url": "https://www.source4industries.com \u203a Workbenches",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Shop All Workbenches",
+          "domain": "borroughs.com",
+          "display_url": "https://www.borroughs.com \u203a Shop",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "Wood Work Bench - Shop Benches & Work Stations",
+          "domain": "rockler.com",
+          "display_url": "https://www.rockler.com \u203a ... \u203a Benches & Work Stations",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "Rolling - Workbenches",
+          "domain": "homedepot.com",
+          "display_url": "https://www.homedepot.com \u203a ... \u203a Workbenches",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "Garage Workbench Solution",
+          "domain": "newageproducts.com",
+          "display_url": "https://newageproducts.com \u203a workbenches",
           "snippet": ""
         }
       ],
