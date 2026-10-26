@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260612_205903_workbench",
-      "timestamp": "2026-06-12T20:59:03+00:00",
-      "keyword": "workbench",
-      "location": "Chicago, Illinois",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260612_205948_work_bench",
-      "timestamp": "2026-06-12T20:59:48+00:00",
-      "keyword": "work bench",
-      "location": "Dallas, Texas",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260612_210032_workbenches",
-      "timestamp": "2026-06-12T21:00:32+00:00",
-      "keyword": "workbenches",
-      "location": "San Diego, California",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260612_210114_work_benches",
-      "timestamp": "2026-06-12T21:01:14+00:00",
-      "keyword": "work benches",
-      "location": "Los Angeles, California",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260612_231146_workbench",
       "timestamp": "2026-06-12T23:11:46+00:00",
       "keyword": "workbench",
@@ -68329,6 +68293,327 @@
           "title": "Adjustable Workbench, 5000 lbs Capacity, 96 x 24 Inch Oak Wood Top Workstation with 4 AC Outlets & 2 USB Ports, Heavy-Duty Hardwood Worktable for",
           "price": "$299.99",
           "store": "Wayfair",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261026_134703_workbench",
+      "timestamp": "2026-10-26T13:47:03+00:00",
+      "keyword": "workbench",
+      "location": "Houston, Texas",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261026_134743_work_bench",
+      "timestamp": "2026-10-26T13:47:43+00:00",
+      "keyword": "work bench",
+      "location": "Atlanta, Georgia",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Metal Workbenches & Tables",
+          "domain": "sevilleclassics.com",
+          "display_url": "https://www.sevilleclassics.com \u203a collections \u203a worktables",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Workbench Top",
+          "domain": "homedepot.com",
+          "display_url": "https://www.homedepot.com \u203a ... \u203a Workbenches",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "46 in. 1-Drawer Mobile Workbench with Wood Top, Black",
+          "domain": "harborfreight.com",
+          "display_url": "https://www.harborfreight.com \u203a 46-in-1-drawer-mobil...",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "A guide on how to Choose the Best Workbench",
+          "domain": "lowes.com",
+          "display_url": "https://www.lowes.com \u203a ... \u203a Storage & Organization",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "The Best Portable Workbenches, Expert-Tested and Reviewed",
+          "domain": "bobvila.com",
+          "display_url": "https://www.bobvila.com \u203a Reviews \u203a Tools & Materials",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "Lithia Springs",
+          "price": "$124.99",
+          "store": "Yukon 48 in. Workbench With Light",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$369.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "Ahb 60 inch Adjustable Heavy Duty Wood Workbench, 2000 lbs Capacity, Multi-Purpose Garage and Workshop Table, Size: 60 x 24, Brown",
+          "price": "$134.99",
+          "store": "Walmart",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "Lithia Springs",
+          "price": "$169.99",
+          "store": "Yukon 60 In., 3-Drawer Hardwood Workbench",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "Adjustable Height Industrial Packing Table | ULINE | 72x30\" | Composite Top",
+          "price": "$390",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Workbench 96x30\" Composite Wood Top w/ MDF Core & Lacquer Finish | ULINE",
+          "price": "$565",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "Adjustable Workbench, 5000 lbs Capacity, 96 x 24 Inch Oak Wood Top Workstation with 4 AC Outlets & 2 USB Ports, Heavy-Duty Hardwood Worktable for",
+          "price": "$299.99",
+          "store": "Wayfair",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "Deluxe Workstation Starter Table - 96x30\", Composite Wood Top - ULINE",
+          "price": "$975",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "60 inch Heavy-Duty Adjustable Workbench, Rubber Wood Shop Table with Wheels, Pegboard, Power Outlets, Workstation, Size: 60x 22 with Wheels, Black",
+          "price": "$159.99",
+          "store": "Walmart",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "96\"84 \" 72\"60 \" 48\"Adjustable Height Workbench with Power Outlet & Pegboard, Work bench for garage, Garage workbench 28 \"-40\"Height",
+          "price": "$206.40",
+          "store": "Temu",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261026_134829_workbenches",
+      "timestamp": "2026-10-26T13:48:29+00:00",
+      "keyword": "workbenches",
+      "location": "Phoenix, Arizona",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Workbenches",
+          "domain": "workprotools.store",
+          "display_url": "https://workprotools.store \u203a collections \u203a workbenches",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Amazon Best Sellers: Best Workbenches",
+          "domain": "amazon.com",
+          "display_url": "https://www.amazon.com \u203a zgbs",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "Workbenches",
+          "domain": "homedepot.com",
+          "display_url": "https://www.homedepot.com \u203a Garage \u203a Garage Storage",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "Shop Heavy-Duty Workbenches & Industrial Workstations",
+          "domain": "globalindustrial.com",
+          "display_url": "https://www.globalindustrial.com \u203a work-benches",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "Work Benches for Garage Workshop and Home Use",
+          "domain": "walmart.com",
+          "display_url": "https://www.walmart.com \u203a ... \u203a Work Benches",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "Adjustable Height Industrial Packing Table | ULINE | 72x30\" | Composite Top",
+          "price": "$390",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$369.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "Tlgreen 60 inch Heavy Duty Workbench with Power Outlet, 2000 lbs Capacity, Adjustable Rubber Wood Work Table with Pegboard for Garage, Office, Home,",
+          "price": "$134.99",
+          "store": "Walmart",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "Adjustable Workbench, 5000 lbs Capacity, 96 x 24 Inch Oak Wood Top Workstation with 4 AC Outlets & 2 USB Ports, Heavy-Duty Hardwood Worktable for",
+          "price": "$299.99",
+          "store": "Wayfair",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "WORKPRO Workbench | Hardwood Worktable | 48\" Garage Workbench | 2000 LBS Capacity",
+          "price": "$199.99",
+          "store": "workprotools.com",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Workbench 96x30\" Composite Wood Top w/ MDF Core & Lacquer Finish | ULINE",
+          "price": "$565",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "Composite Wood Top Industrial Packing Table | ULINE 48x36\" | Adjustable Legs",
+          "price": "$350",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "Deluxe Workstation Starter Table - 96x30\", Composite Wood Top - ULINE",
+          "price": "$975",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "Standard Cabinet Workbench - 72x30\", Composite Wood Top - ULINE",
+          "price": "$850",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "L-Shaped Workbench, 72 x 78\", Adjustable Height, Shop Top Square Edge Global Industrial",
+          "price": "$689",
+          "store": "Global Industrial",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261026_134912_work_benches",
+      "timestamp": "2026-10-26T13:49:12+00:00",
+      "keyword": "work benches",
+      "location": "Detroit, Michigan",
+      "sponsored": [],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$369.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "Ahb 60 inch Adjustable Heavy Duty Wood Workbench, 2000 lbs Capacity, Multi-Purpose Garage and Workshop Table, Size: 60 x 24, Brown",
+          "price": "$134.99",
+          "store": "Walmart",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "Adjustable Workbench, 5000 lbs Capacity, 96 x 24 Inch Oak Wood Top Workstation with 4 AC Outlets & 2 USB Ports, Heavy-Duty Hardwood Worktable for",
+          "price": "$299.99",
+          "store": "Wayfair",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "Dearborn",
+          "price": "$169.99",
+          "store": "Yukon 60 In., 3-Drawer Hardwood Workbench",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "WORKPRO Workbench with Power Outlets | 48-Inch Adjustable Height Worktable",
+          "price": "$199.99",
+          "store": "workprotools.com",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Many Sizes, Accessories, Applications and Colors",
+          "price": "$1,390",
+          "store": "BenchDepot",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "70\" \u00d7 35\" Heavy Duty Workbench w/ Shelf | 4Dock",
+          "price": "$489",
+          "store": "4Dock",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "96\"84 \" 72\"60 \" 48\"Adjustable Height Workbench with Power Outlet & Pegboard, Work bench for garage, Garage workbench 28 \"-40\"Height",
+          "price": "$206.40",
+          "store": "Temu",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "L-Shaped Workbench, 72 x 78\", Adjustable Height, Shop Top Square Edge Global Industrial",
+          "price": "$689",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "Workbench w/ Maple Square Edge Top, 6 Drawers & 2 Cabinets, 72\"Wx30\"D, Gray, Global Industrial",
+          "price": "$1,499",
+          "store": "Global Industrial",
           "domain": ""
         }
       ]
