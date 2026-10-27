@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260614_102058_workbench",
-      "timestamp": "2026-06-14T10:20:58+00:00",
-      "keyword": "workbench",
-      "location": "New York, New York",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260614_102138_work_bench",
-      "timestamp": "2026-06-14T10:21:38+00:00",
-      "keyword": "work bench",
-      "location": "New York, New York",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260614_102218_workbenches",
-      "timestamp": "2026-06-14T10:22:18+00:00",
-      "keyword": "workbenches",
-      "location": "Denver, Colorado",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260614_102259_work_benches",
-      "timestamp": "2026-06-14T10:22:59+00:00",
-      "keyword": "work benches",
-      "location": "Philadelphia, Pennsylvania",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260614_192351_workbench",
       "timestamp": "2026-06-14T19:23:51+00:00",
       "keyword": "workbench",
@@ -68895,6 +68859,122 @@
       "timestamp": "2026-10-27T01:04:34+00:00",
       "keyword": "work benches",
       "location": "Detroit, Michigan",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261027_093558_workbench",
+      "timestamp": "2026-10-27T09:35:58+00:00",
+      "keyword": "workbench",
+      "location": "Houston, Texas",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Work Benches & Tops for Project Spaces",
+          "domain": "lowes.com",
+          "display_url": "https://www.lowes.com \u203a tool-storage-work-benches \u203a w...",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Amazon Best Sellers: Best Workbenches",
+          "domain": "amazon.com",
+          "display_url": "https://www.amazon.com \u203a zgbs",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "Workbench Market | Buy Factory-Direct Ergonomic ...",
+          "domain": "workbenchmarket.com",
+          "display_url": "https://www.workbenchmarket.com",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "Workbenches & Bench Hardware",
+          "domain": "highlandwoodworking.com",
+          "display_url": "https://www.highlandwoodworking.com \u203a collections",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "Workbench Gallery",
+          "domain": "woodworkingmasterclasses.com",
+          "display_url": "https://woodworkingmasterclasses.com \u203a Galleries",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261027_093638_work_bench",
+      "timestamp": "2026-10-27T09:36:38+00:00",
+      "keyword": "work bench",
+      "location": "Denver, Colorado",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Work Benches & Tops for Project Spaces",
+          "domain": "lowes.com",
+          "display_url": "https://www.lowes.com \u203a tool-storage-work-benches \u203a w...",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Workbenches",
+          "domain": "homedepot.com",
+          "display_url": "https://www.homedepot.com \u203a Garage \u203a Garage Storage",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "Amazon Best Sellers: Best Workbenches",
+          "domain": "amazon.com",
+          "display_url": "https://www.amazon.com \u203a zgbs",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "Work Benches at Tractor Supply Co.",
+          "domain": "tractorsupply.com",
+          "display_url": "https://www.tractorsupply.com \u203a tsc \u203a catalog \u203a work-be...",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "Shop Work Benches & Workbench Solutions | Gladiator",
+          "domain": "gladiatorgarageworks.com",
+          "display_url": "https://www.gladiatorgarageworks.com \u203a pages \u203a work-b...",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "(this||self).Bqpk9e=function(f,d,n,e,k,p){var g=document.getElementById(f);if(g&&(g.offsetWidth!==0||g.offsetHeight!==0)){var l=g.querySelector(\"div\")",
+          "price": "$990",
+          "store": "})();",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261027_093721_workbenches",
+      "timestamp": "2026-10-27T09:37:21+00:00",
+      "keyword": "workbenches",
+      "location": "San Diego, California",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261027_093808_work_benches",
+      "timestamp": "2026-10-27T09:38:08+00:00",
+      "keyword": "work benches",
+      "location": "Chicago, Illinois",
       "sponsored": [],
       "organic": [],
       "shopping": []
