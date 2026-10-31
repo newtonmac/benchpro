@@ -1,42 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260618_211609_workbench",
-      "timestamp": "2026-06-18T21:16:09+00:00",
-      "keyword": "workbench",
-      "location": "Atlanta, Georgia",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260618_211653_work_bench",
-      "timestamp": "2026-06-18T21:16:53+00:00",
-      "keyword": "work bench",
-      "location": "Philadelphia, Pennsylvania",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260618_211737_workbenches",
-      "timestamp": "2026-06-18T21:17:37+00:00",
-      "keyword": "workbenches",
-      "location": "Los Angeles, California",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
-      "id": "20260618_211820_work_benches",
-      "timestamp": "2026-06-18T21:18:20+00:00",
-      "keyword": "work benches",
-      "location": "Philadelphia, Pennsylvania",
-      "sponsored": [],
-      "organic": [],
-      "shopping": []
-    },
-    {
       "id": "20260618_234055_workbench",
       "timestamp": "2026-06-18T23:40:55+00:00",
       "keyword": "workbench",
@@ -72552,6 +72516,265 @@
       "sponsored": [],
       "organic": [],
       "shopping": []
+    },
+    {
+      "id": "20261031_131402_workbench",
+      "timestamp": "2026-10-31T13:14:02+00:00",
+      "keyword": "workbench",
+      "location": "Phoenix, Arizona",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "What is the best simple workbench to build? : r/woodworking",
+          "domain": "20+",
+          "display_url": "20+ comments  \u00b7  3 years ago",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Workbench Options Guide - Grainger KnowHow",
+          "domain": "grainger.com",
+          "display_url": "https://www.grainger.com \u203a know-how \u203a equipment \u203a k...",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "Work Benches - Page 1",
+          "domain": "shop.sjf.com",
+          "display_url": "https://shop.sjf.com \u203a work-benches",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "The Beginner Workbench",
+          "domain": "renaissancewoodworker.com",
+          "display_url": "https://www.renaissancewoodworker.com \u203a beginner-wo...",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "WORKBENCH | definition in the Cambridge English Dictionary",
+          "domain": "dictionary.cambridge.org",
+          "display_url": "https://dictionary.cambridge.org \u203a dictionary \u203a workbe...",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261031_131449_work_bench",
+      "timestamp": "2026-10-31T13:14:49+00:00",
+      "keyword": "work bench",
+      "location": "Atlanta, Georgia",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Shop All Workbenches",
+          "domain": "borroughs.com",
+          "display_url": "https://www.borroughs.com \u203a Shop",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Best Garage Workbenches for 2026, Tested",
+          "domain": "caranddriver.com",
+          "display_url": "https://www.caranddriver.com \u203a car-accessories \u203a best-g...",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "Industrial Grade WorkBenches",
+          "domain": "benchdepot.com",
+          "display_url": "https://benchdepot.com \u203a workbenches",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "How to Build a DIY Workbench",
+          "domain": "homedepot.com",
+          "display_url": "https://www.homedepot.com \u203a ... \u203a DIY Wood Projects",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "Workbenches On Sale",
+          "domain": "wayfair.com",
+          "display_url": "https://www.wayfair.com \u203a ... \u203a Workbenches",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "Lithia Springs",
+          "price": "$124.99",
+          "store": "Yukon 48 in. Workbench With Light",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "Industrial Packing Table - 72x30\", Composite Wood Top - ULINE",
+          "price": "$390",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "8' Adjustable Height Hardwood Workbench Hammered Granite",
+          "price": "$649.99",
+          "store": "Gladiator brand",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "Seville Classics UltraHD Height Adjustable Workbench Graphite",
+          "price": "$229.99",
+          "store": "SevilleClassics.com",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "WORKPRO Workbench with Power Outlets | 48-Inch Adjustable Height | 2000 LBS Load Capacity",
+          "price": "$199.99",
+          "store": "workprotools.com",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Adjustable Industrial Packing Table - 72x36'', 3000lbs, Rubber Wood | 4Dock",
+          "price": "$289",
+          "store": "4Dock",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "Lithia Springs",
+          "price": "$169.99",
+          "store": "Yukon 60 In., 3-Drawer Hardwood Workbench",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "Composite Wood Top Industrial Packing Table | ULINE 96x30\" | Adjustable",
+          "price": "$565",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$369.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "Industrial Packing Table 48x36\" Composite Wood Top Workbench by ULINE",
+          "price": "$350",
+          "store": "ULINE",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261031_131529_workbenches",
+      "timestamp": "2026-10-31T13:15:29+00:00",
+      "keyword": "workbenches",
+      "location": "Seattle, Washington",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Workbenches at Menards\u00ae",
+          "domain": "menards.com",
+          "display_url": "https://www.menards.com \u203a main \u203a tools \u203a tool-storage",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "The Best Workbenches | Tested by Bob Vila",
+          "domain": "bobvila.com",
+          "display_url": "https://www.bobvila.com \u203a Reviews \u203a Tools & Materials",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "Benches & Work Stations",
+          "domain": "rockler.com",
+          "display_url": "https://www.rockler.com \u203a Workshop",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "14 Super-Simple Workbenches You Can Build",
+          "domain": "familyhandyman.com",
+          "display_url": "https://www.familyhandyman.com \u203a ... \u203a Workbench",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "Workbench",
+          "domain": "amazon.com",
+          "display_url": "https://www.amazon.com \u203a workbench",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261031_131611_work_benches",
+      "timestamp": "2026-10-31T13:16:11+00:00",
+      "keyword": "work benches",
+      "location": "Los Angeles, California",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Shop All Workbenches",
+          "domain": "borroughs.com",
+          "display_url": "https://www.borroughs.com \u203a Shop",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "The Best Workbenches | Tested by Bob Vila",
+          "domain": "bobvila.com",
+          "display_url": "https://www.bobvila.com \u203a Reviews \u203a Tools & Materials",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "Garage Workbench Solution",
+          "domain": "newageproducts.com",
+          "display_url": "https://newageproducts.com \u203a workbenches",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "14 Super-Simple Workbenches You Can Build",
+          "domain": "familyhandyman.com",
+          "display_url": "https://www.familyhandyman.com \u203a ... \u203a Workbench",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "Global Industrial: Workbenches",
+          "domain": "amazon.com",
+          "display_url": "https://www.amazon.com \u203a ... \u203a Workbenches",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "(this||self).Bqpk9e=function(f,d,n,e,k,p){var g=document.getElementById(f);if(g&&(g.offsetWidth!==0||g.offsetHeight!==0)){var l=g.querySelector(\"div\")",
+          "price": "$369.95",
+          "store": "})();",
+          "domain": ""
+        }
+      ]
     }
   ]
 }
