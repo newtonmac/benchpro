@@ -1,186 +1,6 @@
 {
   "runs": [
     {
-      "id": "20260713_065138_workbench",
-      "timestamp": "2026-07-13T06:51:38+00:00",
-      "keyword": "workbench",
-      "location": "Los Angeles, California",
-      "sponsored": [],
-      "organic": [
-        {
-          "position": 1,
-          "title": "Workbenches",
-          "domain": "homedepot.com",
-          "link": "https://www.homedepot.com/b/Garage-Garage-Storage-Workbenches/N-5yc1vZ2fkpdfg",
-          "snippet": "WorkbenchesThe Home Depothttps://www.homedepot.com \u203a Garage \u203a Garage Storage"
-        },
-        {
-          "position": 2,
-          "title": "Modular Workbench",
-          "domain": "bearmountainbuilds.com",
-          "link": "https://www.bearmountainbuilds.com/products/modular-workbench?srsltid=AfmBOooiJ7S7aLxqqH4vKe-DAUPR-zSSWr76lJZJbPFA9NM17JkGLETo",
-          "snippet": "Modular WorkbenchBear Mountain Buildshttps://www.bearmountainbuilds.com \u203a products \u203a modu..."
-        },
-        {
-          "position": 3,
-          "title": "Amazon Best Sellers: Best Workbenches",
-          "domain": "amazon.com",
-          "link": "https://www.amazon.com/Best-Sellers-Workbenches/zgbs/hi/553602",
-          "snippet": "Amazon Best Sellers: Best WorkbenchesAmazon.comhttps://www.amazon.com \u203a zgbs"
-        },
-        {
-          "position": 4,
-          "title": "Workbench",
-          "domain": "en.wikipedia.org",
-          "link": "https://en.wikipedia.org/wiki/Workbench",
-          "snippet": "WorkbenchWikipediahttps://en.wikipedia.org \u203a wiki \u203a Workbench"
-        },
-        {
-          "position": 5,
-          "title": "Shop Heavy-Duty Workbenches & Industrial Workstations",
-          "domain": "globalindustrial.com",
-          "link": "https://www.globalindustrial.com/t/work-benches?srsltid=AfmBOopoSlVkWzHX72dQ-aSq7HGgBLCEMTa4eT1sx5Po35YFRbziAJUg",
-          "snippet": "Shop Heavy-Duty Workbenches & Industrial WorkstationsGlobal Industrialhttps://www.globalindustrial.com \u203a work-benches"
-        }
-      ],
-      "shopping": []
-    },
-    {
-      "id": "20260713_065223_work_bench",
-      "timestamp": "2026-07-13T06:52:23+00:00",
-      "keyword": "work bench",
-      "location": "Atlanta, Georgia",
-      "sponsored": [],
-      "organic": [
-        {
-          "position": 1,
-          "title": "Work Benches & Tops for Efficient Workspaces",
-          "domain": "lowes.com",
-          "link": "https://www.lowes.com/pl/tool-storage-work-benches/work-benches-tops/4294857655",
-          "snippet": "Work Benches & Tops for Efficient WorkspacesLowe'shttps://www.lowes.com \u203a tool-storage-work-benches \u203a w..."
-        },
-        {
-          "position": 2,
-          "title": "Workbenches",
-          "domain": "homedepot.com",
-          "link": "https://www.homedepot.com/b/Garage-Garage-Storage-Workbenches/N-5yc1vZ2fkpdfg",
-          "snippet": "WorkbenchesThe Home Depothttps://www.homedepot.com \u203a Garage \u203a Garage Storage"
-        },
-        {
-          "position": 3,
-          "title": "Workbenches & Packing Tables, Metal Work Bench in Stock",
-          "domain": "uline.com",
-          "link": "https://www.uline.com/Cls_41/Workbenches-and-Packing-Tables",
-          "snippet": "Workbenches & Packing Tables, Metal Work Bench in StockULINEhttps://www.uline.com \u203a All Products"
-        },
-        {
-          "position": 4,
-          "title": "Shop Work Benches & Workbench Solutions - Gladiator Garage",
-          "domain": "gladiatorgarageworks.com",
-          "link": "https://www.gladiatorgarageworks.com/pages/work-benches?srsltid=AfmBOooTScCKm0sKBKBKDhe8sLbeWPjhShxuPZJv9faU12QUMT8kCy_d",
-          "snippet": "Shop Work Benches & Workbench Solutions - Gladiator Garagegladiatorgarageworks.comhttps://www.gladiatorgarageworks.com \u203a pages \u203a work-b..."
-        },
-        {
-          "position": 5,
-          "title": "Amazon Best Sellers: Best Workbenches",
-          "domain": "amazon.com",
-          "link": "https://www.amazon.com/Best-Sellers-Workbenches/zgbs/hi/553602",
-          "snippet": "Amazon Best Sellers: Best WorkbenchesAmazon.comhttps://www.amazon.com \u203a zgbs"
-        }
-      ],
-      "shopping": []
-    },
-    {
-      "id": "20260713_065304_workbenches",
-      "timestamp": "2026-07-13T06:53:04+00:00",
-      "keyword": "workbenches",
-      "location": "Phoenix, Arizona",
-      "sponsored": [],
-      "organic": [
-        {
-          "position": 1,
-          "title": "Workbenches & Packing Tables, Metal Work Bench in Stock",
-          "domain": "uline.com",
-          "link": "https://www.uline.com/Cls_41/Workbenches-and-Packing-Tables",
-          "snippet": "Workbenches & Packing Tables, Metal Work Bench in StockULINEhttps://www.uline.com \u203a All Products"
-        },
-        {
-          "position": 2,
-          "title": "Workbench Toolbox Combos & Tool Storage Systems",
-          "domain": "dragonfiretools.com",
-          "link": "https://dragonfiretools.com/collections/workbenches-and-toolboxes",
-          "snippet": "Workbench Toolbox Combos & Tool Storage SystemsDragonfire Tool Storagehttps://dragonfiretools.com \u203a collections \u203a workbenches..."
-        },
-        {
-          "position": 3,
-          "title": "Extreme Heavy Duty Industrial Workbenches - Strong Hold",
-          "domain": "shop.strong-hold.com",
-          "link": "https://shop.strong-hold.com/collections/workbenches?srsltid=AfmBOoo0x0G9FAFBgL6f2VxIDBAEezQAXJsGqyhLQ_pDWrSaMwls18mk",
-          "snippet": "Extreme Heavy Duty Industrial Workbenches - Strong Holdstrong-hold.comhttps://shop.strong-hold.com \u203a collections \u203a workbenches"
-        },
-        {
-          "position": 4,
-          "title": "Amazon Best Sellers: Best Workbenches",
-          "domain": "amazon.com",
-          "link": "https://www.amazon.com/Best-Sellers-Workbenches/zgbs/hi/553602",
-          "snippet": "Amazon Best Sellers: Best WorkbenchesAmazon.comhttps://www.amazon.com \u203a zgbs"
-        },
-        {
-          "position": 5,
-          "title": "Shop Heavy-Duty Workbenches & Industrial Workstations",
-          "domain": "globalindustrial.com",
-          "link": "https://www.globalindustrial.com/t/work-benches?srsltid=AfmBOoo3mrrqOkncl8R7pxSEsakXdTegBk_JRubTzMEn_LQuB1xwR7EC",
-          "snippet": "Shop Heavy-Duty Workbenches & Industrial WorkstationsGlobal Industrialhttps://www.globalindustrial.com \u203a work-benches"
-        }
-      ],
-      "shopping": []
-    },
-    {
-      "id": "20260713_065342_work_benches",
-      "timestamp": "2026-07-13T06:53:42+00:00",
-      "keyword": "work benches",
-      "location": "Los Angeles, California",
-      "sponsored": [],
-      "organic": [
-        {
-          "position": 1,
-          "title": "Industrial Workbenches and Tables for Sale",
-          "domain": "benchdepot.com",
-          "link": "https://benchdepot.com/products/workbenches.html?srsltid=AfmBOoqzcCjX4DmG78S3qnyIUH0USR-x6E9xKvNBtbfQZnclstKcJTJq",
-          "snippet": "Industrial Workbenches and Tables for SaleBench Depothttps://benchdepot.com \u203a products \u203a workbenches"
-        },
-        {
-          "position": 2,
-          "title": "Work Benches & Tops for Efficient Workspaces",
-          "domain": "lowes.com",
-          "link": "https://www.lowes.com/pl/tool-storage-work-benches/work-benches-tops/4294857655",
-          "snippet": "Work Benches & Tops for Efficient WorkspacesLowe'shttps://www.lowes.com \u203a tool-storage-work-benches \u203a w..."
-        },
-        {
-          "position": 3,
-          "title": "Amazon Best Sellers: Best Workbenches",
-          "domain": "amazon.com",
-          "link": "https://www.amazon.com/Best-Sellers-Workbenches/zgbs/hi/553602",
-          "snippet": "Amazon Best Sellers: Best WorkbenchesAmazon.comhttps://www.amazon.com \u203a zgbs"
-        },
-        {
-          "position": 4,
-          "title": "Workbenches & Packing Tables, Metal Work Bench in Stock",
-          "domain": "uline.com",
-          "link": "https://www.uline.com/Cls_41/Workbenches-and-Packing-Tables",
-          "snippet": "Workbenches & Packing Tables, Metal Work Bench in StockULINEhttps://www.uline.com \u203a All Products"
-        },
-        {
-          "position": 5,
-          "title": "Shop Work Benches & Workbench Solutions - Gladiator Garage",
-          "domain": "gladiatorgarageworks.com",
-          "link": "https://www.gladiatorgarageworks.com/pages/work-benches?srsltid=AfmBOopvfWIWy1pCxjhpvxJHC7wg6mH1hUKBbHlsufCAyV8Z0wFO37lX",
-          "snippet": "Shop Work Benches & Workbench Solutions - Gladiator Garagegladiatorgarageworks.comhttps://www.gladiatorgarageworks.com \u203a pages \u203a work-b..."
-        }
-      ],
-      "shopping": []
-    },
-    {
       "id": "20260713_101811_workbench",
       "timestamp": "2026-07-13T10:18:11+00:00",
       "keyword": "workbench",
@@ -68175,6 +67995,285 @@
           "domain": ""
         }
       ]
+    },
+    {
+      "id": "20261125_135314_workbench",
+      "timestamp": "2026-11-25T13:53:14+00:00",
+      "keyword": "workbench",
+      "location": "Atlanta, Georgia",
+      "sponsored": [],
+      "organic": [],
+      "shopping": []
+    },
+    {
+      "id": "20261125_135352_work_bench",
+      "timestamp": "2026-11-25T13:53:52+00:00",
+      "keyword": "work bench",
+      "location": "Philadelphia, Pennsylvania",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Untitled",
+          "domain": "fastenal.com",
+          "display_url": "https://www.fastenal.com \u203a product \u203a details",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "Workbenches",
+          "domain": "shopnationstore.com",
+          "display_url": "https://shopnationstore.com \u203a collections \u203a workbenches",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "Highly Rated - Workbenches",
+          "domain": "homedepot.com",
+          "display_url": "https://www.homedepot.com \u203a ... \u203a Workbenches",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "Best Workbenches for Garage & Home Workshops",
+          "domain": "4dock.com",
+          "display_url": "https://www.4dock.com \u203a Knowledge Center",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "stationary workbenches Blogs, Talk & News - Tool Crib",
+          "domain": "acmetools.com",
+          "display_url": "https://www.acmetools.com \u203a Tool Crib",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "Adjustable Height Industrial Packing Table | ULINE | 72x30\" | Composite Top",
+          "price": "$390",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$369.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "WORKPRO Hardwood Worktable | 2000 LBS Load Capacity | Adjustable Workbench with Power Outlets",
+          "price": "$219.99",
+          "store": "workprotools.com",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "15% OFF",
+          "price": "$220.92",
+          "store": "VEVOR",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "Pennsauken",
+          "price": "$119.99",
+          "store": "Yukon 48 in. Workbench With Light",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Woodworking Workbench 96x30\" | ULINE Composite Wood Packing Table",
+          "price": "$565",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "60 inch Heavy-Duty Adjustable Workbench, Rubber Wood Shop Table with Wheels, Pegboard, Power Outlets, Workstation, Size: 60x 22 with Wheels, Black",
+          "price": "$145.99",
+          "store": "Walmart",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "96\"84 \" 72\"60 \" 48\"Adjustable Height Workbench with Power Outlet & Pegboard, Garage work bench, Work bench table, Garage workbench, 28 \" -40\"Height",
+          "price": "$102.60",
+          "store": "Temu",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "12% OFF",
+          "price": "$152.23",
+          "store": "garvee",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "Industrial Packing Table - 48x30\", Composite Wood Top - ULINE",
+          "price": "$330",
+          "store": "ULINE",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261125_135430_workbenches",
+      "timestamp": "2026-11-25T13:54:30+00:00",
+      "keyword": "workbenches",
+      "location": "Detroit, Michigan",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Industrial Workbenches & Workstations",
+          "domain": "jorgensonmaterialhandling.com",
+          "display_url": "https://www.jorgensonmaterialhandling.com \u203a workbenc...",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "What Is a Workbench?",
+          "domain": "wayfair.com",
+          "display_url": "https://www.wayfair.com \u203a ideas-and-advice \u203a guides",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "Best Garage Workbenches",
+          "domain": "cartalk.com",
+          "display_url": "https://www.cartalk.com \u203a parts-services \u203a best-garage-...",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "Worktop - Workbenches",
+          "domain": "homedepot.com",
+          "display_url": "https://www.homedepot.com \u203a ... \u203a Workbenches",
+          "snippet": ""
+        },
+        {
+          "position": 5,
+          "title": "Best Workbenches for Garage & Home Workshops",
+          "domain": "4dock.com",
+          "display_url": "https://www.4dock.com \u203a Knowledge Center",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": [
+        {
+          "position": 1,
+          "title": "Adjustable Height Industrial Packing Table | ULINE | 72x30\" | Composite Top",
+          "price": "$390.00",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 2,
+          "title": "Sponsored Products",
+          "price": "$390.00",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 3,
+          "title": "60 x 30 Adjustable Height Workbench C-Channel Leg - Birch Square Edge - Gray, Global Industrial",
+          "price": "$369.95",
+          "store": "Global Industrial",
+          "domain": ""
+        },
+        {
+          "position": 4,
+          "title": "2026 Black Friday VEVOR Adjustable Workbench 72x24 Inch Oak Wood Top 5000 Lbs Capacity Heavy-duty Hardwood Worktable With 4 Ac Outlets & 2 Usb Ports",
+          "price": "$220.92",
+          "store": "VEVOR",
+          "domain": ""
+        },
+        {
+          "position": 5,
+          "title": "Tennsco Industrial Workbench: 3,600 lb Cap., 72 in W x 30 in D, 34 in H, Square Edge, Gray Model: EB-2-3072M",
+          "price": "$999.57",
+          "store": "Grainger Industrial Supply",
+          "domain": ""
+        },
+        {
+          "position": 6,
+          "title": "Garvee Heavy Duty Adjustable Workbench \u2013 48\"/60\" Rubber Wood Top, Steel Frame \u2013 Pegboard, 2 Drawers, Under Shelf, ETL Power Outlet \u2013 Tool Storage...",
+          "price": "$152.23",
+          "store": "garvee",
+          "domain": ""
+        },
+        {
+          "position": 7,
+          "title": "Woodworking Workbench 96x30\" | ULINE Composite Wood Packing Table",
+          "price": "$565.00",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 8,
+          "title": "Composite Wood Top Industrial Packing Table | ULINE 48x36\" | Adjustable Legs",
+          "price": "$350.00",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 9,
+          "title": "Steel Workbench Industrial Packing Table 96x30\" by ULINE - 12 Gauge Top",
+          "price": "$700.00",
+          "store": "ULINE",
+          "domain": ""
+        },
+        {
+          "position": 10,
+          "title": "Adjustable Leg Industrial Packing Table - 60x24\" Wood Top - ULINE",
+          "price": "$320.00",
+          "store": "ULINE",
+          "domain": ""
+        }
+      ]
+    },
+    {
+      "id": "20261125_135511_work_benches",
+      "timestamp": "2026-11-25T13:55:11+00:00",
+      "keyword": "work benches",
+      "location": "New York, New York",
+      "sponsored": [
+        {
+          "position": 1,
+          "title": "Workbenches \u2013 StowNova",
+          "domain": "stownova.com",
+          "display_url": "https://stownova.com \u203a collections \u203a workbenches",
+          "snippet": ""
+        },
+        {
+          "position": 2,
+          "title": "https://www.homedepot.com/b/Garage-Garage-Storage-...",
+          "domain": "homedepot.com",
+          "display_url": "https://www.homedepot.com \u203a sturdy-workbench \u203a NCN...",
+          "snippet": ""
+        },
+        {
+          "position": 3,
+          "title": "Workbenches & Tool Stands",
+          "domain": "doitbest.com",
+          "display_url": "https://www.doitbest.com \u203a category \u203a hand-tools \u203a work...",
+          "snippet": ""
+        },
+        {
+          "position": 4,
+          "title": "Best Multi-Purpose Workbenches",
+          "domain": "dragonfiretools.com",
+          "display_url": "https://dragonfiretools.com \u203a collections \u203a multipurpose...",
+          "snippet": ""
+        }
+      ],
+      "organic": [],
+      "shopping": []
     }
   ]
 }
